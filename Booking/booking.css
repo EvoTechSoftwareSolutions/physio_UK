@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../resources/fonts/POPPINS-REGULAR.TTF");
+}
+
+@font-face {
+    font-family: "poppinsSemibold";
+    src: url("../resources/fonts/POPPINS-SEMIBOLD.TTF");
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url("../resources/fonts/POPPINS-BOLD.TTF");
+}
+
+:root {
+    --colorOrange: #FF7200;
+    --colorForm: #F3F3F3;
+    --colorBorder: #939393;
+    --colorBorderShadow: #DBDBDB;
+    --colorHeading: #464646;
+    --colorBtn: #EAEAEA;
+    --colorlightBlue: #F5F8FB;
+    --colorPara: #B9B9B9;
+}
+
+.booking--sec1--div1{
+    width: 100%;
+    background-color: var(--colorlightBlue);
+    margin-top: 1%;
+}
+
+.booking--sec1--div2{
+    padding: 3% 5%;
+}
+
+.booking--sec1--header1{
+    font-family: "poppinsSemibold";
+    font-size: 1.5rem;
+    color: var(--colorHeading);
+}
+
+.booking--sec1--div3{
+    width: 100%;
+    margin-top: 1%;
+}
+
+.booking--sec1--div4{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.booking--sec1--header2{
+    font-family: "poppinsSemibold";
+    font-size: 1.5rem;
+    color: var(--colorHeading);
+}
+
+.booking--sec1--div5{
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.booking--sec1--para1{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorHeading);
+}
+
+.booking--sec1--div6{
+    width: 100%;
+    margin-top: 1%;
+}
+
+.booking--sec1--div7{
+    padding: 3% 5%;
+}
+
+.booking--sec1--div8{
+    padding: 3% 5%;
+    background-color: var(--colorForm);
+    border: 0.05rem solid var(--colorBorder);
+    border-radius: 1rem;
+}
+
+.booking--sec1--div9{
+    padding-top: 5%;
+}
+
+.booking--sec1--heading3{
+    font-family: "poppinsBold";
+    font-size: 1.1rem;
+    color: var(--colorHeading);
+    display: flex;
+    justify-content: center;
+}
+
+.booking--sec1--div10{
+    padding-top: 10% ;
+}
+
+.booking--sec1--para2{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorPara);
+}
+
+.booking--date{
+    margin-top: 5%;
+    padding: 3%;
+    width: 88%;
+    border: 0.05rem solid var(--colorBorderShadow);
+    font-family: "poppinsSemibold";
+    color: var(--colorHeading);
+}
+
+.booking--sec1--div11{
+    padding-top: 20% ;
+}
+
+.booking--sec1--para3{
+    font-family: "poppinsSemibold";
+    font-size: 0.8rem;
+    color: var(--colorHeading);
+}
+
+.booking--star{
+    color: red;
+}
+
+.booking--sec1--div12{
+    margin-top: 2%;
+}
+
+.booking--name{
+    margin-top: 5%;
+    padding: 3%;
+    width: 40%;
+    border: 0.05rem solid var(--colorBorderShadow);
+    font-family: "poppins";
+    color: var(--colorPara);
+    font-size: 0.7rem;
+}
+
+.booking--email{
+    margin-top: 4%;
+    padding: 3%;
+    width: 88%;
+    border: 0.05rem solid var(--colorBorderShadow);
+    font-family: "poppins";
+    color: var(--colorPara);
+    font-size: 0.7rem;
+}
+
+.booking--sec1--div13{
+    margin-top: 8%;
+}
+
+.booking--chooser{
+    margin-top: 3%;
+    padding: 3%;
+    width: 95%;
+    border: 0.05rem solid var(--colorBorderShadow);
+    font-family: "poppins";
+    color: var(--colorHeading);
+    font-size: 0.7rem;
+}
+
+.booking--sec1--div14{
+    margin-top: 6%;
+}
+
+.booking--texarea{
+    margin-top: 3%;
+    padding: 3%;
+    width: 88%;
+    border: 0.05rem solid var(--colorBorderShadow);
+    font-family: "poppins";
+    color: var(--colorHeading);
+    font-size: 0.7rem;
+}
+
+.booking--send{
+    margin-top: 8%;
+    padding: 3% 5%;
+    background-color: var(--colorOrange);
+    font-family: "poppinsBold";
+    color: #ffffff;
+    font-size: 0.7rem;
+    border: none;
+    width: 58%;
+}
+
+.booking--cancel{
+    margin-top: 8%;
+    padding: 3% 5%;
+    background-color: var(--colorBtn);
+    font-family: "poppinsBold";
+    font-size: 0.7rem;
+    border: none;
+    width: 35%;
+}
+
+.booking--sec1--div15{
+    height: 4vh;
+}
