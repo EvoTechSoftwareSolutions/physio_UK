@@ -182,6 +182,8 @@
     <?php include "../Footer/footer.php"; ?>
     <!-- Footer -->
 
+    <script src="../Header/header.js"></script>
+
 </body>
 
 </html>
