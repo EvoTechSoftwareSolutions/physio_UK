@@ -24,75 +24,75 @@
     --colorPara: #B9B9B9;
 }
 
-.booking--sec1--div1{
+.booking--sec1--div1 {
     width: 100%;
     background-color: var(--colorlightBlue);
     margin-top: 1%;
 }
 
-.booking--sec1--divlg2{
+.booking--sec1--divlg2 {
     display: none;
 }
 
-.booking--sec1--div2{
+.booking--sec1--div2 {
     padding: 3% 5%;
 }
 
-.booking--sec1--header1{
+.booking--sec1--header1 {
     font-family: "poppinsSemibold";
     font-size: 1.5rem;
     color: var(--colorHeading);
 }
 
-.booking--sec1--div3{
+.booking--sec1--div3 {
     width: 100%;
     margin-top: 1%;
 }
 
-.booking--sec1--div4{
+.booking--sec1--div4 {
     padding-top: 5%;
     display: flex;
     justify-content: center;
 }
 
-.booking--sec1--header2{
+.booking--sec1--header2 {
     font-family: "poppinsSemibold";
     font-size: 1.5rem;
     color: var(--colorHeading);
 }
 
-.booking--sec1--div5{
+.booking--sec1--div5 {
     padding: 5% 2%;
     text-align: center;
 }
 
-.booking--sec1--para1{
+.booking--sec1--para1 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorHeading);
 }
 
-.booking--sec1--div6{
+.booking--sec1--div6 {
     width: 100%;
     margin-top: 1%;
 }
 
-.booking--sec1--div7{
+.booking--sec1--div7 {
     padding: 3% 5%;
 }
 
-.booking--sec1--div8{
+.booking--sec1--div8 {
     padding: 3% 5%;
     background-color: var(--colorForm);
     border: 0.05rem solid var(--colorBorder);
     border-radius: 1rem;
 }
 
-.booking--sec1--div9{
+.booking--sec1--div9 {
     padding-top: 5%;
 }
 
-.booking--sec1--heading3{
+.booking--sec1--heading3 {
     font-family: "poppinsBold";
     font-size: 1.1rem;
     color: var(--colorHeading);
@@ -100,17 +100,17 @@
     justify-content: center;
 }
 
-.booking--sec1--div10{
-    padding-top: 10% ;
+.booking--sec1--div10 {
+    padding-top: 10%;
 }
 
-.booking--sec1--para2{
+.booking--sec1--para2 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorPara);
 }
 
-.booking--date{
+.booking--date {
     margin-top: 5%;
     padding: 3%;
     width: 88%;
@@ -119,25 +119,25 @@
     color: var(--colorHeading);
 }
 
-.booking--sec1--div11{
-    padding-top: 20% ;
+.booking--sec1--div11 {
+    padding-top: 20%;
 }
 
-.booking--sec1--para3{
+.booking--sec1--para3 {
     font-family: "poppinsSemibold";
     font-size: 0.8rem;
     color: var(--colorHeading);
 }
 
-.booking--star{
+.booking--star {
     color: red;
 }
 
-.booking--sec1--div12{
+.booking--sec1--div12 {
     margin-top: 2%;
 }
 
-.booking--name{
+.booking--name {
     margin-top: 5%;
     padding: 3%;
     width: 40%;
@@ -147,7 +147,7 @@
     font-size: 0.7rem;
 }
 
-.booking--email{
+.booking--email {
     margin-top: 4%;
     padding: 3%;
     width: 88%;
@@ -157,11 +157,11 @@
     font-size: 0.7rem;
 }
 
-.booking--sec1--div13{
+.booking--sec1--div13 {
     margin-top: 8%;
 }
 
-.booking--chooser{
+.booking--chooser {
     margin-top: 3%;
     padding: 3%;
     width: 95%;
@@ -171,11 +171,11 @@
     font-size: 0.7rem;
 }
 
-.booking--sec1--div14{
+.booking--sec1--div14 {
     margin-top: 6%;
 }
 
-.booking--texarea{
+.booking--texarea {
     margin-top: 3%;
     padding: 3%;
     width: 88%;
@@ -185,7 +185,7 @@
     font-size: 0.7rem;
 }
 
-.booking--send{
+.booking--send {
     margin-top: 8%;
     padding: 3% 5%;
     background-color: var(--colorOrange);
@@ -196,7 +196,7 @@
     width: 58%;
 }
 
-.booking--cancel{
+.booking--cancel {
     margin-top: 8%;
     padding: 3% 5%;
     background-color: var(--colorBtn);
@@ -206,35 +206,34 @@
     width: 35%;
 }
 
-.booking--sec1--div15{
+.booking--sec1--div15 {
     height: 4vh;
 }
 
 
 @media screen and (min-width:545px) {
 
-    .booking--sec1--div5{
+    .booking--sec1--div5 {
         padding: 2% 15%;
     }
 
-    .booking--sec1--divlg2{
+    .booking--sec1--divlg2 {
         width: 40%;
         margin-top: 1.7%;
         padding-left: 2%;
         display: grid;
-        /* justify-content: center; */
     }
 
-    .booking--sec1--div6{
+    .booking--sec1--div6 {
         width: 60%;
     }
 
-    .booking--sec1--divlg1{
+    .booking--sec1--divlg1 {
         display: flex;
         flex-direction: row;
     }
 
-    .booking--sec1--div8{
+    .booking--sec1--div8 {
         padding: 0% 5%;
     }
 
@@ -245,26 +244,31 @@
         --thumb-w: 0.5rem;
         margin: var(--m);
         position: relative;
-      }
-      .c-compare::after {
+    }
+
+    .c-compare::after {
         content: "";
         display: block;
         padding-bottom: calc((var(--h) / var(--w)) * 100%);
-      }
-      .c-compare__left,
-      .c-compare__right {
+    }
+
+    .c-compare__left,
+    .c-compare__right {
         height: 100%;
         object-fit: cover;
         position: absolute;
         width: 100%;
-      }
-      .c-compare__left {
+    }
+
+    .c-compare__left {
         clip-path: polygon(0% 0%, var(--value) 0%, var(--value) 100%, 0% 100%);
-      }
-      .c-compare__right {
+    }
+
+    .c-compare__right {
         clip-path: polygon(100% 0%, var(--value) 0%, var(--value) 100%, 100% 100%);
-      }
-      .c-compare__range {
+    }
+
+    .c-compare__range {
         background-color: transparent;
         box-sizing: border-box;
         font-family: inherit;
@@ -274,142 +278,147 @@
         position: absolute;
         top: 0;
         width: 100%;
-      }
-      .c-compare__range::-moz-range-thumb {
+    }
+
+    .c-compare__range::-moz-range-thumb {
         background-color: var(--colorBorder);
         cursor: ew-resize;
-        height: 100%;  
+        height: 100%;
         width: var(--thumb-w);
-      }
-      .c-compare__range::-webkit-slider-thumb {
+    }
+
+    .c-compare__range::-webkit-slider-thumb {
         background-color: var(--colorBorder);
         cursor: ew-resize;
-        height: 100%;  
+        height: 100%;
         width: var(--thumb-w);
-      }
-      .c-compare__range:focus::-webkit-slider-thumb {
+    }
+
+    .c-compare__range:focus::-webkit-slider-thumb {
         background-color: var(--colorBorderShadow);
-        /* box-shadow: 0 0 0 3px var(--colorBorder); */
-      }
-      .c-compare__range:focus::-moz-range-thumb {
+    }
+
+    .c-compare__range:focus::-moz-range-thumb {
         background-color: var(--colorBorderShadow);
-        /* box-shadow: 0 0 0 3px var(--colorBorder); */
-      }
-      .c-compare__range::-moz-range-track {
+    }
+
+    .c-compare__range::-moz-range-track {
         background: transparent;
         background-size: 100%;
         box-sizing: border-box;
-      }
-      .c-compare__range::-webkit-slider-runnable-track {
+    }
+
+    .c-compare__range::-webkit-slider-runnable-track {
         background: transparent;
         background-size: 100%;
         box-sizing: border-box;
         height: 100%;
-      }
-      .c-compare__range,
-      .c-compare__range::-webkit-slider-runnable-track,
-      .c-compare__range::-webkit-slider-thumb {
+    }
+
+    .c-compare__range,
+    .c-compare__range::-webkit-slider-runnable-track,
+    .c-compare__range::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-      }
+    }
 
-      .booking--sec1--header1{
+    .booking--sec1--header1 {
         font-size: 2rem;
     }
 
-      .booking--sec1--header2{
+    .booking--sec1--header2 {
         font-size: 2rem;
     }
 
-    .booking--sec1--para1{
+    .booking--sec1--para1 {
         font-size: 1rem;
     }
 
-    .booking--sec1--heading3{
+    .booking--sec1--heading3 {
         font-size: 1.5rem;
     }
 
-    .booking--sec1--para2{
+    .booking--sec1--para2 {
         font-size: 1rem;
     }
 
-    .booking--sec1--para3{
+    .booking--sec1--para3 {
         font-size: 1rem;
     }
 
-    .booking--name{
+    .booking--name {
         font-size: 0.9rem;
     }
 
-    .booking--date{
+    .booking--date {
         font-size: 0.9rem;
     }
 
-    .booking--email{
+    .booking--email {
         font-size: 0.9rem;
     }
 
-    .booking--chooser{
+    .booking--chooser {
         font-size: 0.9rem;
     }
 
-    .booking--send{
-        font-size:1rem;
-    }
-    
-    .booking--cancel{
+    .booking--send {
         font-size: 1rem;
     }
 
-    .booking--sec1--divlg3{
+    .booking--cancel {
+        font-size: 1rem;
+    }
+
+    .booking--sec1--divlg3 {
         margin-top: 8%;
     }
 
-    .booking--headinglg1{
+    .booking--headinglg1 {
         font-family: "poppins";
-            font-size: 2rem;
-            color: var(--colorHeading);
+        font-size: 2rem;
+        color: var(--colorHeading);
     }
 
-    .booking--headinglg2{
+    .booking--headinglg2 {
         font-family: "poppinsBold";
-            font-size: 2rem;
-            color: var(--colorHeading);
+        font-size: 2rem;
+        color: var(--colorHeading);
     }
 
-    .booking--sec1--divlg5{
+    .booking--sec1--divlg5 {
         margin-top: 5%;
         background-color: var(--colorForm);
         display: flex;
         justify-content: center;
     }
 
-    .booking--table--lg{
+    .booking--table--lg {
         padding: 5%;
         font-size: 1rem;
         font-family: "poppinsSemibold";
-    color: var(--colorHeading);
+        color: var(--colorHeading);
     }
 
-    .booking--hours--table--hr{
+    .booking--hours--table--hr {
         border-style: dashed;
         border-color: var(--colorPara);
     }
-    
+
 }
 
 
 @media screen and (min-width:950px) {
 
-    .booking--sec1--divlg2{
+    .booking--sec1--divlg2 {
         width: 40%;
     }
 
-    .booking--sec1--div6{
+    .booking--sec1--div6 {
         width: 45%;
     }
 
-    .booking--sec1--divlg1{
+    .booking--sec1--divlg1 {
         padding: 0% 10%;
         display: flex;
         justify-content: center;
@@ -417,6 +426,6 @@
 
     .c-compare {
         --h: 6;
-      }
+    }
 
 }

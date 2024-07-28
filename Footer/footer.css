@@ -214,13 +214,11 @@
     .footer--sec2--div8 {
         display: flex;
         justify-content: center;
-        /* align-items: center; */
         flex-direction: row;
     }
 
     .footer--sec2--div9 {
         width: 30%;
-        /* padding-left: 5%; */
     }
 
     .footer--logo {
@@ -232,12 +230,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: red; */
     }
-
-    /* .footer--sec2--div11{
-        background-color: rgb(47, 0, 255);
-    } */
 
     .footer-heading1--md {
         font-family: "poppinsSemibold";
@@ -250,7 +243,6 @@
         font-family: "poppins";
         color: var(--colorHR);
         font-size: 0.7rem;
-        /* padding-top: 5%; */
     }
 
     .footer-heading2--md {
@@ -269,7 +261,6 @@
     .footer--sec2--div13 {
         display: flex;
         justify-content: center;
-        /* align-items: center; */
         flex-direction: row;
     }
 
@@ -298,7 +289,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: red; */
     }
 
     .footer--sec2--div17 {
@@ -311,18 +301,12 @@
     }
 
     .footer--copywrite--md {
-        /* background-color: red; */
-        /* width: 56.8%; */
         font-family: "poppins";
         color: var(--colorHR);
         font-size: 0.7rem;
-        /* display: flex;
-        justify-content: center;
-        text-align: center; */
     }
 
     .footer--evotech--md {
-        /* background-color: rgb(68, 0, 255); */
         font-family: "poppins";
         color: var(--colorHR);
         font-size: 0.7rem;
@@ -360,15 +344,14 @@
         display: grid;
     }
 
-    .footer--sec3--div1{
-        /* background-color: red; */
+    .footer--sec3--div1 {
         padding: 2% 8%;
         width: 84%;
         display: flex;
         flex-direction: row;
     }
 
-    .footer--sec3--div2{
+    .footer--sec3--div2 {
         width: 20%;
     }
 
@@ -383,13 +366,13 @@
         height: 6vh;
     }
 
-    .footer--sec3--div4{
+    .footer--sec3--div4 {
         width: 80%;
         display: flex;
         flex-direction: row;
     }
 
-    .footer--sec3--div5{
+    .footer--sec3--div5 {
         width: 100%;
     }
 
@@ -398,14 +381,14 @@
         align-self: center;
     }
 
-    .footer--sec3--div6{
+    .footer--sec3--div6 {
         width: 100%;
         display: flex;
         flex-direction: row;
         padding-left: 10%;
     }
 
-    .footer--sec3--div8{
+    .footer--sec3--div8 {
         display: flex;
         flex-direction: column;
         padding-left: 5%;
@@ -416,7 +399,7 @@
         color: var(--colorHR);
         font-size: 0.9rem;
     }
-    
+
     .footer--icon--para--lg {
         font-family: "poppins";
         color: var(--colorHR);
@@ -428,7 +411,7 @@
         border: 0.1rem solid rgb(194, 194, 194, 50%);
     }
 
-    .footer--sec3-div9{
+    .footer--sec3-div9 {
         width: 84%;
         padding: 2% 8%;
         display: flex;
@@ -437,13 +420,13 @@
         gap: 10%;
     }
 
-    .footer--sec3-div10{
+    .footer--sec3-div10 {
         display: flex;
         flex-direction: column;
         width: 20%;
     }
 
-    .footer--sec3-div11{
+    .footer--sec3-div11 {
         background-color: red;
         display: flex;
         flex-direction: column;
@@ -455,14 +438,14 @@
         color: var(--colorWhite);
         font-size: 0.9rem;
     }
-    
+
     .footer-para1--lg {
         font-family: "poppins";
         color: var(--colorHR);
         font-size: 0.7rem;
         margin-top: 2%;
     }
-    
+
     .footer-heading2--lg {
         font-family: "poppinsSemibold";
         color: var(--colorWhite);
@@ -470,13 +453,13 @@
         padding-top: 5%;
     }
 
-    .footer-para2--lg{
+    .footer-para2--lg {
         font-family: "poppins";
-    color: var(--colorHR);
-    font-size: 0.7rem;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2%;
+        color: var(--colorHR);
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
     }
 
     .footer--table--lg {
@@ -493,35 +476,29 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .footer--copywrite--lg {
         font-family: "poppins";
         color: var(--colorHR);
         font-size: 0.7rem;
         width: 50%;
-        /* display: flex;
-        justify-content: center;
-        text-align: center; */
     }
-    
+
     .footer--evotech--lg {
         font-family: "poppins";
         color: var(--colorHR);
         font-size: 0.7rem;
         width: 50%;
         text-align: right;
-        /* display: flex;
-        justify-content: center;
-        text-align: center; */
     }
-    
+
     .footer--name--lg {
         font-family: "poppinsSemibold";
         color: var(--colorWhite);
         font-size: 0.7rem;
         text-decoration: none;
     }
-    
+
     .footer--name--lg:hover {
         color: var(--colorOrange);
         stroke: #000;
@@ -530,8 +507,8 @@
 }
 
 @media screen and (min-width:1107px) {
-    
-    .footer--sec3-div9{
+
+    .footer--sec3-div9 {
         width: 84%;
         padding: 2% 8%;
         display: flex;

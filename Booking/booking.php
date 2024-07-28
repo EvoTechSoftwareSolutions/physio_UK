@@ -182,8 +182,6 @@
     <?php include "../Footer/footer.php"; ?>
     <!-- Footer -->
 
-    <!-- <script src="booking.js"></script> -->
-
 </body>
 
 </html>
