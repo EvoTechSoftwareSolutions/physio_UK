@@ -1,0 +1,449 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../resources/fonts/POPPINS-REGULAR.TTF");
+}
+
+@font-face {
+    font-family: "poppinsSemibold";
+    src: url("../resources/fonts/POPPINS-SEMIBOLD.TTF");
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url("../resources/fonts/POPPINS-BOLD.TTF");
+}
+
+:root {
+    --colorOrange: #FF7200;
+    --colorForm: #F3F3F3;
+    --colorBorder: #939393;
+    --colorBorderShadow: #DBDBDB;
+    --colorHeading: #464646;
+    --colorBtn: #EAEAEA;
+    --colorlightBlue: #F5F8FB;
+    --colorPara: #B9B9B9;
+    --colorsubHeader: #56AFD5;
+}
+
+.about--sec1--div1 {
+    width: 100%;
+    background-color: var(--colorlightBlue);
+    margin-top: 1%;
+}
+
+.about--sec1--div2 {
+    padding: 3% 5%;
+}
+
+.about--sec1--header1 {
+    font-family: "poppinsSemibold";
+    font-size: 1.5rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--div3{
+    width: 100%;
+}
+
+.about--sec1--div4{
+    padding: 5% 2%;
+}
+
+.about--sec1--div6{
+    display: flex;
+    justify-content: center;
+}
+
+.about--sec1--header2{
+    font-family: "poppins";
+    font-size: 1.2rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--header3{
+    font-family: "poppinsBold";
+    font-size: 1.2rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--div7{
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.about--sec1--para1{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorBorder);
+}
+
+.about--sec1--div8{
+    margin-top: 5%;
+}
+
+.about--sec1--div9{
+    display: flex;
+    justify-content: center;
+}
+
+.about--sec1--header4{
+    font-family: "poppins";
+    font-size: 1.2rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--header5{
+    font-family: "poppinsBold";
+    font-size: 1.2rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--div10{
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.about--sec1--para2{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorBorder);
+}
+
+.about--sec1--div11{
+    margin-top: 5%;
+}
+
+.about--sec1--div12{
+    display: flex;
+    justify-content: center;
+}
+
+.about--sec1--header6{
+    font-family: "poppins";
+    font-size: 1.2rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--header7{
+    font-family: "poppinsBold";
+    font-size: 1.2rem;
+    color: var(--colorHeading);
+}
+
+.about--sec1--div13{
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.about--sec1--para3{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorBorder);
+}
+
+.about--sec1--div14{
+    margin-top: 3%;
+}
+
+.about--sec1--header8{
+    font-family: "poppinsSemibold";
+    font-size: 0.8rem;
+    color: var(--colorsubHeader);
+}
+
+.about--sec1--div15{
+    margin-top: 3%;
+    text-align: justify;
+}
+
+.about--sec1--para4{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorBorder);
+}
+
+.about--sec1--div16{
+    margin-top: 3%;
+}
+
+.about--sec1--header9{
+    font-family: "poppinsSemibold";
+    font-size: 0.8rem;
+    color: var(--colorsubHeader);
+}
+
+.about--sec1--div17{
+    margin-top: 3%;
+    text-align: justify;
+}
+
+.about--sec1--para5{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: var(--colorBorder);
+}
+
+.about--sec1lg{
+    display: none;
+}
+
+@media screen and (min-width:545px) {
+
+    .about--sec1{
+        display: none;
+    }
+
+    .about--sec1lg{
+        display: flex;
+    }
+
+    .about--sec1--div19lg{
+        display: none;
+    }
+
+    .about--sec1--header1 {
+        font-family: "poppinsSemibold";
+        font-size: 2rem;
+        color: var(--colorHeading);
+    }
+
+    .about--sec1--div3lg{
+        width: 100%;
+        padding: 5% 5%;
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .about--sec1--div4lg{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about--sec1--div18lg{
+        width: 50%;
+    }
+
+    .about--sec1--header2lg{
+        font-family: "poppins";
+        font-size: 1.5rem;
+        color: var(--colorHeading);
+    }
+    
+    .about--sec1--header3lg{
+        font-family: "poppinsBold";
+        font-size: 1.5rem;
+        color: var(--colorHeading);
+    }
+    
+    .about--sec1--div7lg{
+        margin-top: 2%;
+        text-align: justify;
+    }
+    
+    .about--sec1--para1lg{
+        font-family: "poppins";
+        font-size: 0.9rem;
+        color: var(--colorBorder);
+    }
+
+    .about--sec1--div8lg{
+        margin-top: 5%;
+    }
+    
+    .about--sec1--header4lg{
+        font-family: "poppins";
+        font-size: 1.5rem;
+        color: var(--colorHeading);
+    }
+    
+    .about--sec1--header5lg{
+        font-family: "poppinsBold";
+        font-size: 1.5rem;
+        color: var(--colorHeading);
+    }
+    
+    .about--sec1--div10lg{
+        margin-top: 2%;
+        text-align: justify;
+    }
+    
+    .about--sec1--para2lg{
+        font-family: "poppins";
+        font-size: 0.9rem;
+        color: var(--colorBorder);
+    }
+
+    .about--sec1--div12lg{
+        margin-top: 5%;
+    }
+    
+    .about--sec1--header6lg{
+        font-family: "poppins";
+        font-size: 1.5rem;
+        color: var(--colorHeading);
+    }
+    
+    .about--sec1--header7lg{
+        font-family: "poppinsBold";
+        font-size: 1.5rem;
+        color: var(--colorHeading);
+    }
+    
+    .about--sec1--div13lg{
+        margin-top: 2%;
+        text-align: justify;
+    }
+    
+    .about--sec1--para3lg{
+        font-family: "poppins";
+        font-size: 0.9rem;
+        color: var(--colorBorder);
+    }
+
+    .about--sec1--header8lg{
+        font-family: "poppinsSemibold";
+        font-size: 0.9rem;
+        color: var(--colorsubHeader);
+    }
+    
+    .about--sec1--div15lg{
+        margin-top: 3%;
+        text-align: justify;
+    }
+    
+    .about--sec1--para4lg{
+        font-family: "poppins";
+        font-size: 0.9rem;
+        color: var(--colorBorder);
+    }
+    
+    .about--sec1--div16lg{
+        margin-top: 3%;
+    }
+    
+    .about--sec1--header9lg{
+        font-family: "poppinsSemibold";
+        font-size: 0.9rem;
+        color: var(--colorsubHeader);
+    }
+    
+    .about--sec1--div17lg{
+        margin-top: 3%;
+        text-align: justify;
+    }
+    
+    .about--sec1--para5lg{
+        font-family: "poppins";
+        font-size: 0.9rem;
+        color: var(--colorBorder);
+    }
+
+    .about--sec1--div19md{
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .about--sec1--img1{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:950px) {
+
+    .about--sec1--div19md{
+        display: none;
+    }
+
+    .about--sec1--div19lg{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .about--sec1--div3lg{
+        width: 100%;
+        padding: 5% 5%;
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .about--sec1--div4lg{
+        width: 30%;
+    }
+
+    .about--sec1--div18lg{
+        width: 30%;
+    }
+
+    .about--sec1--img2{
+        margin-top: 8%;
+    }
+
+}
+
+
+/* ----------sec1 end---------- */
+
+
+/* ---------sec2 start--------- */
+
+.about--sec2--div1{
+    padding: 3% 0%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 2% 3%;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 0.8rem;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 0.8rem;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  @media screen and (min-width:545px) {
+
+    .about--sec2--div1{
+        padding: 5% 0%;
+    }
+
+    .accordion {
+        padding: 2% 5%;
+      }
+
+  }
+
+/* ----------sec2 end---------- */
