@@ -216,11 +216,11 @@
                                     <form class="p-10 bg-white rounded shadow-xl">
                                         <div class="flex flex-row w-full justify-between">
                                             <p class="text-lg text-gray-800 font-medium pb-4">Appointment info</p>
-                                            <span class="italic text-gray-700"><?php echo $row['date'];?></span>
+                                            <span class="italic text-gray-700"><?php echo $row['date']; ?></span>
                                         </div>
                                         <div class="">
                                             <label class="block text-sm text-gray-600" for="cus_name">Name</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['fname']." ". $row["lname"];?></span>
+                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['fname'] . " " . $row["lname"]; ?></span>
                                         </div>
                                         <div class="">
                                             <label class="block text-sm text-gray-600" for="cus_name">Mobile</label>
@@ -228,7 +228,7 @@
                                         </div>
                                         <div class="">
                                             <label class="block text-sm text-gray-600" for="cus_name">Email</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['email'];?></span>
+                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['email']; ?></span>
                                         </div>
                                         <div class="mt-2">
                                             <label class=" block text-sm text-gray-600" for="cus_email">Address line 01</label>
@@ -262,8 +262,8 @@
                                     <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Card Number MM/YY CVC" aria-label="Name">
                                 </div> -->
                                         <div class="mt-6 flex justify-center flex-row gap-5">
-                                            <button class="w-2/5 py-1 font-light tracking-wider text-red-500 border border-red-500 rounded hover:text-white hover:bg-red-500" onclick="decline(<?php echo $row['id'];?>);">Decline</button>
-                                            <button class="w-2/5 py-1 text-white font-light tracking-wider bg-blue-800 rounded hover:bg-blue-900" onclick="accept(<?php echo $row['id'];?>);">Accept</button>
+                                            <button class="w-2/5 py-1 font-light tracking-wider text-red-500 border border-red-500 rounded hover:text-white hover:bg-red-500" onclick="decline(<?php echo $row['id']; ?>);">Decline</button>
+                                            <button class="w-2/5 py-1 text-white font-light tracking-wider bg-blue-800 rounded hover:bg-blue-900" onclick="accept(<?php echo $row['id']; ?>);">Accept</button>
                                         </div>
                                     </form>
                                 </div>
@@ -286,6 +286,7 @@
             <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
             <!-- Font Awesome -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             <script src="forms.js"></script>
     <?php
         }
