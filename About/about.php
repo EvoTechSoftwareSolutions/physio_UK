@@ -190,20 +190,44 @@
     <section class="about--sec2">
 
         <div class="about--sec2--div1">
+            <span class="about--sec2--header1">Frequently Asked</span>
+            &nbsp;
+            <span class="about--sec2--header2">Questions</span>
+        </div>
 
-            <button class="accordion">Section 1</button>
+        <div class="about--sec2--div2">
+
+            <button class="accordion">What conditions do you cover?</button>
             <div class="panel">
-                <p>Lorem ipsum...</p>
+                <p>We cover the following disciplines of physiotherapy
+                    <br>
+                    Muscles and joint injuries, Elderly care and rehabilitation physiotherapy, Neurological physiotherapy, Musculoskeletal physiotherapy, Sports injury management and rehabilitation, Sports massage and soft tissue mobilization, Kinesio and sports tapping, Sports cupping therapy, Pilates, Post surgery rehabilitation.
+                </p>
             </div>
 
-            <button class="accordion">Section 2</button>
+            <button class="accordion">Can you come to my house to treat me?</button>
             <div class="panel">
-                <p>Lorem ipsum...</p>
+                <p>We are a mobile Physiotherapy company and treat patients within their own home environment. All our Physiotherapists are DBS checked and regulated by the Health and Care Professions Council (HCPC) so you can be sure we meet with the expected standards of care and competence to treat you effectively in your own home.</p>
             </div>
 
-            <button class="accordion">Section 3</button>
+            <button class="accordion">I live in a care home; can you visit me?</button>
             <div class="panel">
-                <p>Lorem ipsum...</p>
+                <p>We can visit nursing and residential homes. Our physiotherapists are normally allowed into local Nursing and Residential Care Homes to help patients with all aspects of pain and reduced mobility. It is worth checking with the Care Home first to make sure they are happy for us to come into the Care Home to treat you or your relatives.</p>
+            </div>
+
+            <button class="accordion">What do you bring in a home visit?</button>
+            <div class="panel">
+                <p>Depending on your problem, we will bring a range of different equipment and items on the first and subsequent visits. We’ll also bring basic treatment equipment to your first session including massage oil and taping supplies. On follow-up visits, we may bring any specialist treatment equipment like: electrotherapy machines, resistance bands, Physio balls, dumbbells, balance board etc. We bring a treatment couch with us which is maintain with highest hygienical standards.</p>
+            </div>
+
+            <button class="accordion">Are your Physiotherapists experienced?</button>
+            <div class="panel">
+                <p>All our Physiotherapists have years of clinical experience with NHS and private sector. All Physiotherapists are HCPC and CSP registered and complete mandatory trainings including infection control, manual handling, fire safety etc.</p>
+            </div>
+
+            <button class="accordion">Not sure whether physiotherapy treatment is relevant for my condition?</button>
+            <div class="panel">
+                <p>We can offer an <b>initial FREE 15 minute Triage video/audio Call </b> discuss your needs and assess whether we can help you through Consultation. Following the call if you wish to go ahead we can book you in for a time to suit you. We can arrange a convenience to for both parties to discuss.</p>
             </div>
 
         </div>
@@ -211,6 +235,223 @@
     </section>
 
     <!-- ------------section2 end------------ -->
+
+    <section class="about--sec3">
+
+        <div class="about--sec3--div1">
+            <div class="about--sec3--div2">
+                <span class="about--sec3--header1">Contact Us</span>
+            </div>
+        </div>
+
+        <div class="about--sec3--div3">
+            <div class="about--sec3--div4">
+                <div class="about--sec3--div5">
+                    <div class="about--sec3--div6">
+                        <div class="about--sec3--div7">
+                            <span class="about--sec3--header2">Physio Physical Therapy</span>
+                            <br>
+                            <span class="about--sec3--para1">53, cable road, Wirral. CH47 2AZ</span>
+                        </div>
+                        <br>
+                        <hr class="about--sec3--hr">
+                        <div class="about--sec3--div8">
+                            <span class="about--sec3--header2">Phone Number</span>
+                            <br>
+                            <span class="about--sec3--para1">+ (44) 795 - 060 - 0297</span>
+                        </div>
+                        <br>
+                        <hr class="about--sec3--hr">
+                        <div class="about--sec3--div8">
+                            <span class="about--sec3--header2">Email Address</span>
+                            <br>
+                            <span class="about--sec3--para1">info@physiounleashed.co.uk</span>
+                        </div>
+                        <br>
+                        <hr class="about--sec3--hr">
+                        <div class="about--sec3--div8">
+                            <span class="about--sec3--header2">Social Media</span>
+                            <br>
+                            <span class="about--sec3--para1">
+                                <img src="../resources/img/icons/facebook.png" class="about--sec3--icon">
+                                <img src="../resources/img/icons/instagram.png" class="about--sec3--icon">
+                                <img src="../resources/img/icons/whatsapp.png" class="about--sec3--icon">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="about--sec3--div9">
+                        <div class="about--sec3--div10">
+                            map
+                        </div>
+                        <div class="about--sec3--div11">
+                            <div class="about--sec3--div12">
+                                <span class="about--sec3--header3">Send us a</span>
+                                &nbsp;
+                                <span class="about--sec3--header4">Message</span>
+                            </div>
+                            <div class="about--sec3--div13">
+                                <span class="about--sec3--para2">
+                                    We have no waiting list and provide same day service too. Our aim is to give you quality treatment at the right time to prevent any further complications. You not only save money on travelling but time too as we come to you.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about--sec3--div17">
+                    <div class="about--sec3--div14">
+                        <div class="about--sec3--div15">
+                            <span class="about--sec3--header5">Opening</span>
+                            &nbsp;
+                            <span class="about--sec3--header6">Hours</span>
+                        </div>
+                        <div class="about--sec3--div16">
+                            <table class="about--table">
+                                <tr>
+                                    <td>Monday</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <hr class="about--hours--table--hr">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td></td>
+                                    <td>8:00 - 20:00</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="about--sec3--div18">
+                        <div class="about--sec3--div19">
+                            <div class="about--sec3--div28">
+                                <div class="about--sec3--div20">
+                                    <div class="about--sec3--div21">
+                                        <span class="about--sec3--para3">
+                                            Name *
+                                        </span>
+                                        <br>
+                                        <input type="text" class="about--name" placeholder="Full Name" />
+                                    </div>
+                                    <div class="about--sec3--div22">
+                                        <span class="about--sec3--para3">
+                                            Email *
+                                        </span>
+                                        <br>
+                                        <input type="text" class="about--name" placeholder="Email Address" />
+                                    </div>
+                                    <div class="about--sec3--div23">
+                                        <span class="about--sec3--para3">
+                                            Phone Number *
+                                        </span>
+                                        <input type="text" class="about--name" placeholder="Phone Number" />
+                                    </div>
+                                </div>
+                                <div class="about--sec3--div24">
+                                    <div class="about--sec3--div25">
+                                        <span class="about--sec3--para3">
+                                            The Subject
+                                        </span>
+                                        <input type="text" class="about--name" placeholder="Subject" />
+                                    </div>
+                                    <div class="about--sec3--div26">
+                                        <span class="about--sec3--para3">
+                                            Your Message *
+                                        </span>
+                                        <textarea class="about--texarea" placeholder="Type your message.."></textarea>
+                                    </div>
+                                    <div class="about--sec3--div27">
+                                <input type="button" value="Send Message" class="about--send">
+                                <input type="button" value="Clear Form" class="about--cancel">
+                            </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ------------section3 start------------ -->
 
 
     <!-- Footer -->
