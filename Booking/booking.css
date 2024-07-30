@@ -13,6 +13,11 @@
     src: url("../resources/fonts/POPPINS-BOLD.TTF");
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --colorOrange: #FF7200;
     --colorForm: #F3F3F3;
@@ -204,4 +209,11 @@
 
 .booking--sec1--div15{
     height: 4vh;
+}
+
+.booking--popUp{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0,0,0.6);
 }
