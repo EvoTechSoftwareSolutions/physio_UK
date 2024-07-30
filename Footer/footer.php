@@ -212,7 +212,6 @@
                 </span>
             </div>
             <div class="footer--sec2--div10">
-                <!-- <img src="../resources/img/Physio_logo.png" class="footer--logo"> -->
             </div>
             <div class="footer--sec2--div11">
                 <span class="footer-heading2--md">Opening Hours</span>
@@ -274,7 +273,6 @@
                 </div>
             </div>
             <div class="footer--sec2--div16">
-                <!-- <img src="../resources/img/Physio_logo.png" class="footer--logo"> -->
             </div>
             <div class="footer--sec2--div14">
                 <span class="footer-heading2--md">Our Services</span>

@@ -46,69 +46,144 @@
             </div>
         </div>
 
-        <div class="booking--sec1--div6">
-            <div class="booking--sec1--div7">
-                <div class="booking--sec1--div8">
-                    <div class="booking--sec1--div9">
-                        <span class="booking--sec1--heading3">
-                            REQUEST AN APPOINTMENT
-                        </span>
+        <div class="booking--sec1--divlg1">
+            <div class="booking--sec1--divlg2">
+                <!-- DEMO HTML -->
+                <div class="c-compare" style="--value:50%;">
+                    <img class="c-compare__left" src="../resources/img/comparison_1.png" alt="Color" />
+                    <img class="c-compare__right" src="../resources/img/comparison_2.png" alt="B/W" />
+                    <input type="range" class="c-rng c-compare__range" min="0" max="100" value="50" oninput="this.parentNode.style.setProperty('--value', `${this.value}%`)" />
+                </div>
+                <!-- END DEMO HTML -->
+                </main>
+                <div class="booking--sec1--divlg3">
+                    <div class="booking--sec1--divlg4">
+                        <span class="booking--headinglg1">Opening</span>
+                        &nbsp;
+                        <span class="booking--headinglg2">Hours</span>
                     </div>
-                    <div class="booking--sec1--div10">
-                        <span class="booking--sec1--para2">
-                            Please confirm that you would like to request the following appointment:
-                        </span>
-                        <input type="date" class="booking--date" id="apptDate" />
-                    </div>
-                    <div class="booking--sec1--div11">
-                        <span class="booking--sec1--para3">
-                            Your Informations:
-                            <span class="booking--star">*</span>
-                        </span>
-                    </div>
-                    <div class="booking--sec1--div12">
-                        <span class="booking--sec1--para2">Please enter your first name, last name and email address:</span>
-                        <br />
-                        <input type="text" class="booking--name" placeholder="First Name..." id="fname" />
-                        <input type="text" class="booking--name" placeholder="Last Name..." id="lname" />
-                        <input type="text" class="booking--email" placeholder="Email Address..." id="email" />
-                    </div>
-                    <div class="booking--sec1--div13">
-                        <span class="booking--sec1--para3">
-                            Treatment:
-                        </span>
-                        <select class="booking--chooser" id="apptTrtmnt">
-                            <option value="0" selected>Choose..</option>
-                            <?php
-                            $rs = Database::search(
-                                "SELECT * FROM `treatment`",
-                                "",
-                                ""
-                            );
-
-                            if ($rs) {
-                                while ($row = $rs->fetch_assoc()) {
-                            ?>
-                                    <option value="<?php echo $row["id"];?>"><?php echo $row["treatment"];?></option>
-                            <?php
-                                }
-                            }
-                            ?>
-                        </select>
-                    </div>
-                    <div class="booking--sec1--div14">
-                        <span class="booking--sec1--para3">
-                            Your Message:
-                        </span>
-                        <textarea class="booking--texarea" id="apptMsg"></textarea>
-                    </div>
-                    <input type="button" value="Request Appintment" class="booking--send" onclick="bookAppt();">
-                    <input type="button" value="Cancel" class="booking--cancel">
-                    <div class="booking--sec1--div15">
-
+                    <div class="booking--sec1--divlg5">
+                        <table class="booking--table--lg">
+                            <tr>
+                                <td>Monday</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td><hr class="booking--hours--table--hr"></td>
+                                <td></td>
+                                <td><hr class="booking--hours--table--hr"></td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td><hr class="booking--hours--table--hr"></td>
+                                <td></td>
+                                <td><hr class="booking--hours--table--hr"></td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td><hr class="booking--hours--table--hr"></td>
+                                <td></td>
+                                <td><hr class="booking--hours--table--hr"></td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td><hr class="booking--hours--table--hr"></td>
+                                <td></td>
+                                <td><hr class="booking--hours--table--hr"></td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td><hr class="booking--hours--table--hr"></td>
+                                <td></td>
+                                <td><hr class="booking--hours--table--hr"></td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td><hr class="booking--hours--table--hr"></td>
+                                <td></td>
+                                <td><hr class="booking--hours--table--hr"></td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td></td>
+                                <td>8:00 - 20:00</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
+
+            <div class="booking--sec1--div6">
+                <div class="booking--sec1--div7">
+                    <div class="booking--sec1--div8">
+                        <div class="booking--sec1--div9">
+                            <span class="booking--sec1--heading3">
+                                REQUEST AN APPOINTMENT
+                            </span>
+                        </div>
+                        <div class="booking--sec1--div10">
+                            <span class="booking--sec1--para2">
+                                Please confirm that you would like to request the following appointment:
+                            </span>
+                            <input type="date" class="booking--date" />
+                        </div>
+                        <div class="booking--sec1--div11">
+                            <span class="booking--sec1--para3">
+                                Your Informations:
+                                <span class="booking--star">*</span>
+                            </span>
+                        </div>
+                        <div class="booking--sec1--div12">
+                            <span class="booking--sec1--para2">Please enter your first name, last name and email address:</span>
+                            <br />
+                            <input type="text" class="booking--name" placeholder="First Name..." />
+                            <input type="text" class="booking--name" placeholder="Last Name..." />
+                            <input type="text" class="booking--email" placeholder="Email Address..." />
+                        </div>
+                        <div class="booking--sec1--div13">
+                            <span class="booking--sec1--para3">
+                                Treatment:
+                            </span>
+                            <select class="booking--chooser">
+                                <option selected>Choose..</option>
+                            </select>
+                        </div>
+                        <div class="booking--sec1--div14">
+                            <span class="booking--sec1--para3">
+                                Your Message:
+                            </span>
+                            <textarea class="booking--texarea"></textarea>
+                        </div>
+                        <input type="button" value="Request Appintment" class="booking--send">
+                        <input type="button" value="Cancel" class="booking--cancel">
+                        <div class="booking--sec1--div15">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </section>
@@ -118,6 +193,10 @@
     <!-- Footer -->
 
     <script src="script.js"></script>
+    <script src="../Header/header.js"></script>
+
+    <script src="../Header/header.js"></script>
+
 </body>
 
 </html>

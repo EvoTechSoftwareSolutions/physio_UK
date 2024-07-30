@@ -34,7 +34,6 @@
 .header--sec1 {
     position: sticky;
     top: 0;
-    /* display: flex; */
 }
 
 .header--sec2 {
@@ -64,7 +63,6 @@
 }
 
 .header--sec1--div3 {
-    /* background-color: rgb(68, 0, 255); */
     width: 100%;
     height: 12vh;
     border-top: 0.5vh solid var(--colorAsh);
@@ -75,12 +73,10 @@
 }
 
 .header--sec1--div4 {
-    /* background-color: red; */
     width: 98%;
     height: 12vh;
     display: flex;
     flex-direction: row;
-    /* gap: 18%; */
 }
 
 .header--img1 {
@@ -171,7 +167,6 @@
         height: 15vh;
         border-top: 0.5vh solid var(--colorAsh);
         border-bottom: 0.5vh solid var(--colorAsh);
-        /* margin-top: 1%; */
         padding-top: 0.5%;
         padding-bottom: 0.5%;
     }
@@ -183,7 +178,6 @@
 
     .header--sec2--div3 {
         width: 40%;
-        /* background-color: red; */
     }
 
     .header--img1--lg {
@@ -191,19 +185,15 @@
     }
 
     .header--sec2--div4 {
-        /* background-color: green; */
         width: 59%;
         display: flex;
         flex-direction: row;
         align-self: center;
         justify-content: right;
-        /* align-items: end; */
         gap: 4%;
     }
 
     .header--sec2--div5 {
-        /* background-color: yellow; */
-        /* padding: 2%; */
         width: 70%;
         display: flex;
         justify-content: right;
