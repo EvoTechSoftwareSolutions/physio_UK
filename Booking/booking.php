@@ -21,19 +21,7 @@
 
     <!-- Header -->
 
-    <div class="booking--popUp">
-        <div class="popUp--msg">
-
-        </div>
-    </div>
-
     <section class="booking--sec1">
-
-        <div class="booking--sec1--div1">
-            <div class="booking--sec1--div2">
-                <span class="booking--sec1--header1">Book Appointment</span>
-            </div>
-        </div>
 
         <div class="booking--sec1--div3">
             <div class="booking--sec1--div4">
@@ -70,9 +58,13 @@
                                 <td>8:00 - 20:00</td>
                             </tr>
                             <tr>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                                 <td></td>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Tuesday</td>
@@ -80,9 +72,13 @@
                                 <td>8:00 - 20:00</td>
                             </tr>
                             <tr>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                                 <td></td>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
@@ -90,9 +86,13 @@
                                 <td>8:00 - 20:00</td>
                             </tr>
                             <tr>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                                 <td></td>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Thursday</td>
@@ -100,9 +100,13 @@
                                 <td>8:00 - 20:00</td>
                             </tr>
                             <tr>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                                 <td></td>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Friday</td>
@@ -110,9 +114,13 @@
                                 <td>8:00 - 20:00</td>
                             </tr>
                             <tr>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                                 <td></td>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Saturday</td>
@@ -120,9 +128,13 @@
                                 <td>8:00 - 20:00</td>
                             </tr>
                             <tr>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                                 <td></td>
-                                <td><hr class="booking--hours--table--hr"></td>
+                                <td>
+                                    <hr class="booking--hours--table--hr">
+                                </td>
                             </tr>
                             <tr>
                                 <td>Sunday</td>
@@ -146,7 +158,7 @@
                             <span class="booking--sec1--para2">
                                 Please confirm that you would like to request the following appointment:
                             </span>
-                            <input type="date" class="booking--date" />
+                            <input type="date" class="booking--date" id="apptDate" />
                         </div>
                         <div class="booking--sec1--div11">
                             <span class="booking--sec1--para3">
@@ -157,25 +169,39 @@
                         <div class="booking--sec1--div12">
                             <span class="booking--sec1--para2">Please enter your first name, last name and email address:</span>
                             <br />
-                            <input type="text" class="booking--name" placeholder="First Name..." />
-                            <input type="text" class="booking--name" placeholder="Last Name..." />
-                            <input type="text" class="booking--email" placeholder="Email Address..." />
+                            <input type="text" class="booking--name" placeholder="First Name..." id="fname" />
+                            <input type="text" class="booking--name" placeholder="Last Name..." id="lname" />
+                            <input type="text" class="booking--email" placeholder="Email Address..." id="email" />
                         </div>
                         <div class="booking--sec1--div13">
                             <span class="booking--sec1--para3">
                                 Treatment:
                             </span>
-                            <select class="booking--chooser">
-                                <option selected>Choose..</option>
+                            <select class="booking--chooser" id="apptTrtmnt">
+                                <option value="0" selected>Choose..</option>
+                                <?php
+                                $rs = Database::search(
+                                    "SELECT * FROM `treatment`",
+                                    "",
+                                    ""
+                                );
+                                if ($rs) {
+                                    while ($row = $rs->fetch_assoc()) {
+                                ?>
+                                        <option value="<?php echo $row["id"];?>"><?php echo $row["treatment"];?></option>
+                                <?php
+                                    }
+                                }
+                                ?>
                             </select>
                         </div>
                         <div class="booking--sec1--div14">
                             <span class="booking--sec1--para3">
                                 Your Message:
                             </span>
-                            <textarea class="booking--texarea"></textarea>
+                            <textarea class="booking--texarea" id="apptMsg"></textarea>
                         </div>
-                        <input type="button" value="Request Appintment" class="booking--send">
+                        <input type="button" value="Request Appintment" class="booking--send" onclick="bookAppt();">
                         <input type="button" value="Cancel" class="booking--cancel">
                         <div class="booking--sec1--div15">
 
@@ -193,6 +219,7 @@
     <!-- Footer -->
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../Header/header.js"></script>
 
 </body>
