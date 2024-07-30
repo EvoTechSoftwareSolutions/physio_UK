@@ -100,6 +100,6 @@ var myLineChart = new Chart(chartTwo, {
     }
 });
 
-function singleview(){
-    window.location = "forms.html";
+function singleview(id){
+    window.location = "forms.php?id="+id;
 }

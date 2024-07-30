@@ -14,6 +14,7 @@ function bookAppt() {
   f.append("email", email);
   f.append("msg", msg);
   f.append("tr", treatment);
+  f.append("act","addAppt");
 
   var r = new XMLHttpRequest();
 
