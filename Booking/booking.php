@@ -195,8 +195,6 @@
     <script src="script.js"></script>
     <script src="../Header/header.js"></script>
 
-    <script src="../Header/header.js"></script>
-
 </body>
 
 </html>
