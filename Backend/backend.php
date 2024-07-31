@@ -49,7 +49,6 @@ switch ($switch) {
         $result = Database::iud($query, $types, ...$params);
 
         if ($row = $result->fetch_assoc()) {
-            $_SESSION["admin"] = $row[""];
             echo "success";
         } else {
             echo "Failed to book appointment.";
@@ -80,7 +79,8 @@ switch ($switch) {
         $result = Database::search($query, $types, ...$params);
 
         if ($result->num_rows > 0) {
-            header("Location: http://localhost/");
+            $_SESSION["admin"] = $result->fetch_assoc();
+            echo "success";
         } else {
             echo "Invalid username or password.";
         }
