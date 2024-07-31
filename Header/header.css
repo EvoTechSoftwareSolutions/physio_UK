@@ -32,11 +32,13 @@
 }
 
 .header--sec1 {
+    background-color: var(--colorWhite);
     position: sticky;
     top: 0;
 }
 
 .header--sec2 {
+    background-color: var(--colorWhite);
     position: sticky;
     top: 0;
     display: none;
