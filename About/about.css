@@ -41,163 +41,163 @@
     color: var(--colorHeading);
 }
 
-.about--sec1--div3{
+.about--sec1--div3 {
     width: 100%;
 }
 
-.about--sec1--div4{
+.about--sec1--div4 {
     padding: 5% 2%;
 }
 
-.about--sec1--div6{
+.about--sec1--div6 {
     display: flex;
     justify-content: center;
 }
 
-.about--sec1--header2{
+.about--sec1--header2 {
     font-family: "poppins";
     font-size: 1.2rem;
     color: var(--colorHeading);
 }
 
-.about--sec1--header3{
+.about--sec1--header3 {
     font-family: "poppinsBold";
     font-size: 1.2rem;
     color: var(--colorHeading);
 }
 
-.about--sec1--div7{
+.about--sec1--div7 {
     margin-top: 2%;
     text-align: justify;
 }
 
-.about--sec1--para1{
+.about--sec1--para1 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorBorder);
 }
 
-.about--sec1--div8{
+.about--sec1--div8 {
     margin-top: 5%;
 }
 
-.about--sec1--div9{
+.about--sec1--div9 {
     display: flex;
     justify-content: center;
 }
 
-.about--sec1--header4{
+.about--sec1--header4 {
     font-family: "poppins";
     font-size: 1.2rem;
     color: var(--colorHeading);
 }
 
-.about--sec1--header5{
+.about--sec1--header5 {
     font-family: "poppinsBold";
     font-size: 1.2rem;
     color: var(--colorHeading);
 }
 
-.about--sec1--div10{
+.about--sec1--div10 {
     margin-top: 2%;
     text-align: justify;
 }
 
-.about--sec1--para2{
+.about--sec1--para2 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorBorder);
 }
 
-.about--sec1--div11{
+.about--sec1--div11 {
     margin-top: 5%;
 }
 
-.about--sec1--div12{
+.about--sec1--div12 {
     display: flex;
     justify-content: center;
 }
 
-.about--sec1--header6{
+.about--sec1--header6 {
     font-family: "poppins";
     font-size: 1.2rem;
     color: var(--colorHeading);
 }
 
-.about--sec1--header7{
+.about--sec1--header7 {
     font-family: "poppinsBold";
     font-size: 1.2rem;
     color: var(--colorHeading);
 }
 
-.about--sec1--div13{
+.about--sec1--div13 {
     margin-top: 2%;
     text-align: justify;
 }
 
-.about--sec1--para3{
+.about--sec1--para3 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorBorder);
 }
 
-.about--sec1--div14{
+.about--sec1--div14 {
     margin-top: 3%;
 }
 
-.about--sec1--header8{
+.about--sec1--header8 {
     font-family: "poppinsSemibold";
     font-size: 0.8rem;
     color: var(--colorsubHeader);
 }
 
-.about--sec1--div15{
+.about--sec1--div15 {
     margin-top: 3%;
     text-align: justify;
 }
 
-.about--sec1--para4{
+.about--sec1--para4 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorBorder);
 }
 
-.about--sec1--div16{
+.about--sec1--div16 {
     margin-top: 3%;
 }
 
-.about--sec1--header9{
+.about--sec1--header9 {
     font-family: "poppinsSemibold";
     font-size: 0.8rem;
     color: var(--colorsubHeader);
 }
 
-.about--sec1--div17{
+.about--sec1--div17 {
     margin-top: 3%;
     text-align: justify;
 }
 
-.about--sec1--para5{
+.about--sec1--para5 {
     font-family: "poppins";
     font-size: 0.8rem;
     color: var(--colorBorder);
 }
 
-.about--sec1lg{
+.about--sec1lg {
     display: none;
 }
 
 @media screen and (min-width:545px) {
 
-    .about--sec1{
+    .about--sec1 {
         display: none;
     }
 
-    .about--sec1lg{
+    .about--sec1lg {
         display: flex;
     }
 
-    .about--sec1--div19lg{
+    .about--sec1--div19lg {
         display: none;
     }
 
@@ -207,7 +207,7 @@
         color: var(--colorHeading);
     }
 
-    .about--sec1--div3lg{
+    .about--sec1--div3lg {
         width: 100%;
         padding: 5% 5%;
         display: flex;
@@ -215,137 +215,137 @@
         gap: 5%;
     }
 
-    .about--sec1--div4lg{
+    .about--sec1--div4lg {
         width: 45%;
         display: flex;
         flex-direction: column;
     }
 
-    .about--sec1--div18lg{
+    .about--sec1--div18lg {
         width: 50%;
     }
 
-    .about--sec1--header2lg{
+    .about--sec1--header2lg {
         font-family: "poppins";
         font-size: 1.5rem;
         color: var(--colorHeading);
     }
-    
-    .about--sec1--header3lg{
+
+    .about--sec1--header3lg {
         font-family: "poppinsBold";
         font-size: 1.5rem;
         color: var(--colorHeading);
     }
-    
-    .about--sec1--div7lg{
+
+    .about--sec1--div7lg {
         margin-top: 2%;
         text-align: justify;
     }
-    
-    .about--sec1--para1lg{
+
+    .about--sec1--para1lg {
         font-family: "poppins";
         font-size: 0.9rem;
         color: var(--colorBorder);
     }
 
-    .about--sec1--div8lg{
+    .about--sec1--div8lg {
         margin-top: 5%;
     }
-    
-    .about--sec1--header4lg{
+
+    .about--sec1--header4lg {
         font-family: "poppins";
         font-size: 1.5rem;
         color: var(--colorHeading);
     }
-    
-    .about--sec1--header5lg{
+
+    .about--sec1--header5lg {
         font-family: "poppinsBold";
         font-size: 1.5rem;
         color: var(--colorHeading);
     }
-    
-    .about--sec1--div10lg{
+
+    .about--sec1--div10lg {
         margin-top: 2%;
         text-align: justify;
     }
-    
-    .about--sec1--para2lg{
+
+    .about--sec1--para2lg {
         font-family: "poppins";
         font-size: 0.9rem;
         color: var(--colorBorder);
     }
 
-    .about--sec1--div12lg{
+    .about--sec1--div12lg {
         margin-top: 5%;
     }
-    
-    .about--sec1--header6lg{
+
+    .about--sec1--header6lg {
         font-family: "poppins";
         font-size: 1.5rem;
         color: var(--colorHeading);
     }
-    
-    .about--sec1--header7lg{
+
+    .about--sec1--header7lg {
         font-family: "poppinsBold";
         font-size: 1.5rem;
         color: var(--colorHeading);
     }
-    
-    .about--sec1--div13lg{
+
+    .about--sec1--div13lg {
         margin-top: 2%;
         text-align: justify;
     }
-    
-    .about--sec1--para3lg{
+
+    .about--sec1--para3lg {
         font-family: "poppins";
         font-size: 0.9rem;
         color: var(--colorBorder);
     }
 
-    .about--sec1--header8lg{
+    .about--sec1--header8lg {
         font-family: "poppinsSemibold";
         font-size: 0.9rem;
         color: var(--colorsubHeader);
     }
-    
-    .about--sec1--div15lg{
+
+    .about--sec1--div15lg {
         margin-top: 3%;
         text-align: justify;
     }
-    
-    .about--sec1--para4lg{
-        font-family: "poppins";
-        font-size: 0.9rem;
-        color: var(--colorBorder);
-    }
-    
-    .about--sec1--div16lg{
-        margin-top: 3%;
-    }
-    
-    .about--sec1--header9lg{
-        font-family: "poppinsSemibold";
-        font-size: 0.9rem;
-        color: var(--colorsubHeader);
-    }
-    
-    .about--sec1--div17lg{
-        margin-top: 3%;
-        text-align: justify;
-    }
-    
-    .about--sec1--para5lg{
+
+    .about--sec1--para4lg {
         font-family: "poppins";
         font-size: 0.9rem;
         color: var(--colorBorder);
     }
 
-    .about--sec1--div19md{
+    .about--sec1--div16lg {
+        margin-top: 3%;
+    }
+
+    .about--sec1--header9lg {
+        font-family: "poppinsSemibold";
+        font-size: 0.9rem;
+        color: var(--colorsubHeader);
+    }
+
+    .about--sec1--div17lg {
+        margin-top: 3%;
+        text-align: justify;
+    }
+
+    .about--sec1--para5lg {
+        font-family: "poppins";
+        font-size: 0.9rem;
+        color: var(--colorBorder);
+    }
+
+    .about--sec1--div19md {
         margin-top: 5%;
         width: 100%;
     }
 
-    .about--sec1--img1{
+    .about--sec1--img1 {
         width: 100%;
     }
 
@@ -353,17 +353,17 @@
 
 @media screen and (min-width:950px) {
 
-    .about--sec1--div19md{
+    .about--sec1--div19md {
         display: none;
     }
 
-    .about--sec1--div19lg{
+    .about--sec1--div19lg {
         display: flex;
         flex-direction: column;
         width: 30%;
     }
 
-    .about--sec1--div3lg{
+    .about--sec1--div3lg {
         width: 100%;
         padding: 5% 5%;
         display: flex;
@@ -371,15 +371,15 @@
         gap: 5%;
     }
 
-    .about--sec1--div4lg{
+    .about--sec1--div4lg {
         width: 30%;
     }
 
-    .about--sec1--div18lg{
+    .about--sec1--div18lg {
         width: 30%;
     }
 
-    .about--sec1--img2{
+    .about--sec1--img2 {
         margin-top: 8%;
     }
 
@@ -391,59 +391,541 @@
 
 /* ---------sec2 start--------- */
 
-.about--sec2--div1{
+.about--sec2--div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.about--sec2--header1 {
+    color: var(--colorHeading);
+    font-family: "poppins";
+    font-size: 1.2rem;
+}
+
+.about--sec2--header2 {
+    color: var(--colorHeading);
+    font-family: "poppinsBold";
+    font-size: 1.2rem;
+}
+
+.about--sec2--div2 {
     padding: 3% 0%;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
-    color: #444;
+    color: var(--colorHeading);
+    font-family: "poppinsSemibold";
     cursor: pointer;
-    padding: 2% 3%;
+    padding: 2% 2%;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
     font-size: 0.8rem;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
     background-color: #ccc;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    padding: 0 18px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0% 2%;
     background-color: white;
     display: none;
     overflow: hidden;
-  }
-
-  .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-family: "poppins";
     font-size: 0.8rem;
-    color: #777;
+    color: var(--colorBorder);
+}
+
+.accordion:after {
+    content: '\002B';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 0.9rem;
+    color: var(--colorHeading);
+    font-family: "poppinsSemibold";
     float: right;
     margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+}
 
-  @media screen and (min-width:545px) {
+.active:after {
+    content: "\2212";
+    /* Unicode character for "minus" sign (-) */
+}
 
-    .about--sec2--div1{
+@media screen and (min-width:545px) {
+
+    .about--sec2--div1 {
         padding: 5% 0%;
+    }
+
+    .about--sec2--div2 {
+        padding: 0% 0%;
     }
 
     .accordion {
         padding: 2% 5%;
-      }
+        font-size: 0.9rem;
+    }
 
-  }
+    .accordion:after {
+        font-size: 1rem;
+    }
+
+    .panel {
+        padding: 0% 5%;
+        font-size: 0.9rem;
+    }
+
+    .about--sec2--header1 {
+        font-size: 1.5rem;
+    }
+
+    .about--sec2--header2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width:950px) {
+
+    .accordion {
+        font-size: 1.2rem;
+    }
+
+    .accordion:after {
+        font-size: 1.5rem;
+    }
+
+    .panel {
+        font-size: 1rem;
+    }
+
+    .about--sec2--header1 {
+        font-size: 2rem;
+    }
+
+    .about--sec2--header2 {
+        font-size: 2rem;
+    }
+
+}
 
 /* ----------sec2 end---------- */
+
+
+/* ----------sec3 start---------- */
+
+.about--sec3--div1 {
+    width: 100%;
+    background-color: var(--colorlightBlue);
+    margin-top: 1%;
+}
+
+.about--sec3--div2 {
+    padding: 4% 5%;
+}
+
+.about--sec3--header1 {
+    font-family: "poppinsSemibold";
+    font-size: 1.5rem;
+    color: var(--colorHeading);
+}
+
+.about--sec3--div3 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.about--sec3--div5 {
+    display: none;
+}
+
+.about--sec3--div14 {
+    display: none;
+}
+
+.about--sec3--div19 {
+    background-color: var(--colorlightBlue);
+    padding: 8%;
+}
+
+.about--sec3--div28 {
+    width: 100%;
+}
+
+.about--name {
+    width: 95%;
+    border: none;
+    background-color: var(--colorForm);
+    font-family: "poppins";
+    color: var(--colorBorder);
+    font-size: 0.7rem;
+    padding: 5% 2%;
+    margin-top: 3%;
+}
+
+.about--texarea {
+    border: none;
+    background-color: var(--colorForm);
+    font-family: "poppins";
+    color: var(--colorBorder);
+    font-size: 0.7rem;
+    padding: 5%;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.about--sec3--para3 {
+    font-family: "poppinsBold";
+    color: var(--colorBorder);
+    font-size: 0.8rem;
+}
+
+.about--sec3--div22 {
+    margin-top: 8%;
+}
+
+.about--sec3--div23 {
+    margin-top: 8%;
+}
+
+.about--sec3--div26 {
+    margin-top: 8%;
+}
+
+.about--sec3--div27 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2%;
+}
+
+.about--send {
+    margin-top: 8%;
+    padding: 4% 6%;
+    background-color: var(--colorOrange);
+    font-family: "poppinsBold";
+    color: #ffffff;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.about--cancel {
+    margin-top: 8%;
+    padding: 4% 6%;
+    background-color: var(--colorBtn);
+    font-family: "poppinsBold";
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+
+
+@media screen and (min-width:545px) {
+
+    .about--sec3--header1 {
+        font-size: 2rem;
+    }
+
+    .about--sec3--div5 {
+        width: 100%;
+    }
+
+    .about--sec3--div6 {
+        background-color: var(--colorOrange);
+        padding: 2% 2%;
+        width: 25%;
+    }
+
+    .about--sec3--header2 {
+        font-family: "poppinsSemibold";
+        color: #ffff;
+        font-size: 0.8rem;
+    }
+
+    .about--sec3--para1 {
+        font-family: "poppins";
+        color: var(--colorBorderShadow);
+        font-size: 0.7rem;
+    }
+
+    .about--sec3--hr {
+        border: 0.1rem solid #f06f05;
+    }
+
+    .about--sec3--div8 {
+        margin-top: 10%;
+    }
+
+    .about--sec3--icon {
+        width: 10%;
+    }
+
+    .about--sec3--div5 {
+        display: flex;
+        flex-direction: row;
+        gap: 3%;
+    }
+
+    .about--sec3--div9 {
+        width: 100%;
+    }
+
+    .about--sec3--div10 {
+        width: 100%;
+        height: 22vh;
+        background-color: #009914;
+    }
+
+    .about--sec3--div11 {
+        margin-top: 2%;
+    }
+
+    .about--sec3--header3 {
+        color: var(--colorHeading);
+        font-family: "poppins";
+        font-size: 1.5rem;
+    }
+
+    .about--sec3--header4 {
+        color: var(--colorHeading);
+        font-family: "poppinsBold";
+        font-size: 1.5rem;
+    }
+
+    .about--sec3--div12 {
+        margin-top: 3%;
+    }
+
+    .about--sec3--div13 {
+        margin-top: 2%;
+    }
+
+    .about--sec3--div17 {
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 2%;
+    }
+
+    .about--sec3--header5 {
+        color: var(--colorHeading);
+        font-family: "poppins";
+        font-size: 1.5rem;
+    }
+
+    .about--sec3--header6 {
+        color: var(--colorHeading);
+        font-family: "poppinsBold";
+        font-size: 1.5rem;
+    }
+
+    .about--sec3--div14 {
+        display: grid;
+        width: 28%;
+    }
+
+    .about--sec3--div16 {
+        width: 97%;
+        margin-top: 2%;
+        background-color: var(--colorForm);
+        border-radius: 5%;
+    }
+
+    .about--table {
+        padding: 2.5%;
+        font-size: 0.8rem;
+        font-family: "poppinsSemibold";
+        color: var(--colorHeading);
+    }
+
+    .about--hours--table--hr {
+        border-style: dashed;
+        border-color: var(--colorPara);
+    }
+
+    .about--sec3--para2 {
+        font-family: "poppins";
+        color: var(--colorHeading);
+        font-size: 0.8rem;
+    }
+
+    .about--sec3--div18 {
+        width: 60%;
+        padding: 4%;
+        margin-top: 2%;
+        background-color: var(--colorlightBlue);
+    }
+
+    .about--sec3--div19 {
+        /* width: 100%; */
+        padding: 5%;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about--sec3--div28 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about--sec3--para3 {
+        font-family: "poppinsBold";
+        color: var(--colorBorder);
+        font-size: 0.8rem;
+    }
+
+    .about--sec3--div20 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about--name {
+        border: none;
+        background-color: var(--colorForm);
+        font-family: "poppins";
+        color: var(--colorBorder);
+        font-size: 0.7rem;
+        padding: 5%;
+        margin-top: 3%;
+    }
+
+    .about--texarea {
+        border: none;
+        background-color: var(--colorForm);
+        font-family: "poppins";
+        color: var(--colorBorder);
+        font-size: 0.7rem;
+        padding: 5%;
+        margin-top: 3%;
+    }
+
+    .about--sec3--div22 {
+        margin-top: 8%;
+    }
+
+    .about--sec3--div23 {
+        margin-top: 8%;
+    }
+
+    .about--sec3--div26 {
+        margin-top: 8%;
+    }
+
+    .about--sec3--div27 {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 2%;
+    }
+
+    .about--send {
+        margin-top: 8%;
+        padding: 4% 6%;
+        background-color: var(--colorOrange);
+        font-family: "poppinsBold";
+        color: #ffffff;
+        font-size: 0.7rem;
+        border: none;
+        border-radius: 2rem;
+    }
+
+    .about--cancel {
+        margin-top: 8%;
+        padding: 4% 6%;
+        background-color: var(--colorBtn);
+        font-family: "poppinsBold";
+        font-size: 0.7rem;
+        border: none;
+        border-radius: 2rem;
+    }
+
+}
+
+@media screen and (min-width:950px) {
+
+.about--sec3--div4{
+    padding: 3% 10%;
+}
+
+.about--sec3--div10 {
+    width: 100%;
+    height: 38vh;
+    background-color: #009914;
+}
+
+.about--sec3--div17 {
+    margin-top: 3%;
+}
+
+.about--sec3--div16 {
+    width: 100%;
+    margin-top: 0%;
+    background-color: var(--colorForm);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.about--sec3--div28 {
+    gap: 10%;
+}
+
+.about--send {
+    font-size: 0.9rem;
+}
+
+.about--cancel {
+    font-size: 0.9rem;
+}
+
+.about--name {
+    font-size: 0.9rem;
+}
+
+.about--texarea {
+    font-size: 0.9rem;
+}
+
+.about--sec3--para2 {
+    font-size: 1rem;
+}
+
+.about--sec3--para3 {
+    font-size: 1rem;
+}
+
+.about--table {
+    font-size: 1rem;
+}
+
+.about--sec3--header2 {
+    font-size: 1rem;
+}
+
+.about--sec3--para1 {
+    font-size: 0.9rem;
+}
+
+.about--sec3--icon {
+    width: 12%;
+}
+
+.about--sec3--div3 {
+    margin-top: 0%;
+}
+
+}
+
+/* ----------sec3 end---------- */

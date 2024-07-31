@@ -402,6 +402,7 @@ body{
         background-color: var(--colorForm);
         display: flex;
         justify-content: center;
+        border-radius: 5%;
     }
 
     .booking--table--lg {

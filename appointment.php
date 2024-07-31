@@ -196,9 +196,10 @@
                             <thead class="bg-gray-800 text-white">
                                 <tr>
                                     <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Name</th>
-                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Last name</th>
+                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Emial</th>
                                     <th class="text-left py-3 px-4 uppercase font-semibold text-sm">Phone</th>
-                                    <th class="text-left py-3 px-4 uppercase font-semibold text-sm">Email</th>
+                                    <th class="text-left py-3 px-4 uppercase font-semibold text-sm">Date</th>
+                                    
                                 </tr>
                             </thead>
                             <tbody class="text-gray-700">
