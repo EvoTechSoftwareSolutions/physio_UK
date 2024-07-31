@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'connection.php';
 $switch = $_POST["act"];
 
@@ -14,7 +15,6 @@ switch ($switch) {
 
         $errors = [];
 
-        // Check if the date is empty or in the past
         if (empty($date)) {
             $errors[] = "Appointment date is required.";
         } else {
@@ -26,37 +26,63 @@ switch ($switch) {
             }
         }
 
-        // Check if first and last names are provided
         if (empty($fname) || empty($lname)) {
             $errors[] = "First and last names are required.";
         }
 
-        // Validate email
         if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $errors[] = "A valid email is required.";
         }
 
-        // Validate treatment selection
         if (empty($treatment) || !ctype_digit($treatment) || $treatment == '0') {
             $errors[] = "A valid treatment must be selected.";
         }
 
-        // If there are validation errors, return the first error
         if (!empty($errors)) {
             echo $errors[0];
             exit();
         }
 
-        // Insert data into the database
         $query = "INSERT INTO `appointment` (`date`, `fname`, `lname`, `email`, `msg`, `treatment_id`) VALUES (?, ?, ?, ?, ?, ?)";
         $types = 'sssssi';
         $params = [$date, $fname, $lname, $email, $msg, (int)$treatment];
         $result = Database::iud($query, $types, ...$params);
 
-        if ($result) {
+        if ($row = $result->fetch_assoc()) {
+            $_SESSION["admin"] = $row[""];
             echo "success";
         } else {
             echo "Failed to book appointment.";
+        }
+        break;
+    case "login":
+        $un = $_POST['un'] ?? '';
+        $pw = $_POST['pw'] ?? '';
+
+        $errors = [];
+
+        if (empty($un)) {
+            $errors[] = "Username is required.";
+        }
+
+        if (empty($pw)) {
+            $errors[] = "Password is required.";
+        }
+
+        if (!empty($errors)) {
+            echo $errors[0];
+            exit();
+        }
+
+        $query = "SELECT * FROM `admin` WHERE `username` = ? AND `password` = ?";
+        $types = 'ss';
+        $params = [$un,$pw];
+        $result = Database::search($query, $types, ...$params);
+
+        if ($result->num_rows > 0) {
+            header("Location: http://localhost/");
+        } else {
+            echo "Invalid username or password.";
         }
         break;
     default:
