@@ -62,18 +62,24 @@
             </button> -->
             </div>
             <nav class="text-white text-base font-semibold pt-3">
-                <a href="dashboard.php" class="flex items-center active-nav-link text-white py-4 pl-6 nav-item">
-                    <i class="fas fa-tachometer-alt mr-3"></i>
-                    Dashboard
-                </a>
-                <a href="appointment.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-sticky-note mr-3"></i>
-                    Appointment
-                </a>
-                <a href="history.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-table mr-3"></i>
-                    Appointment History
-                </a>
+            <a href="dashboard.php" class="flex items-center  text-white py-4 pl-6 nav-item">
+                <i class="fas fa-tachometer-alt mr-3"></i>
+                Dashboard
+            </a>
+            <a href="appointment.php"
+                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-sticky-note mr-3"></i>
+                Appointment
+            </a>
+            <a href="history.html"
+                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-table mr-3"></i>
+                Appointment History
+            </a>
+            <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-align-left mr-3"></i>
+                Calendar
+            </a>
                 <!-- <a href="history.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-table mr-3"></i>
                 Appointment History
