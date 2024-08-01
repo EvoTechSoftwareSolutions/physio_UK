@@ -1,0 +1,80 @@
+/* body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.radio-buttons {
+    margin-right: 20px;
+}
+
+.image-area img {
+    width: 300px;
+    height: auto;
+} */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.radio-buttons {
+    margin-right: 20px;
+}
+
+.radio-buttons input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+.radio-label {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 40px; /* Adjust based on image size */
+    cursor: pointer;
+}
+
+.radio-label:hover,
+.radio-buttons input[type="radio"]:checked + .radio-label {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Specific styles for each label based on ID */
+#neck + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#neck + .radio-label:hover {
+    background-image: url('../resources/img/icons/right_tick.png'); /* Use the correct image path */
+    color: #56AFD5;
+}
+
+#shoulder + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#knee + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#hand + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#foot + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+.image-area img {
+    width: 300px;
+    height: auto;
+}
+

@@ -11,11 +11,12 @@ function login() {
   r.onreadystatechange = function () {
     if (r.readyState == 4) {
       if (r.responseText == "success") {
-        Swal.fire({
-          title: "Success",
-          text: "Sign In successful",
-          icon: "success",
-        });
+        // Swal.fire({
+        //   title: "Success",
+        //   text: "Sign In successful",
+        //   icon: "success",
+        // });
+        window.location.href = "./dashboard.php";
       } else {
         Swal.fire({
           title: "Failed",
