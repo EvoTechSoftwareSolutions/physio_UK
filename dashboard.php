@@ -62,24 +62,22 @@
             </button> -->
             </div>
             <nav class="text-white text-base font-semibold pt-3">
-            <a href="dashboard.php" class="flex items-center  text-white py-4 pl-6 nav-item">
-                <i class="fas fa-tachometer-alt mr-3"></i>
-                Dashboard
-            </a>
-            <a href="appointment.php"
-                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-sticky-note mr-3"></i>
-                Appointment
-            </a>
-            <a href="history.html"
-                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-table mr-3"></i>
-                Appointment History
-            </a>
-            <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-align-left mr-3"></i>
-                Calendar
-            </a>
+                <a href="dashboard.php" class="flex items-center  text-white py-4 pl-6 nav-item">
+                    <i class="fas fa-tachometer-alt mr-3"></i>
+                    Dashboard
+                </a>
+                <a href="appointment.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                    <i class="fas fa-sticky-note mr-3"></i>
+                    Appointment
+                </a>
+                <a href="history.html" class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                    <i class="fas fa-table mr-3"></i>
+                    Appointment History
+                </a>
+                <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                    <i class="fas fa-align-left mr-3"></i>
+                    Calendar
+                </a>
                 <!-- <a href="history.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-table mr-3"></i>
                 Appointment History
@@ -181,9 +179,9 @@
                 <main class="w-full flex-grow p-6">
                     <h1 class="text-3xl text-white pb-6">Dashboard</h1>
 
-                    <!-- <div class="flex flex-wrap mt-6">
+                    <div class="flex flex-wrap mt-6">
                     <div class="w-full lg:w-1/2 pr-0 lg:pr-2">
-                        <p class="text-xl pb-3 flex items-center">
+                        <p class="text-xl pb-3 flex items-center text-white">
                             <i class="fas fa-plus mr-3"></i> Monthly Reports
                         </p>
                         <div class="p-6 bg-white">
@@ -191,18 +189,20 @@
                         </div>
                     </div>
                     <div class="w-full lg:w-1/2 pl-0 lg:pl-2 mt-12 lg:mt-0">
-                        <p class="text-xl pb-3 flex items-center">
+                        <p class="text-xl pb-3 flex items-center text-white">
                             <i class="fas fa-check mr-3"></i> Resolved Reports
                         </p>
-                        <div class="p-6 bg-white">
-                            <canvas id="chartTwo" width="400" height="200"></canvas>
+                        <div class="p-6 bg-white flex-col flex">
+                            <span>65160</span>
+                            <span>45646</span>
                         </div>
+                        
                     </div>
-                </div> -->
+                </div>
 
-                    <!-- <div class="w-full mt-12">
-                    <p class="text-xl pb-3 flex items-center">
-                        <i class="fas fa-list mr-3"></i> Latest Reports
+                    <div class="w-full mt-12">
+                    <p class="text-xl pb-3 flex items-center text-white">
+                        <i class="fas fa-list mr-3 "></i> Latest Reports
                     </p>
                     <div class="bg-white overflow-auto">
                         <table class="min-w-full bg-white">
@@ -266,7 +266,7 @@
                             </tbody>
                         </table>
                     </div>
-                </div> -->
+                </div>
                 </main>
 
                 <!-- <footer class="w-full bg-white text-right p-4">
