@@ -17,23 +17,19 @@
     <?php include "../Header/header.php"; ?>
     <!-- Header -->
 
-    <!-- <section class="services--sec1">
-
+    <section class="services--sec1">
         <div class="services--sec1--div1">
             <div class="services--sec1--div2">
                 <span class="services--sec1--header1">Services</span>
             </div>
         </div>
-
     </section>
 
     <section class="services--sec2">
         <div class="services--sec2--div6">
-
             <div class="services--sec2--div5">
                 <img src="../resources/img/services1.jpg">
             </div>
-
             <div class="services--sec2--div1">
                 <div class="services--sec2--div2">
                     <span class="services--sec2--header1">Our</span>
@@ -66,7 +62,6 @@
     </section>
 
     <section class="services--sec3">
-
         <div class="services--sec3--div1" id="service01">
             <div class="services--sec3--div2">
                 <span class="services--sec3--header1">Muscles And Joints Injuries</span>
@@ -210,7 +205,6 @@
     </section>
 
     <section class="services--sec4">
-
         <div class="services--sec4--div1">
             <div class="services--sec4--div2">
                 <div class="services--sec4--div3">
@@ -486,52 +480,97 @@
                 </div>
             </div>
         </div>
-
-    </section> -->
+    </section>
 
     <section class="services--sec5">
         <div class="services--sec5--div1">
+            <div class="services--sec5--div7">
+                <span class="services--sec5--header1">
+                    Where Do You Need The Attention?
+                </span>
+            </div>
             <div class="services--sec5--div2">
                 <div class="services--sec5--div3">
-                    <div class="services--sec5--div4">
-                        <div class="services--sec5--div9">
-                            <div class="services--sec5--div14">
-                                <img src="../resources/img/icons/circle.png" class="sec5--circle">
-                            </div>
-                            <div class="services--sec5--div15">
-                                <span class="sec5--list01">Neck Pain</span>
-                            </div>
+                    <div class="container">
+                        <div class="radio-buttons">
+                            <input type="radio" id="neck" name="frontPain" value="neck" />
+                            <label for="neck" class="radio-label">Neck Pain</label><br>
+                            <input type="radio" id="shoulder" name="frontPain" value="shoulder" />
+                            <label for="shoulder" class="radio-label">Shoulder Pain</label><br>
+                            <input type="radio" id="knee" name="frontPain" value="knee" />
+                            <label for="knee" class="radio-label">Knee Pain</label><br>
+                            <input type="radio" id="hand" name="frontPain" value="hand" />
+                            <label for="hand" class="radio-label">Hand Pain</label><br>
+                            <input type="radio" id="foot" name="frontPain" value="foot" />
+                            <label for="foot" class="radio-label">Foot Pain</label>
                         </div>
-                        <div class="services--sec5--div10">
-
-                        </div>
-                        <div class="services--sec5--div11">
-
-                        </div>
-                        <div class="services--sec5--div12">
-
-                        </div>
-                        <div class="services--sec5--div13">
-
-                        </div>
-                    </div>
-                    <div class="services--sec5--div5">
-                        <div class="services--sec5--div16">
-                            <img src="../resources/img/services/service-neck.png" class="bodymap01">
-                        <!-- <img src="../resources/img/services/service-shoulder.png" class="bodymap01">
-                        <img src="../resources/img/services/service-knee.png" class="bodymap01">
-                        <img src="../resources/img/services/service-hand.png" class="bodymap01">
-                        <img src="../resources/img/services/service-foot.png" class="bodymap01"> -->
+                        <div class="image-area">
+                            <img id="frontImage" src="../resources/img/services/service-neck.png" alt="Front Body Image">
                         </div>
                     </div>
                 </div>
                 <div class="services--sec5--div6">
-                    <div class="services--sec5--div7">
-
+                    <div class="container2">
+                        <div class="radio-buttons">
+                            <input type="radio" id="hip" name="backPain" value="hip" />
+                            <label for="hip" class="radio-label">Hip Pain</label><br>
+                            <input type="radio" id="elbow" name="backPain" value="elbow" />
+                            <label for="elbow" class="radio-label">Elbow Pain</label><br>
+                            <input type="radio" id="tricep" name="backPain" value="tricep" />
+                            <label for="tricep" class="radio-label">Tricep Pain</label><br>
+                            <input type="radio" id="ankle" name="backPain" value="ankle" />
+                            <label for="ankle" class="radio-label">Ankle Pain</label><br>
+                            <input type="radio" id="back" name="backPain" value="back" />
+                            <label for="back" class="radio-label">Back Pain</label>
+                        </div>
+                        <div class="image-area">
+                            <img id="backImage" src="../resources/img/services/service-hip.png" alt="Back Body Image">
+                        </div>
                     </div>
-                    <div class="services--sec5--div8">
-
-                    </div>
+                </div>
+            </div>
+            <div class="services--sec5--div8">
+                <div class="services--sec5--div9">
+                        <a href="#" class="sec5--list1">
+                            <span>01. Neck Pain + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list1">
+                            <span>02. Shoulder Pain + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list1">
+                            <span>03. Elbow Pain + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list1">
+                            <span>04. Wrist Pains + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list1">
+                            <span>05. Back Pain + </span>
+                        </a>
+                </div>
+                <div class="services--sec5--div10">
+                        <a href="#" class="sec5--list2">
+                            <span>06. Hip And Groin Pain + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list2">
+                            <span>07. Knee Pain + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list2">
+                            <span>08. Foot And Ankle Pain + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list2">
+                            <span>09. Thigh + </span>
+                        </a>
+                        <br/>
+                        <a href="#" class="sec5--list2">
+                            <span>10. Leg + </span>
+                        </a>
                 </div>
             </div>
         </div>

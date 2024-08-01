@@ -1,28 +1,14 @@
-/* body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    display: flex;
-}
-
-.radio-buttons {
-    margin-right: 20px;
-}
-
-.image-area img {
-    width: 300px;
-    height: auto;
-} */
-
-
-
 body {
     font-family: Arial, sans-serif;
 }
 
 .container {
     display: flex;
+}
+
+.radio-section {
+    display: flex;
+    margin-right: 20px;
 }
 
 .radio-buttons {
@@ -35,13 +21,12 @@ body {
 
 .radio-label {
     display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
     padding-left: 40px; /* Adjust based on image size */
     cursor: pointer;
 }
 
-.radio-label:hover,
+.radio-label.hover,
+.radio-buttons input[type="radio"]:hover + .radio-label,
 .radio-buttons input[type="radio"]:checked + .radio-label {
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,10 +36,8 @@ body {
 #neck + .radio-label {
     background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
 }
-
 #neck + .radio-label:hover {
     background-image: url('../resources/img/icons/right_tick.png'); /* Use the correct image path */
-    color: #56AFD5;
 }
 
 #shoulder + .radio-label {
@@ -73,8 +56,27 @@ body {
     background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
 }
 
+#hip + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#elbow + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#tricep + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#ankle + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
+#back + .radio-label {
+    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
+}
+
 .image-area img {
     width: 300px;
     height: auto;
 }
-
