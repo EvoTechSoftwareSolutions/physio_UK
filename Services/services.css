@@ -779,3 +779,84 @@
     /* -------------sec5 end-------------- */
 
 }
+
+
+/* -------------services_front start----------- */
+
+.services_front--sec2--div1{
+    padding: 3%;
+}
+
+.services_front--sec2--header1{
+    color: var(--colorHeading);
+    font-family: "poppinsBold";
+    font-size: 1.2rem;
+}
+
+.services_front--sec2--div3{
+    margin-top: 3%;
+}
+
+.services_front--sec2--subheader1{
+    color: var(--colorsubHeader);
+    font-family: "poppinsSemibold";
+    font-size: 0.9rem;
+}
+
+.services_front--sec2--div5{
+    margin-top: 1.5%;
+}
+
+.services_front--sec2--para1{
+    color: var(--colorBorder);
+    font-family: "poppins";
+    font-size: 0.7rem;
+}
+
+
+@media screen and (min-width:545px) {
+
+    .services_front--sec2--div1{
+        padding: 3%;
+    }
+    
+    .services_front--sec2--header1{
+        font-size: 1.5rem;
+    }
+    
+    .services_front--sec2--div3{
+        margin-top: 3%;
+    }
+
+    .services_front--sec2--subheader1{
+        font-size: 1.2rem;
+    }
+    
+    .services_front--sec2--div5{
+        margin-top: 1%;
+    }
+    
+    .services_front--sec2--para1{
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media screen and (min-width:950px) {
+
+    .services_front--sec2--header1{
+        font-size: 2rem;
+    }
+    
+    .services_front--sec2--subheader1{
+        font-size: 1.5rem;
+    }
+    
+    /* .services_front--sec2--para1{
+        font-size: 1.4rem;
+    } */
+    
+}
+
+/* -------------services_front end----------- */
