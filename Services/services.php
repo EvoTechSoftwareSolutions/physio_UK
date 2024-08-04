@@ -531,44 +531,44 @@
             </div>
             <div class="services--sec5--div8">
                 <div class="services--sec5--div9">
-                        <a href="#" class="sec5--list1">
+                        <a href="services_front.php#services_front01" class="sec5--list1">
                             <span>01. Neck Pain + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list1">
+                        <a href="services_front.php#services_front02" class="sec5--list1">
                             <span>02. Shoulder Pain + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list1">
+                        <a href="services_front.php#services_front03" class="sec5--list1">
                             <span>03. Elbow Pain + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list1">
+                        <a href="services_front.php#services_front04" class="sec5--list1">
                             <span>04. Wrist Pains + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list1">
+                        <a href="services_front.php#services_front05" class="sec5--list1">
                             <span>05. Back Pain + </span>
                         </a>
                 </div>
                 <div class="services--sec5--div10">
-                        <a href="#" class="sec5--list2">
+                        <a href="services_back.php#services_back01" class="sec5--list2">
                             <span>06. Hip And Groin Pain + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list2">
+                        <a href="services_back.php#services_back02" class="sec5--list2">
                             <span>07. Knee Pain + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list2">
+                        <a href="services_back.php#services_back05" class="sec5--list2">
                             <span>08. Foot And Ankle Pain + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list2">
+                        <a href="services_back.php#services_back03" class="sec5--list2">
                             <span>09. Thigh + </span>
                         </a>
                         <br/>
-                        <a href="#" class="sec5--list2">
+                        <a href="services_back.php#services_back04" class="sec5--list2">
                             <span>10. Leg + </span>
                         </a>
                 </div>

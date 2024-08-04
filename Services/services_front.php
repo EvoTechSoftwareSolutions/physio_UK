@@ -381,6 +381,228 @@
 
         </div>
 
+        <div class="services_front--sec2--div1" id="services_front04">
+            <div class="services_front--sec2--div2">
+                <span class="services_front--sec2--header1">Wrist Pains</span>
+            </div>
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Osteoarthritis of the thumb</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The base of the thumb can commonly become stiff and painful with gripping, pinching and lifting activity. Osteoarthritis commonly affects an older population but can occur earlier with excessive lifting or trauma that may change the joint loading and therefore the cartilage health. Pain is usually aching in nature but can be sharp and localised to the base of the thumb and wrist.
+                        <br>
+                        Physiotherapy techniques such as specialised splinting, both functional and resting splints can be useful in managing symptoms. Likewise, taping techniques, soft tissue release, joint mobilisations and targeted strengthening can provide symptom relief. For persistent pain, acupuncture can provide pain relief.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Wrist fracture (distal radius)</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    A fall on an outstretched hand can cause fracturing of the wrist bones. One fracture is known as a ‘Colles fracture’ which gives the wrist a dinner fork like looking deformity. Commonly this requires plaster immobilisation and ultimately the wrist becomes stiff from this period of immobility. As the bones heal it is imperative that normal movement patterns are restored as well as normal flexibility and strength.
+                        <br>
+                        Techniques such as joint mobilisations, mobilisations with movement, specific soft tissue release techniques and joint strengthening exercises can be effectively used by your physiotherapist to achieved normal movement and functional use of the wrist in daily activities.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Scaphoid fracture</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The scaphoid bone is found at the base of the thumb near the wrist joint. It is a small bone held tightly between the long bones of the fingers and the wrist. With trauma to the wrist and heavy falls it can be injured or even fractured. This results in wrist pain and sometimes thumb pain that can be severe. This injury is sometimes missed in X-Ray investigation initially due to the nature of the injury and small size of the bone.
+                        <br>
+                        Your physiotherapist can assess the injury and identify any local scaphoid injury, directing you to the appropriate and best course of treatment. Taping techniques, mobilisations and splinting can be utilised to reduce pain and aid in healing.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">De Quervain’s tendinopathy</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The tendons that run into the thumb run in a sheath to protect them and ensure smooth and efficient movement across the wrist bones. These tendons can become inflamed, degenerate and painful after periods of unaccustomed repetitive such as painting and decorating. New mothers can be susceptible due to the repetitive nature of picking up and lifting a newborn baby. The pain can be sharp over the outer wrist and base of the thumb, normally can be reproduced by feeling and often there is crepitus or ‘crunching’ as the thumb is moved.
+                        <br>
+                        Physiotherapy can be highly effective in reducing symptoms of De Quervains tendinopathy by introducing specialised splinting, active rest, advice and activity modification advice, graduated loading exercises and acupuncture.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Triangular fibrocartilage injury</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The triangular fibrocartilage is a piece of tough soft tissue like cartilage that sits in the joint on the little finger side of the wrist. It provides stability and congruency to the joint during movement and function. Pain around the area can be due to traumatic falls onto the hand or by repetitive activity that causes trauma over time to the area such as playing golf. This can also cause clicking or catching within the joint.
+                        <br>
+                        Physiotherapy techniques such as joint mobilisations, specific soft tissue techniques, taping including Kinesio taping and stabilisation exercises can help control the pain from fibrocartilage injury.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Ulnar nerve entrapment</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The ulnar nerve passes very close to several small bones in the wrist near the base of the 5th finger. It can become compressed, inflamed or irritated by long periods of cycling or gripping, particularly on uneven or bumpy ground. Symptoms can include numbness, tingling or shooting and burning pains that can spread down into the 4th and 5th fingers if severe.
+                        <br>
+                        Physiotherapy treatment can look to correct poor biomechanics and hand positions with function and offer advice on management to prevent future injury. Acupuncture, soft tissue techniques, specialised splinting techniques and nerve gliding exercises can be provided to aid in healing and pain relief.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Ulnar styloid fracture</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The ulnar styloid is the small prominent bone on the end of the outer wrist. It can be injured when a wrist is fractured during a fall and a small piece of the end bone is avulsed/pulled off with the force. This can cause aching and pain localised to the area and the border of the wrist, particularly with lifting and carrying.
+                        <br>
+                        Your physiotherapist can provide specialised splinting, joint mobilisation, stabilising exercises and taping techniques to reduced pain and improve function of the wrist. Specialised equipment can also be utilised to aid in bony healing and speed up recovery after fracture.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Repetitive strain injury</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    In today’s electronic, computer-based world repetitive injury is common due to our use of computers on a regular and often excessive daily amount. The repetitive nature of many roles will encourage inflammation of tissue, altered nutrient flow and poor tissue health pleading to pain. These pains can be odd, sharp, shooting, aching or random in nature. Possibly not linked directly to a specific injury and could come and go.
+                        <br>
+                        Your physiotherapist can fully assess the underlying causes of the symptoms, direct you towards computer health techniques, provide pain relief with specific soft tissue techniques and provide wrist stabilising exercise and stretches targeted to your condition. Acupuncture has also been shown to relieve a large part of repetitive strain injury if started quickly. A workstation assessment can also take place which can correct any problems that may be contributing to your pain.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Osteoarthritis and Rheumatoid Arthritis</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    Osteoarthritis can occur in any joint in the body and is the process of ‘wear and tear’ where the cartilage covering the area of bone that makes up the joint is gradually worn away over time. Rheumatoid Arthritis is when the immune system goes haywire and attacks the body rather than defending it causing inflammation of the lining of the joints and tendons of the muscles. In both conditions joints in the body that have the arthritis become swollen, painful and stiff. Morning stiffness on waking is very common. Muscles around the joints often become weaker and doing certain activities of daily living can become more difficult.
+                        <br>
+                        We can provide experienced physiotherapists to see you at home and work with you to help manage your condition. The first time the physiotherapist visits they will carry out a thorough assessment which includes looking at your mobility and walking aids, muscle strength, joint movement, posture and function. Following the assessment, the physiotherapist will discuss any treatments they can provide and set goals with you to improve your general function and mobility and achieve the maximum potential in your home, work and social life. These treatments can include advices on pain management, exercise programmes, massage, taping, acupuncture and mobility programmes.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Carpal tunnel syndrome</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The carpal tunnel is, as it simply states, a tunnel at the wrist that several structure including the median nerve and blood vessels have to pass through to supply the hand. These structures can become compressed and irritated if space within the tunnel is restricted. This occurs during repetitive activities such as lifting, cycling, typing and in new mothers where the fluid levels can change leading to increased compression in the tunnel. Symptoms include tingling and numbness along the median nerve, commonly into the thumb and index finger, pain in this area and if severe or prolonged, weakness of the grip and hand.
+                        <br>
+                        Physiotherapy techniques such as taping, acupuncture, specialised splinting, joint mobilisations and soft tissue release can aid in recovery and pain relief. 
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="services_front--sec2--div1" id="services_front05">
+            <div class="services_front--sec2--div2">
+                <span class="services_front--sec2--header1">Back Pain</span>
+            </div>
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Sciatica</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    This situation arises when pressure builds up on the sciatic nerve as it emerges from the spine, leading to intense sensations of searing, fiery, pulsating, or pulsing discomfort traveling down the rear of the legs. Additionally, individuals might experience occasional sensations of tingling, loss of strength, or numbness in their lower limbs.
+                        <br>
+                        Physiotherapy offers a range of beneficial treatments, including exercises, massage therapy, counselling, manual therapy, and acupuncture. Among these options, clinical Pilates stands out as a safe and effective exercise regimen for addressing this issue.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Lumbar spondylosis</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    This issue typically emerges later in life, often associated with a decrease in the height of spinal discs, which can lead to potential degeneration of spinal joints and sporadic pressure on exiting nerves. It commonly manifests as a persistent, dull ache in the lower back that may intermittently radiate to the buttocks, groin, and outer hip regions. Individuals may also experience bouts of leg stiffness or instability, accompanied by sensations of numbness and tingling.
+                        <br>
+                        Physiotherapy proves effective in both pain relief and the reduction of tingling sensations. Enhancing lower back muscle flexibility, strength, and posture can be achieved through targeted exercises and manual therapy. In addition to these treatments, acupuncture and taping techniques offer valuable options for alleviating the persistent discomfort. Clinical Pilates is unique in that it is a safe and effective method of exercise for the management of this condition.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Lumbar spondylolisthesis</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    This disorder is caused by a flaw or fracture in the vertebra itself, leading to a slight backward shift of the affected vertebra in relation to the one below it. The causes of this condition can include congenital conditions, progressive growth from repetitive sports, ageing-related changes over time, or traumatic events. Common symptoms typically involve soreness in the lower back and buttocks, occasionally extending down the leg. Engaging in activities that require an upright posture or bending backward is likely to worsen the pain, whereas frequent bending forward often provides relief.
+                        <br>
+                        Physiotherapy provides a range of techniques aimed at mitigating the discomfort and rigidity linked to this particular ailment. These techniques encompass counselling, manual therapy, massage, targeted exercises, and acupuncture.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Muscle spasms</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    The region surrounding the spinal column houses a complex network of muscles. These muscles, in their efforts to safeguard the spine, can sometimes endure strains, tears, or even spasms. When these muscles go into spasm, they may develop what are known as trigger points, specifically sensitive spots that can lead to discomfort in various parts of the body.
+                        <br>
+                        Physiotherapy offers a direct means of addressing these muscles, relieving trigger points and spasms. To prevent future spasms, targeted exercises can be tailored to strengthen weak muscles and enhance the flexibility of tense ones. Physiotherapy treatments can also focus on addressing any stiffness in the underlying spinal joints that may be contributing to the condition.
+                        <br>
+                        Additional therapeutic measures, such as taping and acupuncture, can be beneficial as well. One particularly safe and effective form of exercise for managing this condition is clinical Pilates.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Prolapsed disc</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    This situation arises when one of the discs experiences a subtle swelling. It can develop gradually over time or occur suddenly due to a jarring incident. Typically, the pain is sharp and severe. Activities such as coughing, sneezing, or bending forward can exacerbate the discomfort. In cases where a herniated disc applies pressure to a nerve exiting the spine, it can lead to leg pain, pins and needles, or numbness and tingling sensations.
+                        <br>
+                        Physiotherapy offers a range of effective treatments, including manual therapy, massage, targeted exercises, guidance, and acupuncture. Strengthening the muscles responsible for maintaining the stability and alignment of your spine is crucial. Pilates, a safe and highly beneficial exercise method, can be particularly helpful in addressing this issue.
+                    </span>
+                </div>
+            </div>
+
+            <div class="services_front--sec2--div3">
+                <div class="services_front--sec2--div4">
+                    <span class="services_front--sec2--subheader1">Cauda equine syndrome</span>
+                </div>
+                <div class="services_front--sec2--div5">
+                    <span class="services_front--sec2--para1">
+                    Various factors can trigger this condition, including trauma, stenosis, a prolapsed disc, tumours, fractures, and infections. Common symptoms encompass leg weakness, discomfort, and lower back pain. Additionally, individuals might experience numbness or reduced sensation in the vicinity of the anus and genitals, as well as in the bladder and bowels.
+                        <br>
+                        If you suspect you are experiencing these symptoms, it is crucial to seek immediate medical attention through the Accident & Emergency (A&E) department.
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
     </section>
 
 
