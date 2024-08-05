@@ -281,7 +281,7 @@
                     </div>
                     <div class="about--sec3--div9">
                         <div class="about--sec3--div10">
-                            map
+                            <!-- <img src="../resources/img/Physio_map.png" class="about--mapimg"> -->
                         </div>
                         <div class="about--sec3--div11">
                             <div class="about--sec3--div12">
