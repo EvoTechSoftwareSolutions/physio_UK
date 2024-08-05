@@ -210,7 +210,7 @@
                 <p>We are a mobile Physiotherapy company and treat patients within their own home environment. All our Physiotherapists are DBS checked and regulated by the Health and Care Professions Council (HCPC) so you can be sure we meet with the expected standards of care and competence to treat you effectively in your own home.</p>
             </div>
 
-            <button class="accordion">I live in a care home; can you visit me?</button>
+            <button class="accordion">I live in a care home, can you visit me?</button>
             <div class="panel">
                 <p>We can visit nursing and residential homes. Our physiotherapists are normally allowed into local Nursing and Residential Care Homes to help patients with all aspects of pain and reduced mobility. It is worth checking with the Care Home first to make sure they are happy for us to come into the Care Home to treat you or your relatives.</p>
             </div>
