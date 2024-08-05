@@ -172,6 +172,10 @@
                             <input type="text" class="booking--name" placeholder="First Name..." id="fname" />
                             <input type="text" class="booking--name" placeholder="Last Name..." id="lname" />
                             <input type="text" class="booking--email" placeholder="Email Address..." id="email" />
+                            <input type="text" class="booking--email" placeholder="Address Line 1" id="line1" />
+                            <input type="text" class="booking--email" placeholder="Address Line 2" id="line2" />
+                            <input type="text" class="booking--email" placeholder="City" id="city" />
+                            <input type="text" class="booking--email" placeholder="Postal Code" id="pcode" />
                         </div>
                         <div class="booking--sec1--div13">
                             <span class="booking--sec1--para3">
