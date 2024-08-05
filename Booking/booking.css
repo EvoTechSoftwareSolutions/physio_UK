@@ -119,7 +119,9 @@ body{
     margin-top: 5%;
     padding: 3%;
     width: 88%;
-    border: 0.05rem solid var(--colorBorderShadow);
+    border: none;
+    /* border: 0.05rem solid var(--colorBorderShadow); */
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     font-family: "poppinsSemibold";
     color: var(--colorHeading);
 }
