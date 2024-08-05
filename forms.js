@@ -9,7 +9,7 @@ function accept(id){
   
     r.onreadystatechange = function () {
       if (r.readyState == 4) {
-        if (r.responseText == "success") {
+        if (r.responseText == "Success") {
           Swal.fire({
             title: "Accepted",
             text: "Appointment accepted successfully",
@@ -40,6 +40,9 @@ function decline(id){
 
   r.onreadystatechange = function () {
     if (r.readyState == 4) {
+      setTimeout(() => {
+        window.location.href = "forms.php?id="+id+"#bottom";
+      }, 5000);
       if (r.responseText == "success") {
         Swal.fire({
           title: "Declined",

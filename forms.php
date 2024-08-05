@@ -73,24 +73,22 @@
             </button> -->
                 </div>
                 <nav class="text-white text-base font-semibold pt-3">
-                <a href="dashboard.php" class="flex items-center  text-white py-4 pl-6 nav-item">
-                <i class="fas fa-tachometer-alt mr-3"></i>
-                Dashboard
-            </a>
-            <a href="appointment.php"
-                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-sticky-note mr-3"></i>
-                Appointment
-            </a>
-            <a href="history.html"
-                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-table mr-3"></i>
-                Appointment History
-            </a>
-            <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-align-left mr-3"></i>
-                Calendar
-            </a>
+                    <a href="dashboard.php" class="flex items-center  text-white py-4 pl-6 nav-item">
+                        <i class="fas fa-tachometer-alt mr-3"></i>
+                        Dashboard
+                    </a>
+                    <a href="appointment.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                        <i class="fas fa-sticky-note mr-3"></i>
+                        Appointment
+                    </a>
+                    <a href="history.php" class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                        <i class="fas fa-table mr-3"></i>
+                        Appointment History
+                    </a>
+                    <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                        <i class="fas fa-align-left mr-3"></i>
+                        Calendar
+                    </a>
                     <!-- <a href="forms.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-align-left mr-3"></i>
                 Forms
@@ -99,7 +97,7 @@
                 <i class="fas fa-tablet-alt mr-3"></i>
                 Tabbed Content
             </a> -->
-                    <!-- <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                    <!-- <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-calendar mr-3"></i>
                 Calendar
             </a> -->
@@ -159,7 +157,7 @@
                     <i class="fas fa-tablet-alt mr-3"></i>
                     Tabbed Content
                 </a> -->
-                        <!-- <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
+                        <!-- <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
                     <i class="fas fa-calendar mr-3"></i>
                     Calendar
                 </a> -->
@@ -222,7 +220,7 @@
                                     <form class="p-10 bg-white rounded shadow-xl">
                                         <div class="flex flex-row w-full justify-between">
                                             <p class="text-lg text-gray-800 font-medium pb-4">Appointment info</p>
-                                            <span class="italic text-gray-700"><?php echo $row['date']; ?></span>
+                                            <span class="italic text-gray-700"><?php echo $row['appt_date']; ?></span>
                                         </div>
                                         <div class="">
                                             <label class="block text-sm text-gray-600" for="cus_name">Name</label>
@@ -267,9 +265,23 @@
                                     <label class="block text-sm text-gray-600" for="cus_name">Card</label>
                                     <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Card Number MM/YY CVC" aria-label="Name">
                                 </div> -->
-                                        <div class="mt-6 flex justify-center flex-row gap-5">
-                                            <button class="w-2/5 py-1 font-light tracking-wider text-red-500 border border-red-500 rounded hover:text-white hover:bg-red-500" onclick="decline(<?php echo $row['id']; ?>);">Decline</button>
-                                            <button class="w-2/5 py-1 text-white font-light tracking-wider bg-blue-800 rounded hover:bg-blue-900" onclick="accept(<?php echo $row['id']; ?>);">Accept</button>
+                                        <div class="mt-6 flex justify-center flex-row gap-5" id="bottom">
+                                            <?php
+                                            if ($row["status_id"] == 1) {
+                                            ?>
+                                                <button class="w-2/5 py-1 font-light tracking-wider text-red-500 border border-red-500 rounded hover:text-white hover:bg-red-500" onclick="decline(<?php echo $row['id']; ?>);">Decline</button>
+                                                <button class="w-2/5 py-1 text-white font-light tracking-wider bg-blue-800 rounded hover:bg-blue-900" onclick="accept(<?php echo $row['id']; ?>);">Accept</button>
+                                            <?php
+                                            }else if($row["status_id"] == 2){
+                                                ?>
+                                                <span class="text-green-800 font-bold italic">Accepted</span>
+                                                <?php
+                                            }else if($row["status_id"] == 3){
+                                                ?>
+                                                <span class="text-red-800 font-bold italic">Declined</span>
+                                                <?php
+                                            }
+                                            ?>
                                         </div>
                                     </form>
                                 </div>

@@ -71,13 +71,13 @@
                 <i class="fas fa-sticky-note mr-3"></i>
                 Appointment
             </a>
-            <a href="history.html"
-                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+            <a href="history.php"
+                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-table mr-3"></i>
                 Appointment History
             </a>
-            <a href="calendar.html"
-                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+            <a href="calendar.php"
+                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-align-left mr-3"></i>
                 Calendar
             </a>
@@ -354,11 +354,20 @@
 
                 events: [
                     {
-                        event_date: new Date(2020, 3, 1),
+                        event_date: new Date(2024, 8, 20),
                         event_title: "April Fool's Day",
                         event_theme: 'blue'
                     },
-
+                    {
+                        event_date: new Date(2024, 8, 20),
+                        event_title: "April Fool's Day",
+                        event_theme: 'blue'
+                    },
+                    {
+                        event_date: new Date(2024, 8, 20),
+                        event_title: "April Fool's Day",
+                        event_theme: 'blue'
+                    },
                     {
                         event_date: new Date(2020, 3, 10),
                         event_title: "Birthday",
@@ -371,9 +380,9 @@
                         event_theme: 'green'
                     }
                 ],
-                event_title: '',
-                event_date: '',
-                event_theme: 'blue',
+                // event_title: '',
+                // event_date: '',
+                // event_theme: 'blue',
 
                 themes: [
                     {

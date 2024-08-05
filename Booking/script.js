@@ -3,6 +3,10 @@ function bookAppt() {
   var fname = document.getElementById("fname").value;
   var lname = document.getElementById("lname").value;
   var email = document.getElementById("email").value;
+  var line1 = document.getElementById("line1").value;
+  var line2 = document.getElementById("line2").value;
+  var city = document.getElementById("city").value;
+  var pcode = document.getElementById("pcode").value;
   var msg = document.getElementById("apptMsg").value;
   var treatment = document.getElementById("apptTrtmnt").value;
 
@@ -12,6 +16,10 @@ function bookAppt() {
   f.append("fname", fname);
   f.append("lname", lname);
   f.append("email", email);
+  f.append("line1", line1);
+  f.append("line2", line2);
+  f.append("city", city);
+  f.append("pcode", pcode);
   f.append("msg", msg);
   f.append("tr", treatment);
   f.append("act","addAppt");

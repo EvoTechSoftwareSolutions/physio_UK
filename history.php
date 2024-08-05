@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin | Dashboard</title>
+    <title>Admin | Appointment History</title>
     <meta name="author" content="David Grzyb">
     <meta name="description" content="">
 
@@ -47,15 +47,13 @@
     </style>
 </head>
 
-<body class="bg-gray-800 font-family-karla flex" onload="getChartData();">
+<body class="bg-gray-800 font-family-karla flex">
+
     <?php
     session_start();
-    if (!isset($_SESSION["admin"]["username"])) {
-        echo "You are not allowed to access this page!";
-    } else {
+    if (isset($_SESSION["admin"]["username"])) {
         require "./Backend/connection.php";
     ?>
-
         <aside class="relative bg-sidebar h-screen w-64 hidden sm:block shadow-xl">
             <div class="p-6">
                 <a href="dashboard.php" class="text-white text-3xl font-semibold uppercase hover:text-gray-300">Admin</a>
@@ -64,7 +62,7 @@
             </button> -->
             </div>
             <nav class="text-white text-base font-semibold pt-3">
-                <a href="dashboard.php" class="flex items-center active-nav-link text-white py-4 pl-6 nav-item">
+                <a href="dashboard.php" class="flex items-center  text-white py-4 pl-6 nav-item">
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     Dashboard
                 </a>
@@ -72,7 +70,7 @@
                     <i class="fas fa-sticky-note mr-3"></i>
                     Appointment
                 </a>
-                <a href="history.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <a href="history.php" class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                     <i class="fas fa-table mr-3"></i>
                     Appointment History
                 </a>
@@ -80,14 +78,6 @@
                     <i class="fas fa-align-left mr-3"></i>
                     Calendar
                 </a>
-                <!-- <a href="history.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-table mr-3"></i>
-                Appointment History
-            </a> -->
-                <!-- <a href="forms.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-align-left mr-3"></i>
-                Forms
-            </a> -->
                 <!-- <a href="tabs.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-tablet-alt mr-3"></i>
                 Tabbed Content
@@ -115,7 +105,7 @@
                     <div x-show="isOpen" class="absolute w-32 bg-gray-800 rounded-lg shadow-lg py-2 mt-16">
                         <!-- <a href="#" class="block px-4 py-2 account-link hover:text-white">Account</a>
                     <a href="#" class="block px-4 py-2 account-link hover:text-white">Support</a> -->
-                        <a href="#" class="block px-4 py-2 account-link text-white" onclick="signOut();">Sign Out</a>
+                        <a href="#" class="block px-4 py-2 account-link text-white">Sign Out</a>
                     </div>
                 </div>
             </header>
@@ -148,10 +138,10 @@
                         <i class="fas fa-align-left mr-3"></i>
                         Forms
                     </a>
-                    <!-- <a href="tabs.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
-                    <i class="fas fa-tablet-alt mr-3"></i>
-                    Tabbed Content
-                </a> -->
+                    <a href="tabs.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
+                        <i class="fas fa-tablet-alt mr-3"></i>
+                        Calendar
+                    </a>
                     <!-- <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
                     <i class="fas fa-calendar mr-3"></i>
                     Calendar
@@ -179,69 +169,66 @@
 
             <div class="w-full overflow-x-hidden border-t flex flex-col">
                 <main class="w-full flex-grow p-6">
-                    <h1 class="text-3xl text-white pb-6">Dashboard</h1>
+                    <h1 class="text-3xl text-white pb-6">Appointment History</h1>
 
-                    <div class="flex flex-wrap mt-6">
-                        <div class="w-full lg:w-1/2 pr-0 lg:pr-2">
-                            <p class="text-xl pb-3 flex items-center text-white">
-                                <i class="fas fa-plus mr-3"></i>Monthly Appointments
-                            </p>
-                            <div class="p-6 bg-white">
-                                <canvas id="chartOne" width="400" height="200"></canvas>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-1/2 pl-0 lg:pl-2 mt-12 lg:mt-0">
-                            <p class="text-xl pb-3 flex items-center text-white">
-                                <i class="fas fa-check mr-3"></i> Total Report
-                            </p>
-
-                            <?php
-                            $accepted = Database::search(
-                                "SELECT * FROM `appointment` WHERE `status_id` = '2'",
-                                "",
-                                ""
-                            );
-                            $declined = Database::search(
-                                "SELECT * FROM `appointment` WHERE `status_id` = '3'",
-                                "",
-                                "",
-                            );
-                            ?>
-                            <div class="p-6 bg-white flex-col flex">
-                                <span>Total appointments: <?php echo ($accepted->num_rows + $declined->num_rows); ?></span>
-                                <span>Accepted appointments: <?php echo $accepted->num_rows; ?></span>
-                                <span>Declined appointments: <?php echo $declined->num_rows; ?></span>
-                            </div>
-
+                    <!-- <div class="flex flex-wrap mt-6">
+                    <div class="w-full lg:w-1/2 pr-0 lg:pr-2">
+                        <p class="text-xl pb-3 flex items-center">
+                            <i class="fas fa-plus mr-3"></i> Monthly Reports
+                        </p>
+                        <div class="p-6 bg-white">
+                            <canvas id="chartOne" width="400" height="200"></canvas>
                         </div>
                     </div>
+                    <div class="w-full lg:w-1/2 pl-0 lg:pl-2 mt-12 lg:mt-0">
+                        <p class="text-xl pb-3 flex items-center">
+                            <i class="fas fa-check mr-3"></i> Resolved Reports
+                        </p>
+                        <div class="p-6 bg-white">
+                            <canvas id="chartTwo" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div> -->
 
                     <div class="w-full mt-12">
-                        <p class="text-xl pb-3 flex items-center text-white">
-                            <i class="fas fa-list mr-3 "></i> Latest Appointments
-                        </p>
+                        <!-- <p class="text-xl pb-3 flex items-center">
+                        <i class="fas fa-list mr-3"></i> Latest Appointments
+                    </p> -->
                         <div class="bg-white overflow-auto">
                             <table class="min-w-full bg-white">
                                 <thead class="bg-gray-800 text-white">
                                     <tr>
                                         <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Name</th>
-                                        <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Email</th>
+                                        <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Emial</th>
                                         <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Date</th>
                                     </tr>
                                 </thead>
                                 <tbody class="text-gray-700">
                                     <?php
-                                    $rs = Database::search("SELECT * FROM `appointment` WHERE `status_id` = '2' LIMIT 10");
-                                    if ($rs) {
+                                    $rs = Database::search(
+                                        "SELECT * FROM `appointment` WHERE (`status_id` = 2 OR `status_id` = 3) AND `appt_date` < CURDATE() ORDER BY `appt_date` DESC;",
+                                        "",
+                                        ""
+                                    );
+
+                                    if ($rs->num_rows > 0) {
                                         while ($row = $rs->fetch_assoc()) {
                                     ?>
-                                            <tr onclick="singleview(<?php echo $row['id']; ?>);" class="hover:cursor-pointer hover:bg-blue-200">
-                                                <td class="w-1/3 text-left py-3 px-4"><?php echo $row['fname'] . " " . $row['lname']; ?></td>
+                                            <tr onclick="singleview(<?php echo $row['id']; ?>);" class="hover:cursor-pointer hover:bg-blue-200 <?php echo ($row["status_id"] == 3 ? "bg-red-300" : ""); ?>">
+                                                <td class="w-1/3 text-left py-3 px-4"><?php echo $row['fname']." ". $row['lname']; ?></td>
                                                 <td class="w-1/3 text-left py-3 px-4"><?php echo $row['email']; ?></td>
-                                                <td class="w-1/3 text-left py-3 px-4"><?php echo $row['appt_date']; ?></td>
+                                                <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="mailto:jonsmith@mail.com"><?php echo $row['appt_date']; ?></a></td>
                                             </tr>
-                                    <?php
+                                        <?php
                                         }
+                                    } else {
+                                        ?>
+                                        <tr>
+                                            <td class="w-full py-3 px-4">
+                                                There are no appointments
+                                            </td>
+                                        </tr>
+                                    <?php
                                     }
                                     ?>
                                 </tbody>
@@ -263,10 +250,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
         <!-- ChartJS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="script.js"></script>
 
+        <script src="script.js"></script>
     <?php
+    } else {
+        echo "You do not have permission to access this page";
     }
     ?>
 </body>

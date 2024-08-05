@@ -64,16 +64,16 @@
                 Dashboard
             </a>
             <a href="appointment.php"
-                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-sticky-note mr-3"></i>
                 Appointment
             </a>
-            <a href="history.html"
-                class="flex items-center active-nav-link text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+            <a href="history.php"
+                class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-table mr-3"></i>
                 Appointment History
             </a>
-            <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+            <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-align-left mr-3"></i>
                 Calendar
             </a>
@@ -85,7 +85,7 @@
                 <i class="fas fa-tablet-alt mr-3"></i>
                 Tabbed Content
             </a> -->
-            <!-- <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+            <!-- <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
                 <i class="fas fa-calendar mr-3"></i>
                 Calendar
             </a> -->
@@ -145,7 +145,7 @@
                     <i class="fas fa-tablet-alt mr-3"></i>
                     Tabbed Content
                 </a> -->
-                <!-- <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
+                <!-- <a href="calendar.php" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
                     <i class="fas fa-calendar mr-3"></i>
                     Calendar
                 </a> -->
@@ -202,27 +202,24 @@
                             <thead class="bg-gray-800 text-white">
                                 <tr>
                                     <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Name</th>
-                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Emial</th>
-                                    <th class="text-left py-3 px-4 uppercase font-semibold text-sm">Phone</th>
-                                    <th class="text-left py-3 px-4 uppercase font-semibold text-sm">Date</th>
-                                    
+                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Email</th>
+                                    <th class="w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Date</th>
                                 </tr>
                             </thead>
                             <tbody class="text-gray-700">
                                 <?php
                                 $rs = Database::search(
-                                    "SELECT * FROM `appointment`",
+                                    "SELECT * FROM `appointment` WHERE `status_id` = '1' ORDER BY `appt_date` ASC",
                                     "",
                                     ""
                                 );
-                                if ($rs) {
+                                if ($rs->num_rows > 0) {
                                     while ($row = $rs->fetch_assoc()) {
                                 ?>
-                                        <tr onclick="singleview(<?php echo $row['id'];?>);">
-                                            <td class="w-1/3 text-left py-3 px-4"><?php echo $row['fname'];?></td>
-                                            <td class="w-1/3 text-left py-3 px-4"><?php echo $row['lname'];?></td>
-                                            <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="tel:622322662"></a></td>
-                                            <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="mailto:jonsmith@mail.com"><?php echo $row['email'];?></a></td>
+                                        <tr onclick="singleview(<?php echo $row['id'];?>);" class="hover:cursor-pointer hover:bg-blue-200">
+                                            <td class="w-1/3 text-left py-3 px-4"><?php echo $row['fname']." ".$row['lname'];?></td>
+                                            <td class="w-1/3 text-left py-3 px-4"><?php echo $row['email'];?></td>
+                                            <td class="w-1/3 text-left py-3 px-4"><?php echo $row['appt_date'];?></td>
                                         </tr>
                                 <?php
                                     }
