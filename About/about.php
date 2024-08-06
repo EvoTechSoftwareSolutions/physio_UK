@@ -238,7 +238,7 @@
 
     <section class="about--sec3">
 
-        <div class="about--sec3--div1">
+        <div class="about--sec3--div1" id="contact">
             <div class="about--sec3--div2">
                 <span class="about--sec3--header1">Contact Us</span>
             </div>
