@@ -10,6 +10,7 @@
 
     <!-- Tailwind -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
@@ -270,16 +271,16 @@
                                             if ($row["status_id"] == 1) {
                                             ?>
                                                 <button class="w-2/5 py-1 font-light tracking-wider text-red-500 border border-red-500 rounded hover:text-white hover:bg-red-500" onclick="decline(<?php echo $row['id']; ?>);">Decline</button>
-                                                <button class="w-2/5 py-1 text-white font-light tracking-wider bg-blue-800 rounded hover:bg-blue-900" onclick="accept(<?php echo $row['id']; ?>);">Accept</button>
+                                                <button class="w-2/5 py-1 text-white font-light tracking-wider bg-blue-800 rounded hover:bg-blue-900" onclick="event.preventDefault();promptTimeslot(<?php echo $row['id']; ?>);">Accept</button>
                                             <?php
-                                            }else if($row["status_id"] == 2){
-                                                ?>
+                                            } else if ($row["status_id"] == 2) {
+                                            ?>
                                                 <span class="text-green-800 font-bold italic">Accepted</span>
-                                                <?php
-                                            }else if($row["status_id"] == 3){
-                                                ?>
+                                            <?php
+                                            } else if ($row["status_id"] == 3) {
+                                            ?>
                                                 <span class="text-red-800 font-bold italic">Declined</span>
-                                                <?php
+                                            <?php
                                             }
                                             ?>
                                         </div>
@@ -305,6 +306,9 @@
             <!-- Font Awesome -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
             <script src="forms.js"></script>
     <?php
         }

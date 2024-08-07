@@ -2,7 +2,7 @@
 
 class Database {
 
-    private static $connection;
+    public static $connection;
 
     public static function setUpConnection() {
         if (!isset(Database::$connection)) {
