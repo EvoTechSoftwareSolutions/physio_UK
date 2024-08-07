@@ -1,82 +1,51 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
 .container {
-    display: flex;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.radio-section {
-    display: flex;
-    margin-right: 20px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px; /* Adds space between the cards */
 }
 
-.radio-buttons {
-    margin-right: 20px;
+.card {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1 1 300px; /* Each card will try to take at least 300px */
+  text-align: center;
 }
 
-.radio-buttons input[type="radio"] {
-    display: none; /* Hide the default radio button */
+.card h5 {
+  color: #333;
+  font-size: 1.25em;
 }
 
-.radio-label {
-    display: inline-block;
-    padding-left: 40px; /* Adjust based on image size */
-    cursor: pointer;
+.card p {
+  color: #666;
+  font-size: 1em;
 }
 
-.radio-label.hover,
-.radio-buttons input[type="radio"]:hover + .radio-label,
-.radio-buttons input[type="radio"]:checked + .radio-label {
-    background-size: contain;
-    background-repeat: no-repeat;
+@media (max-width: 544px) {
+  .card {
+      flex: 1 1 100%; /* Takes full width on small screens */
+  }
 }
 
-/* Specific styles for each label based on ID */
-#neck + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-#neck + .radio-label:hover {
-    background-image: url('../resources/img/icons/right_tick.png'); /* Use the correct image path */
+@media (min-width: 545px) {
+  .card {
+      flex: 1 1 40%; /* Takes nearly half width on medium screens */
+  }
 }
 
-#shoulder + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#knee + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#hand + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#foot + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#hip + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#elbow + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#tricep + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#ankle + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-#back + .radio-label {
-    background-image: url('../resources/img/icons/circle.png'); /* Use the correct image path */
-}
-
-.image-area img {
-    width: 300px;
-    height: auto;
+@media (min-width: 950px) {
+  .card {
+      flex: 1 1 30%; /* Takes about one-third width on large screens */
+  }
 }

@@ -91,19 +91,19 @@
         gap: 5px;
         margin-top: 20px;
     }
-    .carousel .list .item .buttons button{
+    .carousel .list .item .buttons .buttons--in{
         letter-spacing: 1px;
         font-family: "poppins";
         font-weight: 700;
         border-radius: 1.5rem;
     }
-    .carousel .list .item .buttons button:nth-child(2){
+    .carousel .list .item .buttons .buttons--in:nth-child(2){
         background-color: transparent;
         border: 1px solid #fff;
         color: #eee;
     }
 
-    button{
+    .buttons--in{
         z-index: 2;
         background-color: #fe6902;
         color: #fff;
@@ -112,7 +112,7 @@
         width: 100%;
     }
 
-    button:hover{
+    .buttons--in:hover{
         cursor: pointer;
         background-color: transparent;
         border: 1px solid #fe6902;
@@ -166,7 +166,7 @@
         align-items: center;
         cursor: pointer;
     }
-    .arrows button{
+    .arrows .arrow--btn{
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -178,7 +178,7 @@
         transition: .5s;
         cursor: pointer;
     }
-    .arrows button:hover{
+    .arrows .arrow--btn:hover{
         background-color: #fff;
         color: #000;
         font-weight: bold;
@@ -316,8 +316,8 @@
         opacity: 0;
         animation: showThumbnail .5s linear 1 forwards;
     }
-    .carousel.next .arrows button,
-    .carousel.prev .arrows button{
+    .carousel.next .arrows .arrow--btn,
+    .carousel.prev .arrows .arrow--btn{
         pointer-events: none;
     }
     .carousel.prev .list .item:nth-child(2) .content .author,

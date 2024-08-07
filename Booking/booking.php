@@ -23,6 +23,12 @@
 
     <section class="booking--sec1">
 
+    <div class="booking--sec1--div1">
+        <div class="booking--sec1--div2">
+            <span class="booking--sec1--header1">Booking Appointment</span>
+        </div>
+    </div>
+
         <div class="booking--sec1--div3">
             <div class="booking--sec1--div4">
                 <span class="booking--sec1--header2">We're Here to Help You</span>
