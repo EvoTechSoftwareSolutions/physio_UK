@@ -55,6 +55,9 @@ function accept(id, timeslot) {
           text: "Appointment accepted successfully",
           icon: "success",
         });
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
       } else {
         Swal.fire({
           title: "Error",
