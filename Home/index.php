@@ -7,6 +7,7 @@
     <title>PHYSiO UNLEASHED</title>
     <link rel="icon" href="../resources/img/title_logo.png" />
     <link rel="stylesheet" href="../Header/header.css" />
+    <link rel="stylesheet" href="../Slider/slider.css" />
     <link rel="stylesheet" href="../Footer/footer.css" />
 </head>
 
@@ -16,11 +17,16 @@
     <?php include "../Header/header.php"; ?>
     <!-- Header -->
 
-
+    <!-- Header -->
+    <?php include "../Slider/slider.php"; ?>
+    <!-- Header -->
 
     <!-- Footer -->
     <?php include "../Footer/footer.php"; ?>
     <!-- Footer -->
+
+    <script src="../Slider/slider.js"></script>
+    <script src="../Header/header.js"></script>
 
 </body>
 

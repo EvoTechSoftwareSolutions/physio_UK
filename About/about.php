@@ -238,7 +238,7 @@
 
     <section class="about--sec3">
 
-        <div class="about--sec3--div1">
+        <div class="about--sec3--div1" id="contact">
             <div class="about--sec3--div2">
                 <span class="about--sec3--header1">Contact Us</span>
             </div>
@@ -281,7 +281,7 @@
                     </div>
                     <div class="about--sec3--div9">
                         <div class="about--sec3--div10">
-                            map
+                            <!-- <img src="../resources/img/Physio_map.png" class="about--mapimg"> -->
                         </div>
                         <div class="about--sec3--div11">
                             <div class="about--sec3--div12">

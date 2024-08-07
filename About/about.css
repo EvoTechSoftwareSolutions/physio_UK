@@ -683,7 +683,9 @@
     .about--sec3--div10 {
         width: 100%;
         height: 22vh;
-        background-color: #009914;
+        background-image: url(../resources/img/Physio_map.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .about--sec3--div11 {
@@ -855,76 +857,78 @@
 
 @media screen and (min-width:950px) {
 
-.about--sec3--div4{
-    padding: 3% 10%;
-}
+    .about--sec3--div4 {
+        padding: 3% 10%;
+    }
 
-.about--sec3--div10 {
-    width: 100%;
-    height: 38vh;
-    background-color: #009914;
-}
+    .about--sec3--div10 {
+        width: 100%;
+        height: 38vh;
+        background-image: url(../resources/img/Physio_maplg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-.about--sec3--div17 {
-    margin-top: 3%;
-}
+    .about--sec3--div17 {
+        margin-top: 3%;
+    }
 
-.about--sec3--div16 {
-    width: 100%;
-    margin-top: 0%;
-    background-color: var(--colorForm);
-    border-radius: 5%;
-    display: flex;
-    justify-content: center;
-}
+    .about--sec3--div16 {
+        width: 100%;
+        margin-top: 0%;
+        background-color: var(--colorForm);
+        border-radius: 5%;
+        display: flex;
+        justify-content: center;
+    }
 
-.about--sec3--div28 {
-    gap: 10%;
-}
+    .about--sec3--div28 {
+        gap: 10%;
+    }
 
-.about--send {
-    font-size: 0.9rem;
-}
+    .about--send {
+        font-size: 0.9rem;
+    }
 
-.about--cancel {
-    font-size: 0.9rem;
-}
+    .about--cancel {
+        font-size: 0.9rem;
+    }
 
-.about--name {
-    font-size: 0.9rem;
-}
+    .about--name {
+        font-size: 0.9rem;
+    }
 
-.about--texarea {
-    font-size: 0.9rem;
-}
+    .about--texarea {
+        font-size: 0.9rem;
+    }
 
-.about--sec3--para2 {
-    font-size: 1rem;
-}
+    .about--sec3--para2 {
+        font-size: 1rem;
+    }
 
-.about--sec3--para3 {
-    font-size: 1rem;
-}
+    .about--sec3--para3 {
+        font-size: 1rem;
+    }
 
-.about--table {
-    font-size: 1rem;
-}
+    .about--table {
+        font-size: 1rem;
+    }
 
-.about--sec3--header2 {
-    font-size: 1rem;
-}
+    .about--sec3--header2 {
+        font-size: 1rem;
+    }
 
-.about--sec3--para1 {
-    font-size: 0.9rem;
-}
+    .about--sec3--para1 {
+        font-size: 0.9rem;
+    }
 
-.about--sec3--icon {
-    width: 12%;
-}
+    .about--sec3--icon {
+        width: 12%;
+    }
 
-.about--sec3--div3 {
-    margin-top: 0%;
-}
+    .about--sec3--div3 {
+        margin-top: 0%;
+    }
 
 }
 
