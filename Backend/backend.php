@@ -33,6 +33,70 @@ if (!isset($_POST["act"])) {
     } else {
         echo "Invalid username or password.";
     }
+}else if ($_POST["act"] == "addAppt") {
+    $date = $_POST['date'] ?? '';
+    $fname = $_POST['fname'] ?? '';
+    $lname = $_POST['lname'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $line1 = $_POST['line1'] ?? '';
+    $line2 = $_POST['line2'] ?? '';
+    $city = $_POST['city'] ?? '';
+    $pcode = $_POST['pcode'] ?? '';
+    $msg = $_POST['msg'] ?? '';
+    $treatment = $_POST['tr'] ?? '';
+
+    $errors = [];
+
+    // Validate appointment date
+    if (empty($date)) {
+        $errors[] = "Appointment date is required.";
+    } else {
+        $apptDate = DateTime::createFromFormat('Y-m-d', $date);
+        $today = new DateTime('today');
+
+        if (!$apptDate || $apptDate < $today) {
+            $errors[] = "Appointment date cannot be before today.";
+        }
+    }
+
+    // Validate first and last names
+    if (empty($fname) || empty($lname)) {
+        $errors[] = "First and last names are required.";
+    }
+
+    // Validate email
+    if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "A valid email is required.";
+    }
+
+    // Validate address fields
+    if (empty($line1) || empty($city) || empty($pcode)) {
+        $errors[] = "Address line 1, city, and postal code are required.";
+    }
+
+    // Validate treatment selection
+    if (empty($treatment) || !ctype_digit($treatment) || $treatment == '0') {
+        $errors[] = "A valid treatment must be selected.";
+    }
+
+    // If there are validation errors, return the first error
+    if (!empty($errors)) {
+        echo $errors[0];
+        exit();
+    }
+
+    // Insert data into the database
+    $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
+    $types = 'sssssssssi';
+    $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
+
+    $result = Database::iud($query, $types, ...$params);
+
+    if ($result) {
+        echo "success";
+    } else {
+        echo "Failed to book appointment.";
+    }
 } else if (!isset($_SESSION["admin"]["username"])) {
     echo "You do not have permission to perform this action. Please log in as an admin";
 } else {
@@ -41,71 +105,6 @@ if (!isset($_POST["act"])) {
 
     switch ($switch) {
 
-        case "addAppt":
-            $date = $_POST['date'] ?? '';
-            $fname = $_POST['fname'] ?? '';
-            $lname = $_POST['lname'] ?? '';
-            $email = $_POST['email'] ?? '';
-            $line1 = $_POST['line1'] ?? '';
-            $line2 = $_POST['line2'] ?? '';
-            $city = $_POST['city'] ?? '';
-            $pcode = $_POST['pcode'] ?? '';
-            $msg = $_POST['msg'] ?? '';
-            $treatment = $_POST['tr'] ?? '';
-
-            $errors = [];
-
-            // Validate appointment date
-            if (empty($date)) {
-                $errors[] = "Appointment date is required.";
-            } else {
-                $apptDate = DateTime::createFromFormat('Y-m-d', $date);
-                $today = new DateTime('today');
-
-                if (!$apptDate || $apptDate < $today) {
-                    $errors[] = "Appointment date cannot be before today.";
-                }
-            }
-
-            // Validate first and last names
-            if (empty($fname) || empty($lname)) {
-                $errors[] = "First and last names are required.";
-            }
-
-            // Validate email
-            if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                $errors[] = "A valid email is required.";
-            }
-
-            // Validate address fields
-            if (empty($line1) || empty($city) || empty($pcode)) {
-                $errors[] = "Address line 1, city, and postal code are required.";
-            }
-
-            // Validate treatment selection
-            if (empty($treatment) || !ctype_digit($treatment) || $treatment == '0') {
-                $errors[] = "A valid treatment must be selected.";
-            }
-
-            // If there are validation errors, return the first error
-            if (!empty($errors)) {
-                echo $errors[0];
-                exit();
-            }
-
-            // Insert data into the database
-            $query = "INSERT INTO `appointment` (`date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,``)";
-            $types = 'sssssssssi';
-            $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
-
-            $result = Database::iud($query, $types, ...$params);
-
-            if ($result) {
-                echo "success";
-            } else {
-                echo "Failed to book appointment.";
-            }
-            break;
         case "acceptAppt":
 
             $errors = [];
