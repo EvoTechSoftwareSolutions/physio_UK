@@ -211,6 +211,7 @@
                                 <span>Total appointments: <?php echo ($accepted->num_rows + $declined->num_rows); ?></span>
                                 <span>Accepted appointments: <?php echo $accepted->num_rows; ?></span>
                                 <span>Declined appointments: <?php echo $declined->num_rows; ?></span>
+                                <canvas id="chartTwo" width="400" height="200"></canvas>
                             </div>
 
                         </div>
