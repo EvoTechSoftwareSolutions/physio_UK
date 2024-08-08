@@ -250,6 +250,10 @@
     border-radius: 2rem;
 }
 
+.about--send.disable {
+    display: none;
+ }
+
 .about--send:hover {
     background-color: transparent;
     color: var(--colorOrange);

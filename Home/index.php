@@ -80,20 +80,20 @@
                                         Name *
                                     </span>
                                     <br>
-                                    <input type="text" class="about--name" placeholder="Full Name" />
+                                    <input type="text" class="about--name" placeholder="Full Name" id="name" />
                                 </div>
                                 <div class="about--sec3--div22">
                                     <span class="about--sec3--para3">
                                         Email *
                                     </span>
                                     <br>
-                                    <input type="text" class="about--name" placeholder="Email Address" />
+                                    <input type="text" class="about--name" placeholder="Email Address" id="email" />
                                 </div>
                                 <div class="about--sec3--div23">
                                     <span class="about--sec3--para3">
                                         Phone Number *
                                     </span>
-                                    <input type="text" class="about--name" placeholder="Phone Number" />
+                                    <input type="text" class="about--name" placeholder="Phone Number" id="phone" />
                                 </div>
                             </div>
                             <div class="about--sec3--div24">
@@ -101,16 +101,16 @@
                                     <span class="about--sec3--para3">
                                         The Subject
                                     </span>
-                                    <input type="text" class="about--name" placeholder="Subject" />
+                                    <input type="text" class="about--name" placeholder="Subject" id="subject" />
                                 </div>
                                 <div class="about--sec3--div26">
                                     <span class="about--sec3--para3">
                                         Your Message *
                                     </span>
-                                    <textarea class="about--texarea" placeholder="Type your message.."></textarea>
+                                    <textarea class="about--texarea" placeholder="Type your message.." id="message"></textarea>
                                 </div>
                                 <div class="about--sec3--div27">
-                                    <input type="button" value="Send Message" class="about--send">
+                                    <input type="button" value="Send Message" class="about--send" id="btn" onclick="sendmassage();">
                                     <input type="button" value="Clear Form" class="about--cancel">
                                 </div>
                             </div>
@@ -378,6 +378,7 @@
     <!-- Footer -->
 
     <script src="home.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="../Slider/slider.js"></script>
     <script src="../Image_slider/image_slider.js"></script>
     <script src="../Header/header.js"></script>
