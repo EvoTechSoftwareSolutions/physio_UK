@@ -15,11 +15,11 @@
         <div class="footer--sec1--div1">
             <div class="footer--sec1--div2">
                 <div class="footer--sec1--div3">
-                    <a href="#" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon"></a>
-                    <a href="#" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon"></a>
-                    <a href="#" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/447880286900" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon"></a>
                 </div>
                 <hr class="footer--sec1--hr">
@@ -72,11 +72,11 @@
                 <span class="footer-heading2">Extra Navigations</span>
                 <div class="footer--sec1--div10">
                     <span class="footer-para2">
-                        <a href="#" class="footer-a">>&nbsp; Home</a>
-                        <a href="#" class="footer-a">>&nbsp; Services</a>
-                        <a href="#" class="footer-a">>&nbsp; About Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Contact Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Booking</a>
+                    <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
+                        <a href="../Services/services.php" class="footer-a">>&nbsp; Services</a>
+                        <a href="../About/about.php" class="footer-a">>&nbsp; About Us</a>
+                        <a href="../About/about.php#contact" class="footer-a">>&nbsp; Contact Us</a>
+                        <a href="../Booking/booking.php" class="footer-a">>&nbsp; Booking</a>
                     </span>
                 </div>
             </div>
@@ -85,11 +85,16 @@
                 <span class="footer-heading2">Our Services</span>
                 <div class="footer--sec1--div10">
                     <span class="footer-para2">
-                        <a href="#" class="footer-a">>&nbsp; Home</a>
-                        <a href="#" class="footer-a">>&nbsp; Services</a>
-                        <a href="#" class="footer-a">>&nbsp; About Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Contact Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Booking</a>
+                    <a href="../Services/services.php#service01" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
+                        <a href="../Services/services.php#service02" class="footer-a">>&nbsp; Elderly Care And Rehabilitation Physiotherapy</a>
+                        <a href="../Services/services.php#service03" class="footer-a">>&nbsp; Neurological Physiotherapy</a>
+                        <a href="../Services/services.php#service04" class="footer-a">>&nbsp; Musculoskeletal Physiotherapy</a>
+                        <a href="../Services/services.php#service05" class="footer-a">>&nbsp; Sports Injury Management And Rehabilitation</a>
+                        <a href="../Services/services.php#service06" class="footer-a">>&nbsp; Sports Massage And Therapeutic Massage</a>
+                        <a href="../Services/services.php#service07" class="footer-a">>&nbsp; Kinesio And Sports Taping</a>
+                        <a href="../Services/services.php#service08" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a>
+                        <a href="../Services/services.php#service09" class="footer-a">>&nbsp; Special Clinical Pilates</a>
+                        <a href="../Services/services.php#service10" class="footer-a">>&nbsp; Post-Surgery Rehabilitation</a>
                     </span>
                 </div>
             </div>
@@ -155,11 +160,11 @@
         <div class="footer--sec2--div1">
             <div class="footer--sec2--div2">
                 <div class="footer--sec2--div3">
-                    <a href="#" class="footer--social--icon--md"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon--md"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--md"></a>
-                    <a href="#" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--md"></a>
-                    <a href="#" class="footer--social--icon--md"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/447880286900" class="footer--social--icon--md"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--md"></a>
                 </div>
             </div>
@@ -264,11 +269,11 @@
                 <span class="footer-heading2--md">Extra Navigations</span>
                 <div class="footer--sec2--div15">
                     <span class="footer-para2--md">
-                        <a href="#" class="footer-a">>&nbsp; Home</a>
-                        <a href="#" class="footer-a">>&nbsp; Services</a>
-                        <a href="#" class="footer-a">>&nbsp; About Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Contact Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Booking</a>
+                        <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
+                        <a href="../Services/services.php" class="footer-a">>&nbsp; Services</a>
+                        <a href="../About/about.php" class="footer-a">>&nbsp; About Us</a>
+                        <a href="../About/about.php#contact" class="footer-a">>&nbsp; Contact Us</a>
+                        <a href="../Booking/booking.php" class="footer-a">>&nbsp; Booking</a>
                     </span>
                 </div>
             </div>
@@ -278,11 +283,16 @@
                 <span class="footer-heading2--md">Our Services</span>
                 <div class="footer--sec2--div15">
                     <span class="footer-para2--md">
-                        <a href="#" class="footer-a">>&nbsp; Home</a>
-                        <a href="#" class="footer-a">>&nbsp; Services</a>
-                        <a href="#" class="footer-a">>&nbsp; About Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Contact Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Booking</a>
+                    <a href="../Services/services.php#service01" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
+                        <a href="../Services/services.php#service02" class="footer-a">>&nbsp; Elderly Care And Rehabilitation Physiotherapy</a>
+                        <a href="../Services/services.php#service03" class="footer-a">>&nbsp; Neurological Physiotherapy</a>
+                        <a href="../Services/services.php#service04" class="footer-a">>&nbsp; Musculoskeletal Physiotherapy</a>
+                        <a href="../Services/services.php#service05" class="footer-a">>&nbsp; Sports Injury Management And Rehabilitation</a>
+                        <a href="../Services/services.php#service06" class="footer-a">>&nbsp; Sports Massage And Therapeutic Massage</a>
+                        <a href="../Services/services.php#service07" class="footer-a">>&nbsp; Kinesio And Sports Taping</a>
+                        <a href="../Services/services.php#service08" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a>
+                        <a href="../Services/services.php#service09" class="footer-a">>&nbsp; Special Clinical Pilates</a>
+                        <a href="../Services/services.php#service10" class="footer-a">>&nbsp; Post-Surgery Rehabilitation</a>
                     </span>
                 </div>
             </div>
@@ -305,11 +315,11 @@
         <div class="footer--sec3--div1">
             <div class="footer--sec3--div2">
                 <div class="footer--sec3--div3">
-                    <a href="#" class="footer--social--icon--lg"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon--lg"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--lg"></a>
-                    <a href="#" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--lg"></a>
-                    <a href="#" class="footer--social--icon--lg"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/447880286900" class="footer--social--icon--lg"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--lg"></a>
                 </div>
             </div>
@@ -365,29 +375,34 @@
                 <span class="footer-heading2--lg">Extra Navigations</span>
                 <div class="footer--sec3--div12">
                     <span class="footer-para2--lg">
-                        <a href="#" class="footer-a">>&nbsp; Home</a>
-                        <a href="#" class="footer-a">>&nbsp; Services</a>
-                        <a href="#" class="footer-a">>&nbsp; About Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Contact Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Booking</a>
+                    <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
+                        <a href="../Services/services.php" class="footer-a">>&nbsp; Services</a>
+                        <a href="../About/about.php" class="footer-a">>&nbsp; About Us</a>
+                        <a href="../About/about.php#contact" class="footer-a">>&nbsp; Contact Us</a>
+                        <a href="../Booking/booking.php" class="footer-a">>&nbsp; Booking</a>
                     </span>
                 </div>
             </div>
 
-            <div class="footer--sec3--div11">
+            <div class="footer--sec3--div14">
                 <span class="footer-heading2--lg">Our Services</span>
                 <div class="footer--sec3--div12">
                     <span class="footer-para2--lg">
-                        <a href="#" class="footer-a">>&nbsp; Home</a>
-                        <a href="#" class="footer-a">>&nbsp; Services</a>
-                        <a href="#" class="footer-a">>&nbsp; About Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Contact Us</a>
-                        <a href="#" class="footer-a">>&nbsp; Booking</a>
+                        <a href="../Services/services.php#service11" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
+                        <a href="../Services/services.php#service12" class="footer-a">>&nbsp; Elderly Care And Rehabilitation Physiotherapy</a>
+                        <a href="../Services/services.php#service13" class="footer-a">>&nbsp; Neurological Physiotherapy</a>
+                        <a href="../Services/services.php#service14" class="footer-a">>&nbsp; Musculoskeletal Physiotherapy</a>
+                        <a href="../Services/services.php#service15" class="footer-a">>&nbsp; Sports Injury Management And Rehabilitation</a>
+                        <a href="../Services/services.php#service16" class="footer-a">>&nbsp; Sports Massage And Therapeutic Massage</a>
+                        <a href="../Services/services.php#service17" class="footer-a">>&nbsp; Kinesio And Sports Taping</a>
+                        <a href="../Services/services.php#service18" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a>
+                        <a href="../Services/services.php#service19" class="footer-a">>&nbsp; Special Clinical Pilates</a>
+                        <a href="../Services/services.php#service110" class="footer-a">>&nbsp; Post-Surgery Rehabilitation</a>
                     </span>
                 </div>
             </div>
 
-            <div class="footer--sec3--div11">
+            <div class="footer--sec3--div15">
                 <span class="footer-heading2--lg">Opening Hours</span>
                 <div class="footer--sec3--div12">
                     <table class="footer--table--lg">
@@ -427,6 +442,9 @@
                             <td>8:00 - 20:00</td>
                         </tr>
                     </table>
+                    <span class="footer-para2--lg">
+                        (subject to availability)
+                    </span>
                 </div>
             </div>
         </div>

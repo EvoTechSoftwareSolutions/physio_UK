@@ -31,7 +31,7 @@
         <div class="about--sec1--div3">
             <div class="about--sec1--div4">
                 <div class="about--sec1--div5">
-                    <div class="about--sec1--div6">
+                    <div class="about--sec1--div6" id="about">
                         <span class="about--sec1--header2">About</span>
                         &nbsp;
                         <span class="about--sec1--header3">Us</span>
@@ -273,9 +273,9 @@
                             <span class="about--sec3--header2">Social Media</span>
                             <br>
                             <span class="about--sec3--para1">
-                                <img src="../resources/img/icons/facebook.png" class="about--sec3--icon">
-                                <img src="../resources/img/icons/instagram.png" class="about--sec3--icon">
-                                <img src="../resources/img/icons/whatsapp.png" class="about--sec3--icon">
+                                <a href="https://www.facebook.com/physio.unleashed" class="about--sec3--icon"><img src="../resources/img/icons/facebook.png" class="about--sec3--icon"></a>
+                                <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="about--sec3--icon"><img src="../resources/img/icons/instagram.png" class="about--sec3--icon"></a>
+                                <a href="https://wa.me/447880286900" class="about--sec3--icon"><img src="../resources/img/icons/whatsapp.png" class="about--sec3--icon"></a>
                             </span>
                         </div>
                     </div>

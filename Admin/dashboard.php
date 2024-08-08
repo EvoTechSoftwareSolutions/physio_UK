@@ -166,8 +166,8 @@
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                             <i class="fa fa-chart-line fa-3x text-primary"></i>
                             <div class="ms-3">
-                                <p class="mb-2">Today Sale</p>
-                                <h6 class="mb-0">$1234</h6>
+                                <p class="mb-2">Accpet Appointments</p>
+                                <h6 class="mb-0">1234</h6>
                             </div>
                         </div>
                     </div>
@@ -175,8 +175,8 @@
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                             <i class="fa fa-chart-bar fa-3x text-primary"></i>
                             <div class="ms-3">
-                                <p class="mb-2">Total Sale</p>
-                                <h6 class="mb-0">$1234</h6>
+                                <p class="mb-2">Tatal Appointments</p>
+                                <h6 class="mb-0">1234</h6>
                             </div>
                         </div>
                     </div>
@@ -209,8 +209,8 @@
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary text-center rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Worldwide Sales</h6>
-                                <a href="">Show All</a>
+                                <h6 class="mb-0">Last 6 Months Sales</h6>
+                                <!-- <a href="">Show All</a> -->
                             </div>
                             <canvas id="bar-chart"></canvas>
                         </div>
@@ -218,8 +218,8 @@
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary text-center rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Sales & Revenue</h6>
-                                <a href="">Show All</a>
+                                <h6 class="mb-0">Last Months Revenue</h6>
+                                <!-- <a href="">Show All</a> -->
                             </div>
                             <canvas id="salse-revenue"></canvas>
                         </div>
@@ -233,8 +233,8 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-secondary text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Recent Salse</h6>
-                        <a href="">Show All</a>
+                        <h6 class="mb-0">Recent Appointments</h6>
+                        <!-- <a href="">Show All</a> -->
                     </div>
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">

@@ -618,6 +618,13 @@
     border-radius: 2rem;
 }
 
+.about--send:hover {
+    background-color: transparent;
+    color: var(--colorOrange);
+    border: 1px solid var(--colorOrange);
+    cursor: pointer;
+}
+
 .about--cancel {
     margin-top: 8%;
     padding: 4% 6%;
@@ -628,7 +635,10 @@
     border-radius: 2rem;
 }
 
-
+.about--cancel:hover {
+    border: 1px solid var(--colorHeading);
+    cursor: pointer;
+}
 
 @media screen and (min-width:545px) {
 

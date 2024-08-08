@@ -13,21 +13,23 @@
 
     <section class="header--sec1">
         <div class="header--sec1--div1">
-            <div class="header--sec1--div2">
+            <div class="header--sec1--div2" onclick="window.location='../Booking/booking.php'">
                 <span class="header--span1">Book Appointment</span>
             </div>
             <div class="header--sec1--div3">
                 <div class="header--sec1--div4">
-                    <div class="header--sec1--div5">
+                    <div class="header--sec1--div5" onclick="window.location='../Home/index.php'" style="cursor: pointer;">
                         <img src="../resources/img/Physio_logo_banner.png" class="header--img1">
                     </div>
 
                     <div id="mySidepanel" class="sidepanel">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="../index.php">HOME</a>
-                        <a href="#">TOUR PACKAGES</a>
-                        <a href="../contact/contact.php#about">ABOUT</a>
-                        <a href="../contact/contact.php#contact">CONTACT</a>
+                        <div class="side--menu">
+                        <a href="../Home/index.php" class="sm--a">HOME</a>
+                        <a href="../Services/services.php" class="sm--a">SERVICES</a>
+                        <a href="../About/about.php#about" class="sm--a">ABOUT US</a>
+                        <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
+                        </div>
                     </div>
 
                     <div class="header--sec1--div6">
@@ -42,17 +44,17 @@
     <section class="header--sec2">
         <div class="header--sec2--div1">
             <div class="header--sec2--div2">
-                <div class="header--sec2--div3">
+                <div class="header--sec2--div3" onclick="window.location='../Home/index.php'" style="cursor: pointer;">
                     <img src="../resources/img/Physio_logo_banner.png" class="header--img1--lg">
                 </div>
                 <div class="header--sec2--div4">
                     <div class="header--sec2--div5">
-                        <a href="../index.php" class="header--nav">HOME</a>
-                        <a href="#" class="header--nav">TOUR PACKAGES</a>
-                        <a href="../contact/contact.php#about" class="header--nav">ABOUT</a>
-                        <a href="../contact/contact.php#contact" class="header--nav">CONTACT</a>
+                        <a href="../Home/index.php" class="header--nav">HOME</a>
+                        <a href="../Services/services.php" class="header--nav">SERVICES</a>
+                        <a href="../About/about.php#about" class="header--nav">ABOUT US</a>
+                        <a href="../About/about.php#contact" class="header--nav">CONTACT US</a>
                     </div>
-                    <div class="header--sec2--div6">
+                    <div class="header--sec2--div6" onclick="window.location='../Booking/booking.php'">
                         <span class="header--span2">Book&nbsp;Appointment</span>
                     </div>
                 </div>
