@@ -250,6 +250,10 @@
     border-radius: 2rem;
 }
 
+.about--send.disable {
+    display: none;
+ }
+
 .about--send:hover {
     background-color: transparent;
     color: var(--colorOrange);
@@ -365,6 +369,7 @@
     }
 
     .about--name {
+        width: 80%;
         border: none;
         background-color: var(--colorForm);
         font-family: "poppins";
@@ -375,6 +380,7 @@
     }
 
     .about--texarea {
+        width: 80%;
         border: none;
         background-color: var(--colorForm);
         font-family: "poppins";
