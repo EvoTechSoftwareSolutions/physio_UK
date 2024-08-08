@@ -56,7 +56,9 @@
     } else {
         $id = $_GET["id"];
         $rs = Database::search(
-            "SELECT * FROM `appointment` WHERE `id` = ?",
+            "SELECT * FROM `appointment`
+            INNER JOIN `treatment` ON `appointment`.`treatment_id` = `treatment`.`id`
+            WHERE `appointment`.`id` = ?",
             "s",
             $id
         );
@@ -218,55 +220,44 @@
                             <i class="fas fa-list mr-3"></i> Checkout Form
                         </p> -->
                                 <div class="leading-loose flex items-center justify-center">
-                                    <form class="p-10 bg-white rounded shadow-xl">
-                                        <div class="flex flex-row w-full justify-between">
-                                            <p class="text-lg text-gray-800 font-medium pb-4">Appointment info</p>
-                                            <span class="italic text-gray-700"><?php echo $row['appt_date']; ?></span>
+                                    <form class="w-full flex flex-row flex-wrap p-10 bg-white rounded shadow-xl">
+                                        <div class="w-full lg:w-1/2">
+                                            <div class="flex flex-row items-center">
+                                                <label class="w-1/4 text-sm text-gray-600 font-bold" for="cus_name">Date :</label>
+                                                <span class="w-full text-gray-700 rounded italic" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['appt_date']; ?></span>
+                                            </div>
+                                            <div class="flex flex-row items-center">
+                                                <label class="w-1/4 text-sm text-gray-600 font-bold" for="cus_name">Name :</label>
+                                                <span class="w-full text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['fname'] . " " . $row["lname"]; ?></span>
+                                            </div>
+                                            <div class="flex flex-row items-center">
+                                                <label class="w-1/4 text-sm text-gray-600 font-bold" for="cus_name">Email :</label>
+                                                <span class="w-full text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['email']; ?></span>
+                                            </div>
+                                            <div class="mt-2">
+                                                <label class=" block text-sm text-gray-600 font-bold" for="cus_email">Address</label>
+                                                <span class="w-full pl-5 text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['line1']; ?></span><br />
+                                                <span class="w-full pl-5 text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['line2']; ?></span><br />
+                                                <span class="w-full pl-5 text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['city']; ?></span><br />
+                                                <span class="w-full pl-5 text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['pcode']; ?></span><br />
+                                            </div>
                                         </div>
-                                        <div class="">
-                                            <label class="block text-sm text-gray-600" for="cus_name">Name</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['fname'] . " " . $row["lname"]; ?></span>
-                                        </div>
-                                        <div class="">
-                                            <label class="block text-sm text-gray-600" for="cus_name">Mobile</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">0767676767</span>
-                                        </div>
-                                        <div class="">
-                                            <label class="block text-sm text-gray-600" for="cus_name">Email</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name"><?php echo $row['email']; ?></span>
-                                        </div>
-                                        <div class="mt-2">
-                                            <label class=" block text-sm text-gray-600" for="cus_email">Address line 01</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">fghfhf fg hfg h</span>
-                                        </div>
-                                        <div class="mt-2">
-                                            <label class=" block text-sm text-gray-600" for="cus_email">Address line 02</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">fghfhf fg hfg h</span>
-                                        </div>
-                                        <div class="mt-2">
-                                            <label class=" block text-sm text-gray-600" for="cus_email">State</label>
-                                            <span class="w-full px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">fghfhf fg hfg h</span>
-                                        </div>
-                                        <div class="mt-2">
-                                            <label class=" block text-sm text-gray-600" for="cus_email">Post code</label>
-                                            <span class="w-full px-5 py-1 text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">fghfhf fg hfg h</span>
-                                        </div>
-                                        <div class="mt-2">
-                                            <label class=" block text-sm text-gray-600" for="cus_email">Message</label>
-                                            <span class="w-full text-justify px-5 py-1 text-gray-700  rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">Lorem, ipsum dolor sit
-                                                amet consectetur adipisicing elit. Amet hic numquam ipsa laborum nam ab
-                                                assumenda enim facilis et dolorum. Officia, fugit qui! Assumenda facilis natus
-                                                ullam doloremque reiciendis quae. Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Temporibus corporis adipisci tenetur impedit sed enim placeat
-                                                repudiandae sunt nemo molestiae unde eius ex ea repellendus, quis, vel possimus
-                                                delectus obcaecati.</span>
+                                        <div class="w-full lg:w-1/2">
+                                            <label class=" block text-sm text-gray-600 font-bold" for="cus_email">Treatment Requested</label>
+                                            <span class="block text-justify text-gray-700 rounded">
+                                                Testing Text 123 @ sfjgd
+                                            </span>
+                                            <label class=" block text-sm mt-4 text-gray-600 font-bold" for="cus_email">Message</label>
+                                            <span class="w-full text-justify  text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">Lorem, ipsum dolor sit
+                                            <?php echo $row['msg']; ?>
+                                            </span>
                                         </div>
                                         <!-- <p class="text-lg text-gray-800 font-medium py-4">Payment information</p> -->
                                         <!-- <div class="">
                                     <label class="block text-sm text-gray-600" for="cus_name">Card</label>
                                     <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Card Number MM/YY CVC" aria-label="Name">
                                 </div> -->
-                                        <div class="mt-6 flex justify-center flex-row gap-5" id="bottom">
+                                        <div class="w-full mt-6 flex justify-center flex-row gap-5" id="bottom">
                                             <?php
                                             if ($row["status_id"] == 1) {
                                             ?>

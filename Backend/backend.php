@@ -280,7 +280,7 @@ if (!isset($_POST["act"])) {
                 $result = Database::search(
                     "SELECT `appointment`.* , `time` FROM `appointment`
         INNER JOIN `schedule` ON `appointment`.`id` = `schedule`.`appointment_id`
-        WHERE `appt_date` = ? AND `status_id` = 2",
+        WHERE `appt_date` = ? AND `status_id` = 2 ORDER BY `time` ASC",
                     "s",
                     $formattedDate
                 );
