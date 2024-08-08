@@ -1,29 +1,12 @@
-var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    loop: true,
-    centerSlide: 'true',
-    fade: 'true',
-    grabCursor: 'true',
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      545: {
-        slidesPerView: 2,
-      },
-      950: {
-        slidesPerView: 3,
-      },
-    },
-  });
+// Get the current URL path
+const currentPath = window.location.pathname;
+
+// Select all navigation links
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Loop through each nav link and add the 'active' class if it matches the current path
+navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+        link.classList.add('active');
+    }
+});
