@@ -54,12 +54,12 @@
                             <h3>Sign In</h3>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="Username">
-                            <label for="floatingInput">Username</label>
+                            <input type="email" class="form-control" id="un" placeholder="Username">
+                            <label for="un">Username</label>
                         </div>
                         <div class="form-floating mb-4">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
+                            <input type="password" class="form-control" id="pw" placeholder="Password">
+                            <label for="pw">Password</label>
                         </div>
                         <!-- <div class="d-flex align-items-center justify-content-between mb-4">
                             <div class="form-check">
@@ -68,7 +68,7 @@
                             </div>
                             <a href="">Forgot Password</a>
                         </div> -->
-                        <button type="submit" class="btn btn-primary py-2 w-100 mb-4">Sign In</button>
+                        <button type="submit" class="btn btn-primary py-2 w-100 mb-4" onclick="login();">Sign In</button>
                     </div>
                 </div>
             </div>
@@ -86,9 +86,11 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
