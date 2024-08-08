@@ -25,7 +25,7 @@
                     A practice built on honesty and integrity prioritizes transparency, trust, and ethical conduct in all interactions. It fosters an environment where truthful communication and responsible actions are the norms, ensuring that all decisions are made with fairness and respect for all parties involved. This foundation enhances credibility and long-term success.
                     </div>
                     <div class="buttons">
-                        <button onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
+                        <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     "Our earning is humanity and clients' satisfaction" emphasizes prioritizing compassionate service and customer happiness over monetary gains. It focuses on building meaningful relationships through empathy and exceptional service. This approach ensures that business success is measured by positive client experiences and the lasting impact on the community rather than financial profits alone.
                     </div>
                     <div class="buttons">
-                        <button onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
+                        <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     "We handle human beings, not just a clinical case" underscores a holistic approach to care that prioritizes the individual's overall well-being. It emphasizes empathy, understanding, and personalized treatment, recognizing that each person has unique needs and emotions, which are as important as addressing their medical conditions.
                     </div>
                     <div class="buttons">
-                        <button onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
+                        <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                     "Our saving is clients' happiness and smiley faces" highlights a commitment to ensuring customer satisfaction as the ultimate reward. It focuses on delivering exceptional service and creating positive experiences, where the true value lies in the joy and smiles of satisfied clients, reflecting a dedication to meaningful and impactful service.
                     </div>
                     <div class="buttons">
-                        <button onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
+                        <button class="buttons--in" onclick="window.location='../About/about.php#contact';">Get&nbsp;In&nbsp;Touch</button>
                     </div>
                 </div>
             </div>
@@ -98,8 +98,8 @@
      <!-- next prev -->
 
         <div class="arrows">
-            <button id="prev"><</button>
-            <button id="next">></button>
+            <button class="arrow--btn" id="prev"><</button>
+            <button class="arrow--btn" id="next">></button>
         </div>
 
     <script src="slider.js"></script>
