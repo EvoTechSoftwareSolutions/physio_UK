@@ -109,7 +109,7 @@
                 <div class="w-1/2"></div>
                 <div x-data="{ isOpen: false }" class="relative w-1/2 flex justify-end">
                     <button @click="isOpen = !isOpen" class="realtive z-10 w-12 h-12 rounded-full overflow-hidden border-4 border-gray-400 hover:border-gray-300 focus:border-gray-300 focus:outline-none">
-                        <img src="./resources/img/icons8-user-100.png">
+                        <img src="https://source.unsplash.com/uJ8LNVCBjFQ/400x400">
                     </button>
                     <button x-show="isOpen" @click="isOpen = false" class="h-full w-full fixed inset-0 cursor-default"></button>
                     <div x-show="isOpen" class="absolute w-32 bg-gray-800 rounded-lg shadow-lg py-2 mt-16">
@@ -182,15 +182,15 @@
                     <h1 class="text-3xl text-white pb-6">Dashboard</h1>
 
                     <div class="flex flex-wrap mt-6">
-                        <div class="w-full lg:w-1/2 pr-0 lg:pr-2">
+                        <div class="w-full lg:w-1/2 pr-0 lg:pr-2 h-1/2">
                             <p class="text-xl pb-3 flex items-center text-white">
                                 <i class="fas fa-plus mr-3"></i>Monthly Appointments
                             </p>
-                            <div class="p-6 bg-white">
+                            <div class="p-6 bg-white" style="height: 45vh;">
                                 <canvas id="chartOne" width="400" height="200"></canvas>
                             </div>
                         </div>
-                        <div class="w-full lg:w-1/2 pl-0 lg:pl-2 mt-12 lg:mt-0">
+                        <div class="w-full lg:w-1/2 pl-0 lg:pl-2 mt-12 lg:mt-0" style="height: 50vh;">
                             <p class="text-xl pb-3 flex items-center text-white">
                                 <i class="fas fa-check mr-3"></i> Total Report
                             </p>
@@ -209,8 +209,6 @@
                             ?>
                             <div class="p-6 bg-white flex-col flex">
                                 <span>Total appointments: <?php echo ($accepted->num_rows + $declined->num_rows); ?></span>
-                                <span>Accepted appointments: <?php echo $accepted->num_rows; ?></span>
-                                <span>Declined appointments: <?php echo $declined->num_rows; ?></span>
                                 <canvas id="chartTwo" width="400" height="200"></canvas>
                             </div>
 

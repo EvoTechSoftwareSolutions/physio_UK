@@ -237,7 +237,18 @@ if (!isset($_POST["act"])) {
                 $values[] = $count->num_rows;
             }
 
-            $data = ["success", array_reverse($labels), array_reverse($values)];
+            $accepted = Database::search(
+                "SELECT * FROM `appointment` WHERE `status_id` = '2'",
+                "",
+                ""
+            );
+            $declined = Database::search(
+                "SELECT * FROM `appointment` WHERE `status_id` = '3'",
+                "",
+                "",
+            );
+
+            $data = ["success", array_reverse($labels), array_reverse($values),[$accepted->num_rows, $declined->num_rows]];
             echo json_encode($data);
             break;
         case "getCalendar":

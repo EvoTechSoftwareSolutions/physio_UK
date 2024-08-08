@@ -44,6 +44,7 @@ function getChartData() {
 
         if (jsonResponse[0] == "success") {
           loadChart(jsonResponse[1], jsonResponse[2]);
+          loadPie(jsonResponse[3]);
         } else {
           Swal.fire({
             title: "Failed",
@@ -97,29 +98,29 @@ function loadChart(labelArray, valueArray) {
     },
     options: {
       scales: {
-        // yAxes: [
-        //   {
-        //     ticks: {
-        //       beginAtZero: false,
-        //     },
-        //   },
-        // ],
+        yAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
+            },
+          },
+        ],
       },
     },
   });
 }
 
-function loadPie() {
-  var chartOne = document.getElementById("chartOne");
+function loadPie(valueArray) {
+  console.log("Done");
+  var chartOne = document.getElementById("chartTwo");
   var myChart = new Chart(chartOne, {
     type: "pie",
     data: {
-      labels: labelArray,
+      labels: ["Accepted", "Declined"],
       datasets: [
         {
           label: "Number of appointments",
           data: valueArray,
-          data: [24, 10, 34, 25, 23, 2],
           backgroundColor: [
             "rgba(255, 99, 132, 0.4)",
             "rgba(54, 162, 235, 0.4)",
