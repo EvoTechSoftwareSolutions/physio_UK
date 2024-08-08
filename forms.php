@@ -56,7 +56,7 @@
     } else {
         $id = $_GET["id"];
         $rs = Database::search(
-            "SELECT * FROM `appointment`
+            "SELECT `appointment`.*, `treatment`  FROM `appointment`
             INNER JOIN `treatment` ON `appointment`.`treatment_id` = `treatment`.`id`
             WHERE `appointment`.`id` = ?",
             "s",
@@ -245,11 +245,11 @@
                                         <div class="w-full lg:w-1/2">
                                             <label class=" block text-sm text-gray-600 font-bold" for="cus_email">Treatment Requested</label>
                                             <span class="block text-justify text-gray-700 rounded">
-                                            <?php echo $row['treatment']; ?>
+                                                <?php echo $row['treatment']; ?>
                                             </span>
                                             <label class=" block text-sm mt-4 text-gray-600 font-bold" for="cus_email">Message</label>
                                             <span class="w-full text-justify  text-gray-700 rounded" id="cus_name" name="cus_name" type="text" required="" aria-label="Name">Lorem, ipsum dolor sit
-                                            <?php echo $row['msg']; ?>
+                                                <?php echo $row['msg']; ?>
                                             </span>
                                         </div>
                                         <!-- <p class="text-lg text-gray-800 font-medium py-4">Payment information</p> -->
