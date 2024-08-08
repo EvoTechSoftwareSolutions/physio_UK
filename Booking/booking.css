@@ -148,7 +148,9 @@ body{
     margin-top: 5%;
     padding: 3%;
     width: 40%;
-    border: 0.05rem solid var(--colorBorderShadow);
+    border: none;
+    /* border: 0.05rem solid var(--colorBorderShadow); */
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     font-family: "poppins";
     color: var(--colorPara);
     font-size: 0.7rem;
@@ -158,7 +160,9 @@ body{
     margin-top: 4%;
     padding: 3%;
     width: 88%;
-    border: 0.05rem solid var(--colorBorderShadow);
+    border: none;
+    /* border: 0.05rem solid var(--colorBorderShadow); */
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     font-family: "poppins";
     color: var(--colorPara);
     font-size: 0.7rem;
@@ -172,7 +176,9 @@ body{
     margin-top: 3%;
     padding: 3%;
     width: 95%;
-    border: 0.05rem solid var(--colorBorderShadow);
+    border: none;
+    /* border: 0.05rem solid var(--colorBorderShadow); */
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     font-family: "poppins";
     color: var(--colorHeading);
     font-size: 0.7rem;
@@ -186,7 +192,9 @@ body{
     margin-top: 3%;
     padding: 3%;
     width: 88%;
-    border: 0.05rem solid var(--colorBorderShadow);
+    border: none;
+    /* border: 0.05rem solid var(--colorBorderShadow); */
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     font-family: "poppins";
     color: var(--colorHeading);
     font-size: 0.7rem;
@@ -200,6 +208,7 @@ body{
     color: #ffffff;
     font-size: 0.7rem;
     border: none;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     width: 58%;
 }
 
@@ -210,6 +219,7 @@ body{
     font-family: "poppinsBold";
     font-size: 0.7rem;
     border: none;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     width: 35%;
 }
 

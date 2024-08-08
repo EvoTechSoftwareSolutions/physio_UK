@@ -1,51 +1,17 @@
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-  box-sizing: border-box;
+nav ul {
+  list-style-type: none;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 10px; /* Adds space between the cards */
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-.card {
-  background: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  padding: 20px;
-  box-sizing: border-box;
-  flex: 1 1 300px; /* Each card will try to take at least 300px */
-  text-align: center;
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-.card h5 {
-  color: #333;
-  font-size: 1.25em;
-}
-
-.card p {
-  color: #666;
-  font-size: 1em;
-}
-
-@media (max-width: 544px) {
-  .card {
-      flex: 1 1 100%; /* Takes full width on small screens */
-  }
-}
-
-@media (min-width: 545px) {
-  .card {
-      flex: 1 1 40%; /* Takes nearly half width on medium screens */
-  }
-}
-
-@media (min-width: 950px) {
-  .card {
-      flex: 1 1 30%; /* Takes about one-third width on large screens */
-  }
+nav ul li a.active {
+  color: red; /* Change this to the desired color */
 }

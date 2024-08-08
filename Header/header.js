@@ -15,3 +15,13 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidepanel").style.width = "0";
   }
+
+
+  const navLinkEls = document.querySelectorAll('.header--nav');
+  const windowPathname = window.location.pathname;
+
+  navLinkEls.forEach(navLinkEL => {
+  if (navLinkEL.href.includes(windowPathname)){
+  navLinkEL.classList.add('active');
+  }
+  });
