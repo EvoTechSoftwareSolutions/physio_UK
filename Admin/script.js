@@ -156,6 +156,9 @@ function loadPie(valueArray) {
 }
 
 function signOut() {
+  
+  console.log("sign out");
+
   var f = new FormData();
   f.append("act", "signout");
 
@@ -163,7 +166,7 @@ function signOut() {
   r.onreadystatechange = function () {
     if (r.readyState == 4) {
       if (r.responseText == "success") {
-        window.location.href = "./Home/";
+        window.location.href = "../Home/";
       } else {
         Swal.fire({
           title: "Failed",
@@ -174,7 +177,7 @@ function signOut() {
     }
   };
 
-  r.open("POST", "./Backend/backend.php", true);
+  r.open("POST", "../Backend/backend.php", true);
   r.send(f);
 }
 
