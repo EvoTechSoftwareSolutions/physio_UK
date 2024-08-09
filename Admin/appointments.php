@@ -204,9 +204,9 @@
                     class="table text-start align-middle table-bordered table-hover mb-0">
                     <thead>
                       <tr class="text-white">
-                        <th scope="col">Date</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Treatment</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Date</th>
                         <th scope="col">Action</th>
                       </tr>
                     </thead>

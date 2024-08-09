@@ -186,9 +186,9 @@
                                     <table class="table text-start align-middle table-bordered table-hover mb-0">
                                         <thead>
                                             <tr class="text-white">
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Email</th>
                                                 <th scope="col">Date</th>
-                                                <th scope="col">Customer</th>
-                                                <th scope="col">Treatment</th>
                                                 <th scope="col">Details</th>
 
                                             </tr>
@@ -218,8 +218,7 @@
                                                         </td>
                                                         <td
                                                             class="d-flex align-items-center justify-content-evenly">
-                                                            <a class="btn btn-sm btn-success col-5" href=""><i class="fa fa-check"></i>&nbsp;Accept</a>
-                                                            <a class="btn btn-sm btn-danger col-5" href=""><i class="fa fa-trash"></i>&nbsp;Decline</a>
+                                                            <a class="btn btn-sm btn-info col-12" onclick="singleView();"><i class="fa fa-check"></i>&nbsp;Details</a>
                                                         </td>
                                                     </tr>
                                                 <?php
@@ -284,6 +283,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="calendar.js"></script>
     <script src="script.js"></script>
 </body>
 

@@ -172,7 +172,6 @@
                         <div class="h-100 bg-secondary rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <h6 class="mb-0 fs-2">Calender</h6>
-                                <!-- <a href="">Show All</a> -->
                             </div>
                             <div id="calender"></div>
                         </div>
@@ -242,7 +241,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script src="calendar.js"></script>
     <script src="script.js"></script>
 </body>
 
