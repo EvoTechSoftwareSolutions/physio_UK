@@ -174,7 +174,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="profile.html" class="dropdown-item">My Profile</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
+                            <a href="#" class="dropdown-item" onclick="signout();">Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -198,42 +198,36 @@
                                         <div class="col-12 col-lg-6">
                                             <div class="row">
                                                 <dt class="col-sm-4 text-white">Date</dt>
-                                                <dd class="col-sm-8">2045-12-45</dd>
+                                                <dd class="col-sm-8"><?php echo $row['appt_date']; ?></dd>
                                             </div>
 
                                             <div class="row">
                                                 <dt class="col-sm-4 text-white">Name</dt>
-                                                <dd class="col-sm-8">Mahinda Rajapaksha</dd>
+                                                <dd class="col-sm-8"><?php echo $row['fname'] . " " . $row["lname"]; ?></dd>
                                             </div>
 
                                             <div class="row">
                                                 <dt class="col-sm-4 text-white">Email</dt>
-                                                <dd class="col-sm-8">Mahinda@gmail.com</dd>
+                                                <dd class="col-sm-8"><?php echo $row['email']; ?></dd>
                                             </div>
 
                                             <dt class="col-sm-4 text-white">Address</dt>
-                                            <dd class="col-sm-8 ms-4">Line 01</dd>
-                                            <dd class="col-sm-8 ms-4">Line 02</dd>
-                                            <dd class="col-sm-8 ms-4">City</dd>
-                                            <dd class="col-sm-8 ms-4">Postal code</dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['line1']; ?></dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['line2']; ?></dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['city']; ?></dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['pcode']; ?></dd>
 
                                         </div>
 
                                         <div class="col-12 col-lg-6">
                                             <div class="row">
                                                 <dt class="col-sm-4 text-white">Treatment</dt>
-                                                <dd class="col-sm-8">Konde amaruwa</dd>
+                                                <dd class="col-sm-8"><?php echo $row['treatment']; ?></dd>
                                             </div>
 
                                             <div class="row">
                                                 <dt class="col-sm-4 text-white">Message</dt>
-                                                <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit. Veritatis aperiam qui quisquam perferendis, numquam similique
-                                                    deserunt assumenda officiis soluta quae amet eius illum in odit
-                                                    voluptatum quo excepturi quasi repellat? Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing elit. Quia hic quibusdam saepe. Molestias
-                                                    veritatis doloribus placeat similique! Voluptate nobis eius impedit
-                                                    odio veniam dolorum corporis eos, vero placeat, amet non.</dd>
+                                                <dd class="col-sm-8"><?php echo $row['msg']; ?></dd>
                                             </div>
 
                                         </div>
@@ -288,6 +282,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <?php
+        }
+    }
+    ?>
 </body>
 
 </html>
