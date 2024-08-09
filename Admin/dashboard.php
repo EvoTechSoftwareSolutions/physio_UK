@@ -67,10 +67,10 @@
                 </div> -->
                     <div class="navbar-nav w-100">
                         <a href="dashboard.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                        <a href="appointments.html" class="nav-item nav-link"><i class="fa fa-pen me-2"></i>Appointments</a>
-                        <a href="history.html" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
-                        <a href="calendar.html" class="nav-item nav-link"><i class="fa fa-calendar me-2"></i>Calendar</a>
-                        <a href="profile.html" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
+                        <a href="appointments.php" class="nav-item nav-link"><i class="fa fa-pen me-2"></i>Appointments</a>
+                        <a href="history.php" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
+                        <a href="calendar.php" class="nav-item nav-link"><i class="fa fa-calendar me-2"></i>Calendar</a>
+                        <a href="profile.php" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
                     </div>
                 </nav>
             </div>
@@ -157,7 +157,7 @@
                                 <span class="d-none d-lg-inline-flex">Hasitha Tharakaa</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                                <a href="profile.html" class="dropdown-item">My Profile</a>
+                                <a href="profile.php" class="dropdown-item">My Profile</a>
                                 <a href="#" class="dropdown-item" onclick="signOut();">Log Out</a>
                             </div>
                         </div>

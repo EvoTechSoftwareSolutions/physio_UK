@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Admin | Appointments</title>
+    <title>Admin | Profile</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -61,12 +61,12 @@
                     </div>
                 </div> -->
                 <div class="navbar-nav w-100">
-
-                    <a href="dashboard.php" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="appointments.html" class="nav-item nav-link active"><i class="fa fa-pen me-2"></i>Appointments</a>
-                    <a href="history.html" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
-                    <a href="calendar.html" class="nav-item nav-link"><i class="fa fa-calendar me-2"></i>Calendar</a>
-                    <a href="profile.html" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
+                    <a href="dashboard.php" class="nav-item nav-link"><i
+                            class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="appointments.php" class="nav-item nav-link"><i class="fa fa-pen me-2"></i>Appointments</a>
+                    <a href="history.php" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
+                    <a href="calendar.php" class="nav-item nav-link"><i class="fa fa-calendar me-2"></i>Calendar</a>
+                    <a href="profile.php" class="nav-item nav-link active"><i class="fa fa-user me-2"></i>Profile</a>
                 </div>
             </nav>
         </div>
@@ -154,7 +154,7 @@
                             <span class="d-none d-lg-inline-flex">Hasitha Tharaka</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="profile.html" class="dropdown-item">My Profile</a>
+                            <a href="profile.php" class="dropdown-item">My Profile</a>
                             <a href="#" class="dropdown-item" onclick="signOut();">Log Out</a>
                         </div>
                     </div>
@@ -165,45 +165,57 @@
 
             <!-- Blank Start -->
             <div class="container-fluid pt-4 px-4">
-                <div class="row vh-100 bg-secondary rounded  justify-content-center mx-0">
+                <div class="row vh-100 bg-secondary rounded align-items-center justify-content-center mx-0">
 
+                    <!-- Sign In Start -->
+                    <div class="container-fluid">
+                        <div class="row align-items-center justify-content-center" style="min-height: 100vh;">
+                            <div class="col-12 col-lg-6">
+                                <div class="rounded p-4 p-sm-5 mx-3">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <img class="rounded-circle me-lg-2" src="img/user.jpg" alt=""
+                                            style="width: 150px; height: 150px;">
+                                        <span class="d-none d-lg-inline-flex  mt-2">Hasitha Tharakaa</span>
 
-                    <!-- Appointments Start -->
-                    <div class="container-fluid pt-4 px-4">
-                        <div class="bg-secondary text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0 fs-2">Appointments</h6>
-                                <!-- <a href="">Show All</a> -->
+                                    </div>
+
+                                    <div class="d-flex align-items-center justify-content-center mb-3 mt-4">
+                                        <!-- <a href="index.html" class="">
+                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
+                            </a> -->
+                                        <h3> Change Password</h3>
+                                    </div>
+                                    <div class="form-floating mb-1">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Current Password</label>
+                                    </div>
+                                    <hr>
+                                    <div class="form-floating mb-4">
+                                        <input type="password" class="form-control" id="floatingPassword"
+                                            placeholder="Password">
+                                        <label for="floatingPassword">New Password</label>
+                                    </div>
+                                    <div class="form-floating mb-4">
+                                        <input type="password" class="form-control" id="floatingPassword"
+                                            placeholder="Password">
+                                        <label for="floatingPassword">Coform Password</label>
+                                    </div>
+                                    <!-- <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table text-start align-middle table-bordered table-hover mb-0">
-                                    <thead>
-                                        <tr class="text-white">
-                                            <th scope="col">Date</th>
-                                            <th scope="col">Customer</th>
-                                            <th scope="col">Amount</th>
-                                            <th scope="col">Status</th>
-                                            <th scope="col">Action</th>
-                                          
-
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>01 Jan 2045</td>
-                                            <td>Jhon Doe</td>
-                                            <td>$123</td>
-                                            <td>Paid</td>
-                                            <td class="d-flex align-items-center justify-content-between"><a class="btn btn-sm btn-success" href="">Accept</a> <a class="btn btn-sm btn-danger" href="">Decline</a></td>
-                                           
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <a href="">Forgot Password</a>
+                        </div> -->
+                                    <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Change
+                                        Password</button>
+                                    <!-- <p class="text-center mb-0">Don't have an Account? <a href="">Sign Up</a></p> -->
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Appointments End -->
-
+                    <!-- Sign In End -->
 
                 </div>
             </div>
