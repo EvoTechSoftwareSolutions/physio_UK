@@ -723,10 +723,10 @@ function email($data)
                                       795 - 060 - 0297</span></span>. Please take a moment to view the following links
                                   for important information and fill out the necessary forms before your visit. </p>
                                 <p style="font-size: 14px; line-height: 140%;"> </p>
-                                <p style="font-size: 14px; line-height: 140%;"><strong>Form 1:</strong> <a
+                                <p style="font-size: 14px; line-height: 140%;"><strong>Patient Registration Form:</strong> <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
                                 </p>
-                                <p style="font-size: 14px; line-height: 140%;"><br /><strong>Form 2:</strong> <a
+                                <p style="font-size: 14px; line-height: 140%;"><br /><strong>Patients consent to Treatments:</strong> <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"> </p>
