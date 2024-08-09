@@ -50,7 +50,7 @@
 
 <body class="bg-gray-800 font-family-karla flex">
     <?php
-    require_once "./Backend/connection.php";
+    require_once "../Backend/connection.php";
     if (!isset($_GET["id"])) {
         echo "Something went wrong!";
     } else {

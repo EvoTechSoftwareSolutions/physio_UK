@@ -241,8 +241,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Template Javascript -->
-    <!-- <script src="js/main.js"></script> -->
-    <script src="calendar.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="calendar.js"></script> -->
     <script src="script.js"></script>
 </body>
 

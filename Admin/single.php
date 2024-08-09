@@ -33,6 +33,24 @@
 </head>
 
 <body>
+<?php
+    require_once "../Backend/connection.php";
+    if (!isset($_GET["id"])) {
+        echo "Something went wrong!";
+    } else {
+        $id = $_GET["id"];
+        $rs = Database::search(
+            "SELECT `appointment`.*, `treatment`  FROM `appointment`
+            INNER JOIN `treatment` ON `appointment`.`treatment_id` = `treatment`.`id`
+            WHERE `appointment`.`id` = ?",
+            "s",
+            $id
+        );
+        if (!$rs) {
+            echo "Invalid appointment ID";
+        } else {
+            $row = $rs->fetch_assoc();
+    ?>
     <div class="container-fluid position-relative d-flex p-0">
         <!-- Spinner Start -->
         <div id="spinner"
