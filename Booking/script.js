@@ -47,3 +47,18 @@ function bookAppt() {
   r.open("POST", "../Backend/backend.php", true);
   r.send(f);
 }
+
+
+
+function clearForm() {
+  document.getElementById('apptDate').value = '';
+  document.getElementById('fname').value = '';
+  document.getElementById('lname').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('line1').value = '';
+  document.getElementById('line2').value = '';
+  document.getElementById('city').value = '';
+  document.getElementById('pcode').value = '';
+  document.getElementById('apptMsg').value = '';
+  document.getElementById('apptTrtmnt').value = '';
+}

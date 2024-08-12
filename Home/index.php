@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="about--sec3--div27">
                                     <input type="button" value="Send Message" class="about--send" id="btn" onclick="sendmassage();">
-                                    <input type="button" value="Clear Form" class="about--cancel">
+                                    <input type="button" value="Clear Form" class="about--cancel" onclick="clearForm()">
                                 </div>
                             </div>
                         </div>
