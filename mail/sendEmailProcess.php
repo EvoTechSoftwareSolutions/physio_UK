@@ -41,11 +41,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Validate Mobile
-    if (empty($phone)) {
-        $errors[] = "Mobile is required";
-    } elseif (!preg_match('/^\d{10}$/', $phone)) {
-        $errors[] = "Mobile should be a 10-digit number";
-    }
+    // if (empty($phone)) {
+    //     $errors[] = "Mobile is required";
+    // } elseif (!preg_match('/^\d{10}$/', $phone)) {
+    //     $errors[] = "Mobile should be a 10-digit number";
+    // }
     
 
     // Validate Subject

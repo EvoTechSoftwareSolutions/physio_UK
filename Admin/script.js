@@ -224,5 +224,5 @@ function signOut() {
 // });
 
 function singleview(id) {
-  window.location = "forms.php?id=" + id;
+  window.location = "single.php?id=" + id;
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Admin | Appointments</title>
+    <title>Admin | Calendar</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -61,12 +61,13 @@
                     </div>
                 </div> -->
                 <div class="navbar-nav w-100">
-
-                    <a href="dashboard.php" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="appointments.html" class="nav-item nav-link active"><i class="fa fa-pen me-2"></i>Appointments</a>
-                    <a href="history.html" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
-                    <a href="calendar.html" class="nav-item nav-link"><i class="fa fa-calendar me-2"></i>Calendar</a>
-                    <a href="profile.html" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
+                    <a href="dashboard.php" class="nav-item nav-link"><i
+                            class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="appointments.php" class="nav-item nav-link"><i class="fa fa-pen me-2"></i>Appointments</a>
+                    <a href="history.php" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
+                    <a href="calendar.php" class="nav-item nav-link active"><i
+                            class="fa fa-calendar me-2"></i>Calendar</a>
+                    <a href="profile.php" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
                 </div>
             </nav>
         </div>
@@ -154,7 +155,7 @@
                             <span class="d-none d-lg-inline-flex">Hasitha Tharaka</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-                            <a href="profile.html" class="dropdown-item">My Profile</a>
+                            <a href="profile.php" class="dropdown-item">My Profile</a>
                             <a href="#" class="dropdown-item" onclick="signOut();">Log Out</a>
                         </div>
                     </div>
@@ -167,43 +168,40 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="row vh-100 bg-secondary rounded  justify-content-center mx-0">
 
-
-                    <!-- Appointments Start -->
-                    <div class="container-fluid pt-4 px-4">
-                        <div class="bg-secondary text-center rounded p-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="h-100 bg-secondary rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0 fs-2">Appointments</h6>
-                                <!-- <a href="">Show All</a> -->
+                                <h6 class="mb-0 fs-2">Calender</h6>
                             </div>
-                            <div class="table-responsive">
-                                <table class="table text-start align-middle table-bordered table-hover mb-0">
-                                    <thead>
-                                        <tr class="text-white">
-                                            <th scope="col">Date</th>
-                                            <th scope="col">Customer</th>
-                                            <th scope="col">Amount</th>
-                                            <th scope="col">Status</th>
-                                            <th scope="col">Action</th>
-                                          
-
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>01 Jan 2045</td>
-                                            <td>Jhon Doe</td>
-                                            <td>$123</td>
-                                            <td>Paid</td>
-                                            <td class="d-flex align-items-center justify-content-between"><a class="btn btn-sm btn-success" href="">Accept</a> <a class="btn btn-sm btn-danger" href="">Decline</a></td>
-                                           
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                            <div id="calender"></div>
                         </div>
                     </div>
-                    <!-- Appointments End -->
 
+
+
+                    <div class="col-12 col-lg-6">
+                        <h6 class="fs-2 p-4">Schedule</h6>
+                        <div class="row ms-5">
+                            <span class="fs-5 text-white">John Doe</span>
+                            <span>2023-20-45</span>
+                            <span>15:45:45</span>
+                        </div>
+                        <hr>
+
+                        <div class="row ms-5">
+                            <span class="fs-5 text-white">John Doe</span>
+                            <span>2023-20-45</span>
+                            <span>15:45:45</span>
+                        </div>
+                        <hr>
+
+                        <div class="row ms-5">
+                            <span class="fs-5 text-white">John Doe</span>
+                            <span>2023-20-45</span>
+                            <span>15:41:45</span>
+                        </div>
+                        <hr>
+                    </div>
 
                 </div>
             </div>
@@ -244,6 +242,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- <script src="calendar.js"></script> -->
     <script src="script.js"></script>
 </body>
 

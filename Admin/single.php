@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Admin | Calendar</title>
+    <title>Admin | Appointment Details</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -33,6 +33,24 @@
 </head>
 
 <body>
+<?php
+    require_once "../Backend/connection.php";
+    if (!isset($_GET["id"])) {
+        echo "Something went wrong!";
+    } else {
+        $id = $_GET["id"];
+        $rs = Database::search(
+            "SELECT `appointment`.*, `treatment`  FROM `appointment`
+            INNER JOIN `treatment` ON `appointment`.`treatment_id` = `treatment`.`id`
+            WHERE `appointment`.`id` = ?",
+            "s",
+            $id
+        );
+        if (!$rs) {
+            echo "Invalid appointment ID";
+        } else {
+            $row = $rs->fetch_assoc();
+    ?>
     <div class="container-fluid position-relative d-flex p-0">
         <!-- Spinner Start -->
         <div id="spinner"
@@ -63,10 +81,10 @@
                 <div class="navbar-nav w-100">
                     <a href="dashboard.php" class="nav-item nav-link"><i
                             class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="appointments.html" class="nav-item nav-link"><i class="fa fa-pen me-2"></i>Appointments</a>
+                    <a href="appointments.html" class="nav-item nav-link active"><i
+                            class="fa fa-pen me-2"></i>Appointments</a>
                     <a href="history.html" class="nav-item nav-link"><i class="fa fa-history me-2"></i>History</a>
-                    <a href="calendar.html" class="nav-item nav-link active"><i
-                            class="fa fa-calendar me-2"></i>Calendar</a>
+                    <a href="calendar.html" class="nav-item nav-link"><i class="fa fa-calendar me-2"></i>Calendar</a>
                     <a href="profile.html" class="nav-item nav-link"><i class="fa fa-user me-2"></i>Profile</a>
                 </div>
             </nav>
@@ -156,7 +174,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="profile.html" class="dropdown-item">My Profile</a>
-                            <a href="#" class="dropdown-item" onclick="signOut();">Log Out</a>
+                            <a href="#" class="dropdown-item" onclick="signout();">Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -168,41 +186,63 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="row vh-100 bg-secondary rounded  justify-content-center mx-0">
 
-                    <div class="col-12 col-lg-6">
-                        <div class="h-100 bg-secondary rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0 fs-2">Calender</h6>
-                                <!-- <a href="">Show All</a> -->
+
+                    <!-- Typography Start -->
+                    <div class="container-fluid pt-4 px-4">
+                        <div class="row g-4">
+
+                            <div class="col-12 col-xl-12">
+                                <div class="bg-secondary rounded h-100 p-4">
+                                    <h6 class="mb-5 fs-2">Appointment Details</h6>
+                                    <dl class="row mb-0">
+                                        <div class="col-12 col-lg-6">
+                                            <div class="row">
+                                                <dt class="col-sm-4 text-white">Date</dt>
+                                                <dd class="col-sm-8"><?php echo $row['appt_date']; ?></dd>
+                                            </div>
+
+                                            <div class="row">
+                                                <dt class="col-sm-4 text-white">Name</dt>
+                                                <dd class="col-sm-8"><?php echo $row['fname'] . " " . $row["lname"]; ?></dd>
+                                            </div>
+
+                                            <div class="row">
+                                                <dt class="col-sm-4 text-white">Email</dt>
+                                                <dd class="col-sm-8"><?php echo $row['email']; ?></dd>
+                                            </div>
+
+                                            <dt class="col-sm-4 text-white">Address</dt>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['line1']; ?></dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['line2']; ?></dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['city']; ?></dd>
+                                            <dd class="col-sm-8 ms-4"><?php echo $row['pcode']; ?></dd>
+
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="row">
+                                                <dt class="col-sm-4 text-white">Treatment</dt>
+                                                <dd class="col-sm-8"><?php echo $row['treatment']; ?></dd>
+                                            </div>
+
+                                            <div class="row">
+                                                <dt class="col-sm-4 text-white">Message</dt>
+                                                <dd class="col-sm-8"><?php echo $row['msg']; ?></dd>
+                                            </div>
+
+                                        </div>
+
+
+
+                                        
+                                    </dl>
+                                </div>
                             </div>
-                            <div id="calender"></div>
+
                         </div>
                     </div>
+                    <!-- Typography End -->
 
-
-
-                    <div class="col-12 col-lg-6">
-                        <h6 class="fs-2 p-4">Schedule</h6>
-                        <div class="row ms-5">
-                            <span class="fs-5 text-white">Anura Kumara</span>
-                            <span>2023-20-45</span>
-                            <span>15:45:45</span>
-                        </div>
-                        <hr>
-
-                        <div class="row ms-5">
-                            <span class="fs-5 text-white">Anura Kumara</span>
-                            <span>2023-20-45</span>
-                            <span>15:45:45</span>
-                        </div>
-                        <hr>
-
-                        <div class="row ms-5">
-                            <span class="fs-5 text-white">Anura Kumara</span>
-                            <span>2023-20-45</span>
-                            <span>15:41:45</span>
-                        </div>
-                        <hr>
-                    </div>
 
                 </div>
             </div>
@@ -239,11 +279,13 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="script.js"></script>
+    <?php
+        }
+    }
+    ?>
 </body>
 
 </html>

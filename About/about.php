@@ -418,7 +418,7 @@
                                     </div>
                                     <div class="about--sec3--div23">
                                         <span class="about--sec3--para3">
-                                            Phone Number *
+                                            Phone Number 
                                         </span>
                                         <input type="text" class="about--name" placeholder="Phone Number" id="phone" />
                                     </div>
