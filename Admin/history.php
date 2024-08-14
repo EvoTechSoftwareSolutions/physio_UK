@@ -206,7 +206,7 @@
                                                 ) { ?>
                                                     <tr
                                                         onclick="singleview(<?php echo $row['id']; ?>);"
-                                                        class="hover:cursor-pointer hover:bg-blue-200">
+                                                        class="hover:cursor-pointer hover:bg-blue-200" style="<?php echo($row["status_id"] == 3 ? "background-color: rgba(255, 0, 0, 0.3);" : "");?>">
                                                         <td>
                                                             <?php echo $row['fname'] . " " . $row['lname']; ?>
                                                         </td>
@@ -218,7 +218,7 @@
                                                         </td>
                                                         <td
                                                             class="d-flex align-items-center justify-content-evenly">
-                                                            <a class="btn btn-sm btn-info col-12" onclick="singleView();"><i class="fa fa-check"></i>&nbsp;Details</a>
+                                                            <a class="btn btn-sm btn-info col-12" onclick="singleView();"><i class="fa fa-info-circle"></i>&nbsp;Details</a>
                                                         </td>
                                                     </tr>
                                                 <?php

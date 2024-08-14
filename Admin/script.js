@@ -226,3 +226,33 @@ function signOut() {
 function singleview(id) {
   window.location = "single.php?id=" + id;
 }
+
+function changePassword(){
+  var op = document.getElementById("currPw");
+  var np = document.getElementById("nPw");
+  var cnp = document.getElementById("cnPw");
+
+  var f = new FormData();
+  f.append("act", "changePassword");
+  f.append("opw", op);
+  f.append("npw", np);
+  f.append("cpw", cnp);
+
+  var r = new XMLHttpRequest();
+  r.onreadystatechange = function () {
+    if (r.readyState == 4) {
+      if (r.responseText == "success") {
+        window.location.href = "../Home/";
+      } else {
+        Swal.fire({
+          title: "Failed",
+          text: r.responseText,
+          icon: "error",
+        });
+      }
+    }
+  };
+
+  r.open("POST", "../Backend/backend.php", true);
+  r.send(f);
+}
