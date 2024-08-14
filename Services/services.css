@@ -21,7 +21,7 @@
     --colorHeading: #464646;
     --colorBtn: #EAEAEA;
     --colorlightBlue: #F5F8FB;
-    --colorPara: #B9B9B9;
+    --colorPara: #7e7e7e;
     --colorsubHeader: #56AFD5;
 }
 
@@ -154,11 +154,15 @@
 }
 
 .container2 {
-    background-color: green;
+    background-color: yellow;
 }
 
 .radio-buttons{
     background-color: red;
+}
+
+.radio-buttons--bc{
+    background-color: purple;
 }
 
 .image-area{
@@ -166,6 +170,11 @@
 } */
 
 .radio-buttons input[type="radio"] {
+    display: none;
+    /* Hide the default radio button */
+}
+
+.radio-buttons--bc input[type="radio"] {
     display: none;
     /* Hide the default radio button */
 }
@@ -188,6 +197,13 @@
     background-repeat: no-repeat;
 }
 
+.radio-label.hover,
+.radio-buttons--bc input[type="radio"]:hover+.radio-label,
+.radio-buttons--bc input[type="radio"]:checked+.radio-label {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* Specific styles for each label based on ID */
 #neck+.radio-label {
     background-image: url('../resources/img/icons/circle.png');
@@ -198,6 +214,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
 
 #shoulder+.radio-label {
@@ -209,6 +226,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
 
 #knee+.radio-label {
@@ -220,6 +238,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
 
 #hand+.radio-label {
@@ -231,6 +250,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
 
 #foot+.radio-label {
@@ -242,6 +262,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
 
 #hip+.radio-label {
@@ -253,6 +274,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
 
 #elbow+.radio-label {
@@ -264,28 +286,7 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
-}
-
-#tricep+.radio-label {
-    background-image: url('../resources/img/icons/circle.png');
-    /* Use the correct image path */
-}
-
-#tricep+.radio-label:hover {
-    background-image: url('../resources/img/icons/right_tick.png');
-    /* Use the correct image path */
-    color: #56AFD5;
-}
-
-#ankle+.radio-label {
-    background-image: url('../resources/img/icons/circle.png');
-    /* Use the correct image path */
-}
-
-#ankle+.radio-label:hover {
-    background-image: url('../resources/img/icons/right_tick.png');
-    /* Use the correct image path */
-    color: #56AFD5;
+    cursor: pointer;
 }
 
 #back+.radio-label {
@@ -297,7 +298,34 @@
     background-image: url('../resources/img/icons/right_tick.png');
     /* Use the correct image path */
     color: #56AFD5;
+    cursor: pointer;
 }
+
+#thigh+.radio-label {
+    background-image: url('../resources/img/icons/circle.png');
+    /* Use the correct image path */
+}
+
+#thigh+.radio-label:hover {
+    background-image: url('../resources/img/icons/right_tick.png');
+    /* Use the correct image path */
+    color: #56AFD5;
+    cursor: pointer;
+}
+
+#leg+.radio-label {
+    background-image: url('../resources/img/icons/circle.png');
+    /* Use the correct image path */
+}
+
+#leg+.radio-label:hover {
+    background-image: url('../resources/img/icons/right_tick.png');
+    /* Use the correct image path */
+    color: #56AFD5;
+    cursor: pointer;
+}
+
+
 
 .image-area img {
     width: 90%;
@@ -349,6 +377,10 @@
 
 .sec5--list2:hover{
     color: var(--colorBorder);
+}
+
+.services--empty--div{
+    height: 10vh;
 }
 
 /* ------------sec5 end------------- */
@@ -504,7 +536,7 @@
     }
 
     .image-area img {
-        width: 70%;
+        width: 60%;
         height: auto;
     }
 
@@ -515,13 +547,19 @@
     }
 
     .radio-buttons {
-        width: 50%;
+        width: 70%;
         align-self: center;
-        padding-left: 10%;
+        padding-left: 3%;
+    }
+
+    .radio-buttons--bc {
+        width: 70%;
+        align-self: center;
+        padding-left: 3%;
     }
 
     .radio-label {
-        padding-left: 20%;
+        padding-left: 15%;
         font-size: 1.5rem;
     }
 
@@ -705,10 +743,11 @@
     /* -------------sec5 start-------------- */
 
     .services--sec5--div1 {
-        padding: 3%;
+        padding: 0% 0% 0% 2%;
     }
 
     .services--sec5--div6 {
+        /* gap: 1%; */
         margin-top: 5%;
     }
 
@@ -721,27 +760,34 @@
     .services--sec5--div2 {
         display: flex;
         flex-direction: row;
-        margin-top: 2%;
+        margin-top: 0%;
     }
 
     .radio-buttons {
-        width: 80%;
+        width: 90%;
         align-self: center;
         padding-left: 0%;
     }
 
+    .radio-buttons--bc {
+        width: 90%;
+        align-self: center;
+        padding-left: 0%;
+        margin-top: 4%;
+    }
+
     .radio-label {
-        padding-left: 25%;
+        padding-left: 15%;
         font-size: 1.5rem;
     }
 
     .image-area img {
-        width: 90%;
+        width: 84.5%;
         height: auto;
     }
 
     #backImage {
-        width: 105%;
+        width: 90%;
     }
 
     .services--sec5--div8{
@@ -768,7 +814,7 @@
     }
 
     .container2{
-        gap: 10%;
+        gap: 5%;
         /* margin-top: 2%; */
     }
 

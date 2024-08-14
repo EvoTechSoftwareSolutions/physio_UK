@@ -494,15 +494,15 @@
                     <div class="container">
                         <div class="radio-buttons">
                             <input type="radio" id="neck" name="frontPain" value="neck" />
-                            <label for="neck" class="radio-label">Neck Pain</label><br>
+                            <label for="neck" class="radio-label" onclick="window.location='services_front.php#services_front01'">Neck Pain</label><br>
                             <input type="radio" id="shoulder" name="frontPain" value="shoulder" />
-                            <label for="shoulder" class="radio-label">Shoulder Pain</label><br>
+                            <label for="shoulder" class="radio-label" onclick="window.location='services_front.php#services_front02'">Shoulder Pain</label><br>
                             <input type="radio" id="knee" name="frontPain" value="knee" />
-                            <label for="knee" class="radio-label">Knee Pain</label><br>
+                            <label for="knee" class="radio-label" onclick="window.location='services_back.php#services_back02'">Knee Pain</label><br>
                             <input type="radio" id="hand" name="frontPain" value="hand" />
-                            <label for="hand" class="radio-label">Hand Pain</label><br>
+                            <label for="hand" class="radio-label" onclick="window.location='services_front.php#services_front04'">Wrist Pain</label><br>
                             <input type="radio" id="foot" name="frontPain" value="foot" />
-                            <label for="foot" class="radio-label">Foot Pain</label>
+                            <label for="foot" class="radio-label" onclick="window.location='services_back.php#services_back05'">Foot & Ankle Pain</label>
                         </div>
                         <div class="image-area">
                             <img id="frontImage" src="../resources/img/services/service-neck.png" alt="Front Body Image">
@@ -511,17 +511,17 @@
                 </div>
                 <div class="services--sec5--div6">
                     <div class="container2">
-                        <div class="radio-buttons">
+                        <div class="radio-buttons--bc">
                             <input type="radio" id="hip" name="backPain" value="hip" />
-                            <label for="hip" class="radio-label">Hip Pain</label><br>
+                            <label for="hip" class="radio-label" onclick="window.location='services_back.php#services_back01'">Hip & Groin Pain</label><br>
                             <input type="radio" id="elbow" name="backPain" value="elbow" />
-                            <label for="elbow" class="radio-label">Elbow Pain</label><br>
-                            <input type="radio" id="tricep" name="backPain" value="tricep" />
-                            <label for="tricep" class="radio-label">Tricep Pain</label><br>
-                            <input type="radio" id="ankle" name="backPain" value="ankle" />
-                            <label for="ankle" class="radio-label">Ankle Pain</label><br>
+                            <label for="elbow" class="radio-label" onclick="window.location='services_front.php#services_front03'">Elbow Pain</label><br>
                             <input type="radio" id="back" name="backPain" value="back" />
-                            <label for="back" class="radio-label">Back Pain</label>
+                            <label for="back" class="radio-label" onclick="window.location='services_front.php#services_front05'">Back Pain</label><br>
+                            <input type="radio" id="thigh" name="backPain" value="thigh" />
+                            <label for="thigh" class="radio-label" onclick="window.location='services_back.php#services_back03'">Thigh Pain</label><br>
+                            <input type="radio" id="leg" name="backPain" value="leg" />
+                            <label for="leg" class="radio-label" onclick="window.location='services_back.php#services_back04'">Leg Pain</label>
                         </div>
                         <div class="image-area">
                             <img id="backImage" src="../resources/img/services/service-hip.png" alt="Back Body Image">
@@ -529,7 +529,7 @@
                     </div>
                 </div>
             </div>
-            <div class="services--sec5--div8">
+            <!-- <div class="services--sec5--div8">
                 <div class="services--sec5--div9">
                         <a href="services_front.php#services_front01" class="sec5--list1">
                             <span>01. Neck Pain + </span>
@@ -572,6 +572,9 @@
                             <span>10. Leg + </span>
                         </a>
                 </div>
+            </div> -->
+            <div class="services--empty--div">
+
             </div>
         </div>
     </section>

@@ -13,7 +13,7 @@
         <!-- list item -->
         <div class="list">
             <div class="item">
-                <img src="../resources/img/slider/sl5.png" class="slider--img">
+                <img src="../resources/img/slider/Physio_logo_banner.jpg" class="slider--img">
             </div>
             <div class="item">
                 <img src="../resources/img/slider/sl1.png" class="slider--img">
@@ -75,7 +75,7 @@
         <!-- list thumnail -->
         <div class="thumbnail">
             <div class="item">
-                <img src="../resources/img/slider/sl5.png">
+                <img src="../resources/img/slider/Physio_logo_banner.jpg">
             </div>
             <div class="item">
                 <img src="../resources/img/slider/sl1.png">
