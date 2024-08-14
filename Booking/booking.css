@@ -124,6 +124,11 @@ body{
     box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     font-family: "poppinsSemibold";
     color: var(--colorHeading);
+    border-radius: 1rem;
+}
+
+.booking--date:hover {
+    cursor: pointer;
 }
 
 .booking--sec1--div11 {
@@ -154,6 +159,7 @@ body{
     font-family: "poppins";
     color: var(--colorPara);
     font-size: 0.7rem;
+    border-radius: 1rem;
 }
 
 .booking--email {
@@ -166,6 +172,7 @@ body{
     font-family: "poppins";
     color: var(--colorPara);
     font-size: 0.7rem;
+    border-radius: 1rem;
 }
 
 .booking--sec1--div13 {
@@ -182,6 +189,11 @@ body{
     font-family: "poppins";
     color: var(--colorHeading);
     font-size: 0.7rem;
+    border-radius: 1rem;
+}
+
+.booking--chooser:hover {
+    cursor: pointer;
 }
 
 .booking--sec1--div14 {
@@ -198,6 +210,7 @@ body{
     font-family: "poppins";
     color: var(--colorHeading);
     font-size: 0.7rem;
+    border-radius: 1rem;
 }
 
 .booking--send {
@@ -210,6 +223,7 @@ body{
     border: none;
     box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     width: 58%;
+    border-radius: 2rem;
 }
 
 .booking--cancel {
@@ -221,6 +235,20 @@ body{
     border: none;
     box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
     width: 35%;
+    border-radius: 2rem;
+}
+
+.booking--send:hover {
+cursor: pointer;
+border: 1px solid var(--colorOrange);
+background-color: transparent;
+color: var(--colorOrange);
+}
+
+.booking--cancel:hover {
+cursor: pointer;
+border: 1px solid var(--colorHeading);
+background-color: transparent;
 }
 
 .booking--sec1--div15 {

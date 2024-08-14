@@ -763,10 +763,10 @@ function email($data)
                                       795 - 060 - 0297</span></span>. Please take a moment to view the following links
                                   for important information and fill out the necessary forms before your visit. </p>
                                 <p style="font-size: 14px; line-height: 140%;"> </p>
-                                <p style="font-size: 14px; line-height: 140%;"><strong>Form 1:</strong> <a
+                                <p style="font-size: 14px; line-height: 140%;"><strong>Patient Registration Form:</strong> <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
                                 </p>
-                                <p style="font-size: 14px; line-height: 140%;"><br /><strong>Form 2:</strong> <a
+                                <p style="font-size: 14px; line-height: 140%;"><br /><strong>Patients consent to Treatments:</strong> <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"> </p>
@@ -780,7 +780,7 @@ function email($data)
                                       style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">info@physiounleashed.co.uk </span></span>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"><br /><span
-                                    style="font-size: 16px; line-height: 22.4px;">Mr. Hasitha
+                                    style="font-size: 16px; line-height: 22.4px;">
                                     tharaka</span><br /><strong>PHYSIO UNLEASHED</strong>                </p>
                               </div>
 
@@ -799,8 +799,8 @@ function email($data)
 
                               <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
                               <div align="center">
-                                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="tel:+ (44) 795 - 060 - 0297" style="height:42px; v-text-anchor:middle; width:165px;" arcsize="9.5%"  stroke="f" fillcolor="#fe6902"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-                                <a href="tel:+ (44) 795 - 060 - 0297" target="_blank" class="v-button"
+                                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="tel:+447880286900" style="height:42px; v-text-anchor:middle; width:165px;" arcsize="9.5%"  stroke="f" fillcolor="#fe6902"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
+                                <a href="tel:+447880286900" target="_blank" class="v-button"
                                   style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #fe6902; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
                                   <span style="display:block;padding:12px 40px;line-height:120%;"><strong><span
                                         style="font-size: 14px; line-height: 16.8px; font-family: Lato, sans-serif;">Give

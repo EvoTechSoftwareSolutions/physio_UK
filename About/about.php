@@ -418,7 +418,7 @@
                                     </div>
                                     <div class="about--sec3--div23">
                                         <span class="about--sec3--para3">
-                                            Phone Number *
+                                            Phone Number 
                                         </span>
                                         <input type="text" class="about--name" placeholder="Phone Number" id="phone" />
                                     </div>
@@ -438,7 +438,7 @@
                                     </div>
                                     <div class="about--sec3--div27">
                                 <input type="button" value="Send Message" class="about--send" id="btn" onclick="sendmassage();">
-                                <input type="button" value="Clear Form" class="about--cancel">
+                                <input type="button" value="Clear Form" class="about--cancel" onclick="clearForm()">
                             </div>
                                 </div>
                             </div>

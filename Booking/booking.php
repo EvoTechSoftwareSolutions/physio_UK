@@ -212,7 +212,7 @@
                             <textarea class="booking--texarea" id="apptMsg"></textarea>
                         </div>
                         <input type="button" value="Request Appintment" class="booking--send" onclick="bookAppt();">
-                        <input type="button" value="Cancel" class="booking--cancel">
+                        <input type="button" value="Cancel" class="booking--cancel" onclick="clearForm()">
                         <div class="booking--sec1--div15">
 
                         </div>
