@@ -222,7 +222,7 @@
                           $rs->fetch_assoc()
                         ) { ?>
                           <tr
-                            onclick="singleview(<?php echo $row['id']; ?>);"
+
                             class="hover:cursor-pointer hover:bg-blue-200">
                             <td>
                               <?php echo $row['fname'] . " " . $row['lname']; ?>
@@ -235,8 +235,8 @@
                             </td>
                             <td
                               class="d-flex align-items-center justify-content-evenly">
-                              <a class="btn btn-sm btn-success col-5" href=""><i class="fa fa-check"></i>&nbsp;Accept</a>
-                              <a class="btn btn-sm btn-danger col-5" href=""><i class="fa fa-trash"></i>&nbsp;Decline</a>
+                              <a class="btn btn-sm btn-success col-5" href="../Admin/single.php?id=<?php echo $row["id"]; ?>"><i class="fa fa-check"></i>&nbsp;Accept</a>
+                              <a class="btn btn-sm btn-danger col-5" href="#" onclick="decline(<?php echo $row['id'];?>)"><i class="fa fa-trash"></i>&nbsp;Decline</a>
                             </td>
                           </tr>
                         <?php
@@ -298,6 +298,7 @@
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script src="forms.js"></script>
   <script src="script.js"></script>
 </body>
 

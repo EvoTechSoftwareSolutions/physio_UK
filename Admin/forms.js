@@ -68,7 +68,7 @@ function accept(id, timeslot) {
     }
   };
 
-  r.open("POST", "./Backend/backend.php", true);
+  r.open("POST", "../Backend/backend.php", true);
   r.send(f);
 }
 
@@ -84,9 +84,9 @@ function decline(id){
   r.onreadystatechange = function () {
     if (r.readyState == 4) {
       setTimeout(() => {
-        window.location.href = "forms.php?id="+id+"#bottom";
+        window.location.href = "single.php?id="+id+"#bottom";
       }, 5000);
-      if (r.responseText == "success") {
+      if (r.responseText == "Success") {
         Swal.fire({
           title: "Declined",
           text: "Appointment declined successfully",
@@ -102,6 +102,6 @@ function decline(id){
     }
   };
 
-  r.open("POST", "./Backend/backend.php", true);
+  r.open("POST", "../Backend/backend.php", true);
   r.send(f);
 }
