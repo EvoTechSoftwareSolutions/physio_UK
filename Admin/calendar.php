@@ -39,6 +39,28 @@
             border-radius: 50%;
             /* Make the highlighted date circular */
         }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 5px solid #FFF;
+            border-bottom-color: #2a6aff;
+            border-radius: 50%;
+            display: none;
+            align-self: center;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 
@@ -194,14 +216,12 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 d-flex flex-column">
                             <h6 class="fs-2 p-4">Schedule</h6>
-                            <div class="row ms-5">
-                                <span class="fs-5 text-white">John Doe</span>
-                                <span>2023-20-45</span>
-                                <span>15:45:45</span>
+                            <div class="col-12" id="appointments">
+                                Select a date to view appointments
                             </div>
-                            <hr>
+                            <span class="loader" id="apptLdr"></span>
                         </div>
 
                     </div>

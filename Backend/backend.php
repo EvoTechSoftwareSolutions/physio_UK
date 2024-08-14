@@ -364,28 +364,29 @@ if (!isset($_POST["act"])) {
       }
 
       if (strlen($npw) < 8 || strlen($npw) > 20) {
-        echo "Password must be between 8 and 20 characters long.";
+        echo "Password must be between 8 and 20 characters long.".$npw;
         break;
       }
 
       $op_rs = Database::search(
         "SELECT * FROM `admin` WHERE `username` = ? AND `password` = ?",
         "ss",
-        $un
+        $un,$opw
       );
-      if($op_rs->num_rows == 1){
-
-        
-
-      }else{
-
+      if ($op_rs->num_rows == 1) {
+        $update = Database::iud(
+          "UPDATE `admin` SET `password` = ? WHERE `username` = ?",
+          "ss",
+          $npw,
+          $_SESSION["admin"]["username"]
+        );
+        echo "success";
+        break;
+      } else {
         echo "Invalid password.";
         break;
-
       }
-
       break;
-
     default:
       echo "Invalid Request";
       break;

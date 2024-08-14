@@ -234,15 +234,15 @@ function changePassword(){
 
   var f = new FormData();
   f.append("act", "changePassword");
-  f.append("opw", op);
-  f.append("npw", np);
-  f.append("cpw", cnp);
+  f.append("opw", op.value);
+  f.append("npw", np.value);
+  f.append("cpw", cnp.value);
 
   var r = new XMLHttpRequest();
   r.onreadystatechange = function () {
     if (r.readyState == 4) {
       if (r.responseText == "success") {
-        window.location.href = "../Home/";
+        window.location.reload();
       } else {
         Swal.fire({
           title: "Failed",
