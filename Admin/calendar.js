@@ -62,12 +62,18 @@
     showDateDetails(day, month, year);
   });
 
+  var currDateReq = null;
+
   function showDateDetails(date, month, year) {
     console.log("received");
     document.getElementById("appointments").innerHTML = "&nbsp;";
     document.getElementById("apptLdr").style.display = "inline-block";
+    if(r != null){
+      r.abort();
+    }
     var number = month + 1;
     var r = new XMLHttpRequest();
+    currDateReq = r;
     r.onreadystatechange = function () {
       if (r.readyState == 4) {
         console.log("data received");
