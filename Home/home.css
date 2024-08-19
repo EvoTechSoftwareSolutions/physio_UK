@@ -539,33 +539,64 @@
 }
 
 
-.home--sec4--div1 {
+.home--sec4--div2 {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../resources/img/home/break_sm.png);
+    height: 30vh;
 }
 
 .home--break--img {
     width: 100%;
 }
 
-.home--sec4--div2 {
+.home--sec4--div1 {
     display: flex;
     justify-content: center;
-    width: 60%;
+    align-self: center;
+    width: 100%;
     text-align: center;
+    /* background-color: red; */
+    flex-direction: column;
+    height: 30vh;
 }
 
-.home--sec4--para {
+.home--sec4--span {
     font-family: "poppinsSemibold";
     color: #ffff;
+    padding: 0% 2%;
+}
+
+.home--sec4--btn{
+    margin-top: 2%;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 2%;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff;
+    font-family: "poppinsSemibold";
+    border-radius: 2rem;
+}
+
+.home--sec4--btn:hover{
+    background-color: transparent;
+    color: var(--colorOrange);
+    border: 1px solid var(--colorOrange);
+    cursor: pointer;
+    font-family: "poppinsSemibold";
 }
 
 .home--sec5--div1 {
     margin-top: 3%;
     width: 100%;
+    background-image: url(../resources/img/Physio_map.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 30vh;
 }
 
 .home--map--img {
@@ -591,17 +622,18 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    gap: 3.5%;
 }
 
 .home--sec6--div3 {
     padding-left: 1.5%;
-    width: 90%;
+    width: 85%;
 }
 
 .home--sec6--div4 {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 40%;
     float: right;
     justify-content: right;
 }
@@ -657,6 +689,7 @@
 .next--feedback {
     cursor: pointer;
     width: 100%;
+    padding: 0rem 0.4rem;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -697,6 +730,11 @@
     .home--sec6--div6 {
         width: 30%;
     }
+
+    .prev--feedback,
+.next--feedback {
+    padding: 0rem 0.3rem;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -706,13 +744,55 @@
 }
 
 @media screen and (min-width: 545px) {
+
     .home--sec6--div4 {
-        width: 10%;
+        width: 20%;
     }
 }
 
 @media screen and (min-width: 950px) {
     .home--sec6--div4 {
         width: 7%;
+    }
+
+    .home--sec4--div2 {
+        width: 100%;
+        background-image: url(../resources/img/home/break.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .home--sec5--div1 {
+        margin-top: 3%;
+        width: 100%;
+        background-image: url(../resources/img/Physio_map_home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .home--sec4--div1 {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+        text-align: center;
+        /* background-color: red; */
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .home--sec4--span {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+
+    .home--sec4--btn{
+        padding: 1% 2%;
+        font-size: 1.2rem;
     }
 }

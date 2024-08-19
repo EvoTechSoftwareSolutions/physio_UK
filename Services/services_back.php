@@ -242,7 +242,7 @@
 
             <div class="services_front--sec2--div3">
                 <div class="services_front--sec2--div4">
-                    <span class="services_front--sec2--subheader1">Osteoarthritis of the elbow joint</span>
+                    <span class="services_front--sec2--subheader1">Sartorius muscle strain</span>
                 </div>
                 <div class="services_front--sec2--div5">
                     <span class="services_front--sec2--para1">

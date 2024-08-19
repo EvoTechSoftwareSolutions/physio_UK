@@ -79,7 +79,7 @@
                 </div>
                 <div class="header--sec3--div4">
                     <span class="header--icon--heading">Give us a Call</span>
-                    <span class="header--icon--para">+ (44) 795 - 060 - 0297</span>
+                    <span class="header--icon--para">(+44) 07880286900</span>
                 </div>
             </div>
             <div class="header--sec3--div2">
@@ -96,7 +96,7 @@
                     <img src="../resources/img/icons/clock.png" class="header--icon">
                 </div>
                 <div class="header--sec3--div4">
-                    <span class="header--icon--heading">Opening Hours</span>
+                    <span class="header--icon--heading">Operating Hours</span>
                     <span class="header--icon--para">Monday-Sunday:8am-8pm</span>
                 </div>
             </div>

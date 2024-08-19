@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="../Image_slider/image_slider.css" />
     <link rel="stylesheet" href="../Footer/footer.css" />
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/slider_img.css">
 </head>
 
 <body>
@@ -91,7 +99,7 @@
                                 </div>
                                 <div class="about--sec3--div23">
                                     <span class="about--sec3--para3">
-                                        Phone Number 
+                                        Phone Number
                                     </span>
                                     <input type="text" class="about--name" placeholder="Phone Number" id="phone" />
                                 </div>
@@ -139,7 +147,7 @@
                                     <span>Financial Efficiency</span>
                                 </div>
                                 <div class="card--txt--para">
-                                    <span>Maximizing resources and minimizing costs for optimal financial performance</span>
+                                    <span>We offer the most reasonable and best competitive price in the current market.</span>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +173,7 @@
                                     <span>Management Of Time</span>
                                 </div>
                                 <div class="card--txt--para">
-                                    <span>Efficiently organizing and prioritizing tasks to maximize productivity and effectiveness.</span>
+                                    <span>We fit into your most available time. We are operating all the seven days from 8am-8pm.</span>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +186,7 @@
                                     <span>Availability On Weekend And Bank Holidays</span>
                                 </div>
                                 <div class="card--txt--para">
-                                    <span>Open and accessible during weekends and bank holidays for convenience.</span>
+                                    <span>Open and accessible during weekends and bank holidays for your convenience.</span>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +199,7 @@
                                     <span>Homely Comfort</span>
                                 </div>
                                 <div class="card--txt--para">
-                                    <span>Creating a warm, cozy environment that feels like home.</span>
+                                    <span>We visit your home or convenient place as it is the most relaxing and comfort place for you.</span>
                                 </div>
                             </div>
                         </div>
@@ -254,14 +262,18 @@
     </section>
 
     <section class="home--sec4">
-        <div class="home--sec4--div1">
-            <img src="../resources/img/home/break.png" class="home--break--img">
+        <div class="home--sec4--div2">
+            <!-- <img src="../resources/img/home/break.png" class="home--break--img"> -->
+            <div class="home--sec4--div1">
+                <span class="home--sec4--span">We are here to assist you, regardless of whether your condition resulted from a sports injury, a workplace accident, or any other cause.</span>
+                <button class="home--sec4--btn" onclick="window.location='../Booking/booking.php'">Schedule an Appointment</button>
+            </div>
         </div>
     </section>
 
     <section class="home--sec5">
         <div class="home--sec5--div1">
-            <img src="../resources/img/home/home_map.png" class="home--map--img">
+            <!-- <img src="../resources/img/Physio_map_home.png" class="home--map--img"> -->
         </div>
     </section>
 
@@ -272,12 +284,13 @@
                     <span class="home--sec6--header1">Client&nbsp;<b>Testimonials</b></span>
                 </div>
                 <div class="home--sec6--div4">
-                    <div class="home--sec6--div5">
-                        <button class="prev--feedback" onclick="plusSlides(-1)"><</button>
-                    </div>
-                    <div class="home--sec6--div6">
-                        <button class="next--feedback" onclick="plusSlides(1)">></button>
-                    </div>
+                    <!-- <div class="home--sec6--div5"> -->
+                    <button class="prev--feedback" onclick="plusSlides(-1)">
+                        <</button>
+                            <!-- </div>
+                    <div class="home--sec6--div6"> -->
+                            <button class="next--feedback" onclick="plusSlides(1)">></button>
+                            <!-- </div> -->
                 </div>
             </div>
             <div class="home--sec6--div7">
@@ -379,8 +392,13 @@
 
     <script src="home.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
     <script src="../Slider/slider.js"></script>
-    <script src="../Image_slider/image_slider.js"></script>
+    <!-- <script src="../Image_slider/image_slider.js"></script> -->
     <script src="../Header/header.js"></script>
 
 </body>

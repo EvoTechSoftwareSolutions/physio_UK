@@ -52,7 +52,7 @@
                 </main>
                 <div class="booking--sec1--divlg3">
                     <div class="booking--sec1--divlg4">
-                        <span class="booking--headinglg1">Opening</span>
+                        <span class="booking--headinglg1">Operating</span>
                         &nbsp;
                         <span class="booking--headinglg2">Hours</span>
                     </div>
