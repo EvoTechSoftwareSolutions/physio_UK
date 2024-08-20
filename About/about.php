@@ -75,9 +75,9 @@
                         <span class="about--sec1--para4">
                             <span><b>• We keep you active – </b>So that you can always go to work, sit and stand if you want, engage in sports, take your kids out during the weekends, perform your moral obligations without pain having to come in between. </span>
                             <br>
-                            <span><b>• We help you Stay free from painkillers – </b>So that you are not always running to the pharmacy to buy pain relief drugs or reaching in the drawer for pain relief medication these pain Relief Medications are not Good for your health and the only relieve your pain for a while and pain comes back in few hours and cause long term side effects that may be too expensive to cure or worst off all incurable. </span>
+                            <span><b>• We help you Stay free from painkillers – </b>So that you are not always running to the pharmacy to buy pain relief drugs or reaching in the drawer for pain relief medication. These pain relief Medications are not Good for your health and the only relieve your pain for a while and pain comes back in few hours and cause long term side effects that may be too expensive to cure or worst off all incurable. </span>
                             <br>
-                            <span><b>• We help you avoid dangerous surgery – </b>Treating the root cause of your pain is one way to help solve the underlying problems you are facing there no waiting to see any surgeon who might want to use complex surgeries to treat your pain. </span>
+                            <span><b>• We help you avoid dangerous surgery – </b>Treating the root cause of your pain is one way to help solve the underlying problems. You are facing there no waiting to see any surgeon who might want to use complex surgeries to treat your pain. </span>
                             <br>
                             <span><b>• Find out what’s wrong – </b>We will do an extensive review and evaluation, giving a clear explanation and of what is wrong which will give you peace of mind and ensure that your problem is solved and quickly refer you to another specialist when it’s out of scope of our practice and we will provide you with some home exercises that will speed up your recovery. </span>
                             <br>
@@ -217,7 +217,7 @@
 
             <button class="accordion">What do you bring in a home visit?</button>
             <div class="panel">
-                <p>Depending on your problem, we will bring a range of different equipment and items on the first and subsequent visits. We’ll also bring basic treatment equipment to your first session including massage oil and taping supplies. On follow-up visits, we may bring any specialist treatment equipment like: electrotherapy machines, resistance bands, Physio balls, dumbbells, balance board etc. We bring a treatment couch with us which is maintain with highest hygienical standards.</p>
+                <p>Depending on your problem, we will bring a range of different equipment and items on the first and subsequent visits. We’ll also bring basic treatment equipment to your first session including massage oil and taping supplies. On follow-up visits, we may bring any specialist treatment equipment like: electrotherapy machines, resistance bands, Physio balls, dumbbells, balance board etc. We bring a treatment couch with us which is maintained with highest hygienical standards.</p>
             </div>
 
             <button class="accordion">Are your Physiotherapists experienced?</button>
@@ -258,7 +258,7 @@
                         <div class="about--sec3--div8">
                             <span class="about--sec3--header2">Phone Number</span>
                             <br>
-                            <span class="about--sec3--para1">+ (44) 795 - 060 - 0297</span>
+                            <span class="about--sec3--para1">(+44) 07880286900</span>
                         </div>
                         <br>
                         <hr class="about--sec3--hr">
@@ -274,8 +274,8 @@
                             <br>
                             <span class="about--sec3--para1">
                                 <a href="https://www.facebook.com/physio.unleashed" class="about--sec3--icon"><img src="../resources/img/icons/facebook.png" class="about--sec3--icon"></a>
-                                <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="about--sec3--icon"><img src="../resources/img/icons/instagram.png" class="about--sec3--icon"></a>
-                                <a href="https://wa.me/447880286900" class="about--sec3--icon"><img src="../resources/img/icons/whatsapp.png" class="about--sec3--icon"></a>
+                                <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="about--sec3--icon"><img src="../resources/img/icons/instagram.png" class="about--sec3--icon"></a>
+                                <a href="https://wa.me/message/5YOC64WHBBJTH1" class="about--sec3--icon"><img src="../resources/img/icons/whatsapp.png" class="about--sec3--icon"></a>
                             </span>
                         </div>
                     </div>
@@ -291,7 +291,7 @@
                             </div>
                             <div class="about--sec3--div13">
                                 <span class="about--sec3--para2">
-                                    We have no waiting list and provide same day service too. Our aim is to give you quality treatment at the right time to prevent any further complications. You not only save money on travelling but time too as we come to you.
+                                    We have no waiting list and provide same day service too. Our aim is to give you quality treatment at the right time to prevent any further complications. You save not only money on travelling but also the valuable time.
                                 </span>
                             </div>
                         </div>
@@ -300,7 +300,7 @@
                 <div class="about--sec3--div17">
                     <div class="about--sec3--div14">
                         <div class="about--sec3--div15">
-                            <span class="about--sec3--header5">Opening</span>
+                            <span class="about--sec3--header5">Operating</span>
                             &nbsp;
                             <span class="about--sec3--header6">Hours</span>
                         </div>

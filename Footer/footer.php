@@ -17,9 +17,9 @@
                 <div class="footer--sec1--div3">
                     <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon"></a>
-                    <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon"></a>
-                    <a href="https://wa.me/447880286900" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon"></a>
                 </div>
                 <hr class="footer--sec1--hr">
@@ -30,7 +30,7 @@
                         </div>
                         <div class="footer--sec1--div7">
                             <span class="footer--icon--heading">Give us a Call</span>
-                            <span class="footer--icon--para">+ (44) 795 - 060 - 0297</span>
+                            <span class="footer--icon--para">(+44) 07880286900</span>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                             <img src="../resources/img/icons/location.png" class="footer--icon">
                         </div>
                         <div class="footer--sec1--div7">
-                            <span class="footer--icon--heading">Visit our Location</span>
-                            <span class="footer--icon--para">53, cable road, Wirral. CH47 2AZ</span>
+                            <span class="footer--icon--heading">Visit your Location</span>
+                            <span class="footer--icon--para">We visit your location</span>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
             </div>
 
             <div class="footer--sec1--div9">
-                <span class="footer-heading2">Opening Hours</span>
+                <span class="footer-heading2">Operating Hours</span>
                 <div class="footer--sec1--div10">
                     <table class="footer--table">
                         <tr>
@@ -162,9 +162,9 @@
                 <div class="footer--sec2--div3">
                     <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon--md"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--md"></a>
-                    <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--md"></a>
-                    <a href="https://wa.me/447880286900" class="footer--social--icon--md"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--md"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--md"></a>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                     </div>
                     <div class="footer--sec1--div7">
                         <span class="footer--icon--heading">Give us a Call</span>
-                        <span class="footer--icon--para">+ (44) 795 - 060 - 0297</span>
+                        <span class="footer--icon--para">(+44) 07880286900</span>
                     </div>
                 </div>
             </div>
@@ -199,8 +199,8 @@
                         <img src="../resources/img/icons/location.png" class="footer--icon">
                     </div>
                     <div class="footer--sec1--div7">
-                        <span class="footer--icon--heading">Visit our Location</span>
-                        <span class="footer--icon--para">53, cable road, Wirral. CH47 2AZ</span>
+                        <span class="footer--icon--heading">Visit your Location</span>
+                        <span class="footer--icon--para">We visit your location</span>
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
             <div class="footer--sec2--div10">
             </div>
             <div class="footer--sec2--div11">
-                <span class="footer-heading2--md">Opening Hours</span>
+                <span class="footer-heading2--md">Operating Hours</span>
                 <div class="footer--sec2--div12">
                     <table class="footer--table--md">
                         <tr>
@@ -317,9 +317,9 @@
                 <div class="footer--sec3--div3">
                     <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon--lg"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--lg"></a>
-                    <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--lg"></a>
-                    <a href="https://wa.me/447880286900" class="footer--social--icon--lg"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--lg"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--lg"></a>
                 </div>
             </div>
@@ -331,7 +331,7 @@
                         </div>
                         <div class="footer--sec3--div8">
                             <span class="footer--icon--heading--lg">Give us a Call</span>
-                            <span class="footer--icon--para--lg">+ (44) 795 - 060 - 0297</span>
+                            <span class="footer--icon--para--lg">(+44) 07880286900</span>
                         </div>
                     </div>
                 </div>
@@ -352,8 +352,8 @@
                             <img src="../resources/img/icons/location.png" class="footer--icon--lg">
                         </div>
                         <div class="footer--sec3--div8">
-                            <span class="footer--icon--heading--lg">Visit our Location</span>
-                            <span class="footer--icon--para--lg">53, cable road, Wirral. CH47 2AZ</span>
+                            <span class="footer--icon--heading--lg">Visit your Location</span>
+                            <span class="footer--icon--para--lg">We visit your location</span>
                         </div>
                     </div>
                 </div>
@@ -403,7 +403,7 @@
             </div>
 
             <div class="footer--sec3--div15">
-                <span class="footer-heading2--lg">Opening Hours</span>
+                <span class="footer-heading2--lg">Operating Hours</span>
                 <div class="footer--sec3--div12">
                     <table class="footer--table--lg">
                         <tr>

@@ -10,12 +10,15 @@
 .slide-container {
   max-width: 1120px;
   width: 100%;
+  background-color: blue;
 }
 
 .slide-content {
   margin: 0 40px;
   overflow: hidden;
+  width: 100%;
   border-radius: 25px;
+  background-color: green;
 }
 
 .card {

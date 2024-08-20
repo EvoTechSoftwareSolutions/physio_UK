@@ -876,11 +876,7 @@
     }
 
     .about--sec3--div10 {
-        width: 100%;
         height: 38vh;
-        background-image: url(../resources/img/Physio_maplg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .about--sec3--div17 {
@@ -942,6 +938,15 @@
 
     .about--sec3--div3 {
         margin-top: 0%;
+    }
+
+}
+
+
+@media screen and (min-width:1200px) {
+
+    .about--sec3--div10 {
+        height: 55vh;
     }
 
 }

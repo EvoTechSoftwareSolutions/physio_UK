@@ -186,7 +186,7 @@
                 <div class="services_front--sec2--div5">
                     <span class="services_front--sec2--para1">
                         The labrum, a structure encircling the shoulder, serves as the anchor point for both the long head tendon of the biceps muscle and the shoulder capsule. Injuries to this labrum can result from repetitive overhead throwing, landing on an outstretched hand (known as a FOOSH injury), or sudden, forceful contractions of the biceps muscle. Various other incidents can also lead to labrum injuries. One common symptom is intense, challenging-to-pinpoint discomfort in the shoulder. Pain can be particularly acute when reaching behind your back or raising your arm overhead. Additionally, a labrum injury may manifest as popping, cracking, or a grinding sensation in the shoulder, almost as if your arm suddenly became unresponsive.
-                        To determine if your shoulder is the source of your discomfort, it’s advisable to seek an evaluation from a physiotherapist. If a labrum tear is identified, we can facilitate a referral to a prominent shoulder specialist in London for further assessment and guidance.
+                        To determine if your shoulder is the source of your discomfort, it’s advisable to seek an evaluation from a physiotherapist.
                     </span>
                 </div>
             </div>
@@ -199,7 +199,7 @@
                     <span class="services_front--sec2--para1">
                         The rotator cuff comprises four muscles that collaborate to maintain the stability of the shoulder joint. When these tendons in the rotator cuff become inflamed and weaken, it can result in a condition known as tendinopathy. Arm pain, especially when raising the arm overhead, can be attributed to symptoms like instability, muscle weakness, stiffness, and compromised control of movement.
                         <br>
-                        Should you consult a physiotherapist, they can assess the condition of your rotator cuff muscles to determine if they are contributing to the issue. A skilled physiotherapist employs a range of techniques, including taping, soft tissue methods, and guidance on managing inflammation. The most effective approach to address limited shoulder mobility often involves instructing patients in stretching and strengthening exercises targeted at the muscles surrounding the shoulder. Additionally, manual therapy aimed at the upper back can be highly beneficial in these cases.
+                        If you consult a physiotherapist, they can assess the condition of your rotator cuff muscles to determine if they are contributing to the issue. A skilled physiotherapist employs a range of techniques, including taping, soft tissue methods, and guidance on managing inflammation. The most effective approach to address limited shoulder mobility often involves instructing patients in stretching and strengthening exercises targeted at the muscles surrounding the shoulder. Additionally, manual therapy aimed at the upper back can be highly beneficial in these cases.
                     </span>
                 </div>
             </div>
@@ -258,7 +258,7 @@
 
             <div class="services_front--sec2--div3">
                 <div class="services_front--sec2--div4">
-                    <span class="services_front--sec2--subheader1">Thoracic outlet syndrome</span>
+                    <span class="services_front--sec2--subheader1">Thoracic outlet syndrome (TOS)</span>
                 </div>
                 <div class="services_front--sec2--div5">
                     <span class="services_front--sec2--para1">
@@ -329,7 +329,7 @@
 
             <div class="services_front--sec2--div3">
                 <div class="services_front--sec2--div4">
-                    <span class="services_front--sec2--subheader1">Medial epicondylitis (Golfers elbow)</span>
+                    <span class="services_front--sec2--subheader1">Medial epicondylitis (Golfer's elbow)</span>
                 </div>
                 <div class="services_front--sec2--div5">
                     <span class="services_front--sec2--para1">

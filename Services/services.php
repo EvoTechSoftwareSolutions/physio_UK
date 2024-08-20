@@ -228,7 +228,7 @@
                         </div>
                         <div class="services--sec4--div6">
                             <span class="services--sec4--para1">
-                                Elderly care Physiotherapists have the knowledge to understand the difference between normal ageing and pathological conditions affecting capabilities. Dementia, falls, fractures and neurological conditions are the major cause of reduced mobility, muscle strength, function, confidence and abilities in elderly. Timely assessment by a qualified Physiotherapist can help in developing a rehabilitation plan with specific goals aimed towards improving the muscle- strength, movement and functional abilities of the older individuals.
+                                Elderly care Physiotherapists have the knowledge to understand the difference between normal ageing and pathological conditions affecting capabilities. Dementia, falls, fractures and neurological conditions are the major cause of reduced mobility, muscle strength, function, confidence and abilities in elderly. Timely assessment by a qualified Physiotherapist can help in developing a rehabilitation plan with specific goals aimed towards improving the muscle strength, movement and functional abilities of the older individuals.
                                 <br>
                                 Physio at home for elderly individuals is highly effective in improving the mobility, balance, and function. It is a well-documented fact that a person rehabilitates best in their home environment.
                                 <br>
@@ -270,7 +270,7 @@
                     </div>
                     <div class="services--sec4--div12">
                         <div class="services--sec4--div13">
-                            <span class="services--sec4--header4">Opening</span>
+                            <span class="services--sec4--header4">Operating</span>
                             &nbsp;
                             <span class="services--sec4--header5">Hours</span>
                         </div>
