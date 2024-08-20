@@ -58,6 +58,8 @@ if (!isset($_POST["act"])) {
 
   $errors = [];
 
+  echo $treatment;
+
   // Validate appointment date
   if (empty($date)) {
     $errors[] = "Appointment date is required.";
@@ -101,17 +103,17 @@ if (!isset($_POST["act"])) {
   }
 
   // Insert data into the database
-  $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
-  $types = 'sssssssssi';
-  $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
+  // $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
+  // $types = 'sssssssssi';
+  // $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
 
-  $result = Database::iud($query, $types, ...$params);
+  // $result = Database::iud($query, $types, ...$params);
 
-  if ($result) {
-    echo "success";
-  } else {
-    echo "Failed to book appointment.";
-  }
+  // if ($result) {
+  //   echo "success";
+  // } else {
+  //   echo "Failed to book appointment.";
+  // }
 } else if (!isset($_SESSION["admin"]["username"])) {
   echo "You do not have permission to perform this action. Please log in as an admin";
 } else {
