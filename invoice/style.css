@@ -124,3 +124,8 @@ body {
 .price{
     text-align: right;
 }
+
+.total{
+    font-size: 1rem;
+}
+
