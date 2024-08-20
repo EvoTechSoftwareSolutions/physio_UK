@@ -383,7 +383,7 @@
 
         <div class="services_front--sec2--div1" id="services_front04">
             <div class="services_front--sec2--div2">
-                <span class="services_front--sec2--header1">Wrist Pains</span>
+                <span class="services_front--sec2--header1">Wrist Pain</span>
             </div>
             <div class="services_front--sec2--div3">
                 <div class="services_front--sec2--div4">

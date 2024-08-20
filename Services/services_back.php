@@ -212,7 +212,7 @@
 
         <div class="services_front--sec2--div1" id="services_back03">
             <div class="services_front--sec2--div2">
-                <span class="services_front--sec2--header1">Thigh</span>
+                <span class="services_front--sec2--header1">Thigh Pain</span>
             </div>
             <div class="services_front--sec2--div3">
                 <div class="services_front--sec2--div4">
@@ -365,7 +365,7 @@
 
         <div class="services_front--sec2--div1" id="services_back04">
             <div class="services_front--sec2--div2">
-                <span class="services_front--sec2--header1">Leg</span>
+                <span class="services_front--sec2--header1">Leg Pain</span>
             </div>
             <div class="services_front--sec2--div3">
                 <div class="services_front--sec2--div4">
