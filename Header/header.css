@@ -239,12 +239,7 @@
     }
 
     .header--nav:hover {
-        color: var(--colorAsh);
-    }
-
-    .header--nav.active {
         color: var(--colorOrange);
-        background-color: transparent;
     }
 
     .header--sec2--div6 {
