@@ -1,482 +1,506 @@
 @font-face {
-    font-family: "poppins";
-    src: url("../resources/fonts/POPPINS-REGULAR.TTF");
+  font-family: "poppins";
+  src: url("../resources/fonts/POPPINS-REGULAR.TTF");
 }
 
 @font-face {
-    font-family: "poppinsSemibold";
-    src: url("../resources/fonts/POPPINS-SEMIBOLD.TTF");
+  font-family: "poppinsSemibold";
+  src: url("../resources/fonts/POPPINS-SEMIBOLD.TTF");
 }
 
 @font-face {
-    font-family: "poppinsBold";
-    src: url("../resources/fonts/POPPINS-BOLD.TTF");
+  font-family: "poppinsBold";
+  src: url("../resources/fonts/POPPINS-BOLD.TTF");
 }
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --colorOrange: #FF7200;
-    --colorForm: #F3F3F3;
-    --colorBorder: #939393;
-    --colorBorderShadow: #DBDBDB;
-    --colorHeading: #464646;
-    --colorBtn: #EAEAEA;
-    --colorlightBlue: #F5F8FB;
-    --colorPara: #7e7e7e;
+  --colorOrange: #ff7200;
+  --colorForm: #f3f3f3;
+  --colorBorder: #939393;
+  --colorBorderShadow: #dbdbdb;
+  --colorHeading: #464646;
+  --colorBtn: #eaeaea;
+  --colorlightBlue: #f5f8fb;
+  --colorPara: #7e7e7e;
 }
 
 .booking--sec1--div1 {
-    width: 100%;
-    background-color: var(--colorlightBlue);
-    margin-top: 1%;
+  width: 100%;
+  background-color: var(--colorlightBlue);
+  margin-top: 1%;
 }
 
 .booking--sec1--divlg2 {
-    display: none;
+  display: none;
 }
 
 .booking--sec1--div2 {
-    padding: 3% 5%;
+  padding: 3% 5%;
 }
 
 .booking--sec1--header1 {
-    font-family: "poppinsSemibold";
-    font-size: 1.5rem;
-    color: var(--colorHeading);
+  font-family: "poppinsSemibold";
+  font-size: 1.5rem;
+  color: var(--colorHeading);
 }
 
 .booking--sec1--div3 {
-    width: 100%;
-    margin-top: 1%;
+  width: 100%;
+  margin-top: 1%;
 }
 
 .booking--sec1--div4 {
-    padding-top: 5%;
-    display: flex;
-    justify-content: center;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
 }
 
 .booking--sec1--header2 {
-    font-family: "poppinsSemibold";
-    font-size: 1.5rem;
-    color: var(--colorHeading);
+  font-family: "poppinsSemibold";
+  font-size: 1.5rem;
+  color: var(--colorHeading);
 }
 
 .booking--sec1--div5 {
-    padding: 5% 2%;
-    text-align: center;
+  padding: 5% 2%;
+  text-align: center;
 }
 
 .booking--sec1--para1 {
-    font-family: "poppins";
-    font-size: 0.8rem;
-    color: var(--colorHeading);
+  font-family: "poppins";
+  font-size: 0.8rem;
+  color: var(--colorHeading);
 }
 
 .booking--sec1--div6 {
-    width: 100%;
-    margin-top: 1%;
+  width: 100%;
+  margin-top: 1%;
 }
 
 .booking--sec1--div7 {
-    padding: 3% 5%;
+  padding: 3% 5%;
 }
 
 .booking--sec1--div8 {
-    padding: 3% 5%;
-    background-color: var(--colorForm);
-    border: 0.05rem solid var(--colorBorder);
-    border-radius: 1rem;
+  padding: 3% 5%;
+  background-color: var(--colorForm);
+  border: 0.05rem solid var(--colorBorder);
+  border-radius: 1rem;
 }
 
 .booking--sec1--div9 {
-    padding-top: 5%;
+  padding-top: 5%;
 }
 
 .booking--sec1--heading3 {
-    font-family: "poppinsBold";
-    font-size: 1.1rem;
-    color: var(--colorHeading);
-    display: flex;
-    justify-content: center;
+  font-family: "poppinsBold";
+  font-size: 1.1rem;
+  color: var(--colorHeading);
+  display: flex;
+  justify-content: center;
 }
 
 .booking--sec1--div10 {
-    padding-top: 10%;
+  padding-top: 10%;
 }
 
 .booking--sec1--para2 {
-    font-family: "poppins";
-    font-size: 0.8rem;
-    color: var(--colorPara);
+  font-family: "poppins";
+  font-size: 0.8rem;
+  color: var(--colorPara);
 }
 
 .booking--date {
-    margin-top: 5%;
-    padding: 3%;
-    width: 88%;
-    border: none;
-    /* border: 0.05rem solid var(--colorBorderShadow); */
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    font-family: "poppinsSemibold";
-    color: var(--colorHeading);
-    border-radius: 1rem;
+  margin-top: 5%;
+  padding: 3%;
+  width: 88%;
+  border: none;
+  /* border: 0.05rem solid var(--colorBorderShadow); */
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  font-family: "poppinsSemibold";
+  color: var(--colorHeading);
+  border-radius: 1rem;
 }
 
 .booking--date:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .booking--sec1--div11 {
-    padding-top: 20%;
+  padding-top: 20%;
 }
 
 .booking--sec1--para3 {
-    font-family: "poppinsSemibold";
-    font-size: 0.8rem;
-    color: var(--colorHeading);
+  font-family: "poppinsSemibold";
+  font-size: 0.8rem;
+  color: var(--colorHeading);
 }
 
 .booking--star {
-    color: red;
+  color: red;
 }
 
 .booking--sec1--div12 {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .booking--name {
-    margin-top: 5%;
-    padding: 3%;
-    width: 40%;
-    border: none;
-    /* border: 0.05rem solid var(--colorBorderShadow); */
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    font-family: "poppins";
-    color: var(--colorPara);
-    font-size: 0.7rem;
-    border-radius: 1rem;
+  margin-top: 5%;
+  padding: 3%;
+  width: 40%;
+  border: none;
+  /* border: 0.05rem solid var(--colorBorderShadow); */
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  font-family: "poppins";
+  color: var(--colorPara);
+  font-size: 0.7rem;
+  border-radius: 1rem;
 }
 
 .booking--email {
-    margin-top: 4%;
-    padding: 3%;
-    width: 88%;
-    border: none;
-    /* border: 0.05rem solid var(--colorBorderShadow); */
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    font-family: "poppins";
-    color: var(--colorPara);
-    font-size: 0.7rem;
-    border-radius: 1rem;
+  margin-top: 4%;
+  padding: 3%;
+  width: 88%;
+  border: none;
+  /* border: 0.05rem solid var(--colorBorderShadow); */
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  font-family: "poppins";
+  color: var(--colorPara);
+  font-size: 0.7rem;
+  border-radius: 1rem;
 }
 
 .booking--sec1--div13 {
-    margin-top: 8%;
+  margin-top: 8%;
 }
 
 .booking--chooser {
-    margin-top: 3%;
-    padding: 3%;
-    width: 95%;
-    border: none;
-    /* border: 0.05rem solid var(--colorBorderShadow); */
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    font-family: "poppins";
-    color: var(--colorHeading);
-    font-size: 0.7rem;
-    border-radius: 1rem;
+  margin-top: 3%;
+  padding: 3%;
+  width: 95%;
+  border: none;
+  /* border: 0.05rem solid var(--colorBorderShadow); */
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  font-family: "poppins";
+  color: var(--colorHeading);
+  font-size: 0.7rem;
+  border-radius: 1rem;
 }
 
 .booking--chooser:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .booking--sec1--div14 {
-    margin-top: 6%;
+  margin-top: 6%;
 }
 
 .booking--texarea {
-    margin-top: 3%;
-    padding: 3%;
-    width: 88%;
-    border: none;
-    /* border: 0.05rem solid var(--colorBorderShadow); */
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    font-family: "poppins";
-    color: var(--colorHeading);
-    font-size: 0.7rem;
-    border-radius: 1rem;
+  margin-top: 3%;
+  padding: 3%;
+  width: 88%;
+  border: none;
+  /* border: 0.05rem solid var(--colorBorderShadow); */
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  font-family: "poppins";
+  color: var(--colorHeading);
+  font-size: 0.7rem;
+  border-radius: 1rem;
 }
 
 .booking--send {
-    margin-top: 8%;
-    padding: 3% 5%;
-    background-color: var(--colorOrange);
-    font-family: "poppinsBold";
-    color: #ffffff;
-    font-size: 0.7rem;
-    border: none;
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    width: 58%;
-    border-radius: 2rem;
+  margin-top: 8%;
+  padding: 3% 5%;
+  background-color: var(--colorOrange);
+  font-family: "poppinsBold";
+  color: #ffffff;
+  font-size: 0.7rem;
+  border: none;
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  width: 58%;
+  border-radius: 2rem;
 }
 
 .booking--cancel {
-    margin-top: 8%;
-    padding: 3% 5%;
-    background-color: var(--colorBtn);
-    font-family: "poppinsBold";
-    font-size: 0.7rem;
-    border: none;
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
-    width: 35%;
-    border-radius: 2rem;
+  margin-top: 8%;
+  padding: 3% 5%;
+  background-color: var(--colorBtn);
+  font-family: "poppinsBold";
+  font-size: 0.7rem;
+  border: none;
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.19);
+  width: 35%;
+  border-radius: 2rem;
 }
 
 .booking--send:hover {
-cursor: pointer;
-border: 1px solid var(--colorOrange);
-background-color: transparent;
-color: var(--colorOrange);
+  cursor: pointer;
+  border: 1px solid var(--colorOrange);
+  background-color: transparent;
+  color: var(--colorOrange);
 }
 
 .booking--cancel:hover {
-cursor: pointer;
-border: 1px solid var(--colorHeading);
-background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--colorHeading);
+  background-color: transparent;
 }
 
 .booking--sec1--div15 {
-    height: 4vh;
+  height: 4vh;
 }
 
-.booking--popUp{
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-color: rgba(0, 0,0,0.6);
+.booking--popUp {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-@media screen and (min-width:545px) {
-
-    .booking--sec1--div5 {
-        padding: 2% 15%;
-    }
-
-    .booking--sec1--divlg2 {
-        width: 40%;
-        margin-top: 1.7%;
-        padding-left: 2%;
-        display: grid;
-    }
-
-    .booking--sec1--div6 {
-        width: 60%;
-    }
-
-    .booking--sec1--divlg1 {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .booking--sec1--div8 {
-        padding: 0% 5%;
-    }
-
-    .c-compare {
-        --h: 1;
-        --m: 0.5rem 0;
-        --w: 16;
-        --thumb-w: 0.5rem;
-        margin: var(--m);
-        position: relative;
-    }
-
-    .c-compare::after {
-        content: "";
-        display: block;
-        padding-bottom: calc((var(--h) / var(--w)) * 100%);
-    }
-
-    .c-compare__left,
-    .c-compare__right {
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        width: 100%;
-    }
-
-    .c-compare__left {
-        clip-path: polygon(0% 0%, var(--value) 0%, var(--value) 100%, 0% 100%);
-    }
-
-    .c-compare__right {
-        clip-path: polygon(100% 0%, var(--value) 0%, var(--value) 100%, 100% 100%);
-    }
-
-    .c-compare__range {
-        background-color: transparent;
-        box-sizing: border-box;
-        font-family: inherit;
-        height: 100%;
-        margin: 0;
-        outline: none;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-
-    .c-compare__range::-moz-range-thumb {
-        background-color: var(--colorBorder);
-        cursor: ew-resize;
-        height: 100%;
-        width: var(--thumb-w);
-    }
-
-    .c-compare__range::-webkit-slider-thumb {
-        background-color: var(--colorBorder);
-        cursor: ew-resize;
-        height: 100%;
-        width: var(--thumb-w);
-    }
-
-    .c-compare__range:focus::-webkit-slider-thumb {
-        background-color: var(--colorBorderShadow);
-    }
-
-    .c-compare__range:focus::-moz-range-thumb {
-        background-color: var(--colorBorderShadow);
-    }
-
-    .c-compare__range::-moz-range-track {
-        background: transparent;
-        background-size: 100%;
-        box-sizing: border-box;
-    }
-
-    .c-compare__range::-webkit-slider-runnable-track {
-        background: transparent;
-        background-size: 100%;
-        box-sizing: border-box;
-        height: 100%;
-    }
-
-    .c-compare__range,
-    .c-compare__range::-webkit-slider-runnable-track,
-    .c-compare__range::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-    }
-
-    .booking--sec1--header1 {
-        font-size: 2rem;
-    }
-
-    .booking--sec1--header2 {
-        font-size: 2rem;
-    }
-
-    .booking--sec1--para1 {
-        font-size: 1rem;
-    }
-
-    .booking--sec1--heading3 {
-        font-size: 1.5rem;
-    }
-
-    .booking--sec1--para2 {
-        font-size: 1rem;
-    }
-
-    .booking--sec1--para3 {
-        font-size: 1rem;
-    }
-
-    .booking--name {
-        font-size: 0.9rem;
-    }
-
-    .booking--date {
-        font-size: 0.9rem;
-    }
-
-    .booking--email {
-        font-size: 0.9rem;
-    }
-
-    .booking--chooser {
-        font-size: 0.9rem;
-    }
-
-    .booking--send {
-        font-size: 1rem;
-    }
-
-    .booking--cancel {
-        font-size: 1rem;
-    }
-
-    .booking--sec1--divlg3 {
-        margin-top: 8%;
-    }
-
-    .booking--headinglg1 {
-        font-family: "poppins";
-        font-size: 2rem;
-        color: var(--colorHeading);
-    }
-
-    .booking--headinglg2 {
-        font-family: "poppinsBold";
-        font-size: 2rem;
-        color: var(--colorHeading);
-    }
-
-    .booking--sec1--divlg5 {
-        margin-top: 5%;
-        background-color: var(--colorForm);
-        display: flex;
-        justify-content: center;
-        border-radius: 5%;
-    }
-
-    .booking--table--lg {
-        padding: 5%;
-        font-size: 1rem;
-        font-family: "poppinsSemibold";
-        color: var(--colorHeading);
-    }
-
-    .booking--hours--table--hr {
-        border-style: dashed;
-        border-color: var(--colorPara);
-    }
-
+.booking--payment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3%;
 }
 
+.booking--payOptRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
-@media screen and (min-width:950px) {
+.booking--payMethodLabel{
+  font-family: "poppinsSemibold";
+  font-size: 0.8rem;
+  color: var(--colorHeading);
+}
 
-    .booking--sec1--divlg2 {
-        width: 40%;
-    }
+@media screen and (min-width: 545px) {
+    
+  .booking--sec1--div5 {
+    padding: 2% 15%;
+  }
 
-    .booking--sec1--div6 {
-        width: 45%;
-    }
+  .booking--sec1--divlg2 {
+    width: 40%;
+    margin-top: 1.7%;
+    padding-left: 2%;
+    display: grid;
+  }
 
-    .booking--sec1--divlg1 {
-        padding: 0% 10%;
-        display: flex;
-        justify-content: center;
-    }
+  .booking--sec1--div6 {
+    width: 60%;
+  }
 
-    .c-compare {
-        --h: 6;
-    }
+  .booking--sec1--divlg1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .booking--sec1--div8 {
+    padding: 0% 5%;
+  }
+
+  .c-compare {
+    --h: 1;
+    --m: 0.5rem 0;
+    --w: 16;
+    --thumb-w: 0.5rem;
+    margin: var(--m);
+    position: relative;
+  }
+
+  .c-compare::after {
+    content: "";
+    display: block;
+    padding-bottom: calc((var(--h) / var(--w)) * 100%);
+  }
+
+  .c-compare__left,
+  .c-compare__right {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+  }
+
+  .c-compare__left {
+    clip-path: polygon(0% 0%, var(--value) 0%, var(--value) 100%, 0% 100%);
+  }
+
+  .c-compare__right {
+    clip-path: polygon(100% 0%, var(--value) 0%, var(--value) 100%, 100% 100%);
+  }
+
+  .c-compare__range {
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    height: 100%;
+    margin: 0;
+    outline: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .c-compare__range::-moz-range-thumb {
+    background-color: var(--colorBorder);
+    cursor: ew-resize;
+    height: 100%;
+    width: var(--thumb-w);
+  }
+
+  .c-compare__range::-webkit-slider-thumb {
+    background-color: var(--colorBorder);
+    cursor: ew-resize;
+    height: 100%;
+    width: var(--thumb-w);
+  }
+
+  .c-compare__range:focus::-webkit-slider-thumb {
+    background-color: var(--colorBorderShadow);
+  }
+
+  .c-compare__range:focus::-moz-range-thumb {
+    background-color: var(--colorBorderShadow);
+  }
+
+  .c-compare__range::-moz-range-track {
+    background: transparent;
+    background-size: 100%;
+    box-sizing: border-box;
+  }
+
+  .c-compare__range::-webkit-slider-runnable-track {
+    background: transparent;
+    background-size: 100%;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  .c-compare__range,
+  .c-compare__range::-webkit-slider-runnable-track,
+  .c-compare__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .booking--sec1--header1 {
+    font-size: 2rem;
+  }
+
+  .booking--sec1--header2 {
+    font-size: 2rem;
+  }
+
+  .booking--sec1--para1 {
+    font-size: 1rem;
+  }
+
+  .booking--sec1--heading3 {
+    font-size: 1.5rem;
+  }
+
+  .booking--sec1--para2 {
+    font-size: 1rem;
+  }
+
+  .booking--sec1--para3 {
+    font-size: 1rem;
+  }
+
+  .booking--name {
+    font-size: 0.9rem;
+  }
+
+  .booking--date {
+    font-size: 0.9rem;
+  }
+
+  .booking--email {
+    font-size: 0.9rem;
+  }
+
+  .booking--chooser {
+    font-size: 0.9rem;
+  }
+
+  .booking--send {
+    font-size: 1rem;
+  }
+
+  .booking--cancel {
+    font-size: 1rem;
+  }
+
+  .booking--sec1--divlg3 {
+    margin-top: 8%;
+  }
+
+  .booking--headinglg1 {
+    font-family: "poppins";
+    font-size: 2rem;
+    color: var(--colorHeading);
+  }
+
+  .booking--headinglg2 {
+    font-family: "poppinsBold";
+    font-size: 2rem;
+    color: var(--colorHeading);
+  }
+
+  .booking--sec1--divlg5 {
+    margin-top: 5%;
+    background-color: var(--colorForm);
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+  }
+
+  .booking--table--lg {
+    padding: 5%;
+    font-size: 1rem;
+    font-family: "poppinsSemibold";
+    color: var(--colorHeading);
+  }
+
+  .booking--hours--table--hr {
+    border-style: dashed;
+    border-color: var(--colorPara);
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .booking--sec1--divlg2 {
+    width: 40%;
+  }
+
+  .booking--sec1--div6 {
+    width: 45%;
+  }
+
+  .booking--sec1--divlg1 {
+    padding: 0% 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .c-compare {
+    --h: 6;
+  }
 }

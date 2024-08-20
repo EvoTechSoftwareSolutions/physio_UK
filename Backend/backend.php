@@ -41,6 +41,9 @@ if (!isset($_POST["act"])) {
     echo "Invalid username or password.";
   }
 } else if ($_POST["act"] == "addAppt") {
+
+  require_once("./Backend/vendor/autoload.php");
+
   $date = $_POST['date'] ?? '';
   $fname = $_POST['fname'] ?? '';
   $lname = $_POST['lname'] ?? '';
@@ -51,6 +54,7 @@ if (!isset($_POST["act"])) {
   $pcode = $_POST['pcode'] ?? '';
   $msg = $_POST['msg'] ?? '';
   $treatment = $_POST['tr'] ?? '';
+  $payNow = $_POST["payNow"] ?? '';
 
   $errors = [];
 
@@ -84,6 +88,10 @@ if (!isset($_POST["act"])) {
   // Validate treatment selection
   if (empty($treatment) || !ctype_digit($treatment) || $treatment == '0') {
     $errors[] = "A valid treatment must be selected.";
+  }
+
+  if (empty($payNow)) {
+    $errors[] = "Please select a payment option";
   }
 
   // If there are validation errors, return the first error
