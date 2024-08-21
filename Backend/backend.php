@@ -5,8 +5,15 @@ require_once 'connection.php';
 require "../mail/SMTP.php";
 require "../mail/PHPMailer.php";
 require "../mail/Exception.php";
+require_once '../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable("..");
+$dotenv->load();
 
 use PHPMailer\PHPMailer\PHPMailer;
+
+$curr_date = new DateTime();
+$formatted_date = $curr_date->format("Y-m-d H:i:s");
 
 if (!isset($_POST["act"])) {
   echo "Invalid request body";
@@ -41,9 +48,6 @@ if (!isset($_POST["act"])) {
     echo "Invalid username or password.";
   }
 } else if ($_POST["act"] == "addAppt") {
-
-  require_once '../vendor/autoload.php';
-
   $date = $_POST['date'] ?? '';
   $fname = $_POST['fname'] ?? '';
   $lname = $_POST['lname'] ?? '';
@@ -54,7 +58,6 @@ if (!isset($_POST["act"])) {
   $pcode = $_POST['pcode'] ?? '';
   $msg = $_POST['msg'] ?? '';
   $treatment = $_POST['tr'] ?? '';
-  $payNow = $_POST["payNow"] ?? '';
 
   $errors = [];
 
@@ -90,41 +93,44 @@ if (!isset($_POST["act"])) {
     $errors[] = "A valid treatment must be selected.";
   }
 
-  if (empty($payNow)) {
-    $errors[] = "Please select a payment option";
-  }
-
   // If there are validation errors, return the first error
   if (!empty($errors)) {
     echo $errors[0];
     exit();
   }
 
-  // $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
-  // $types = 'sssssssssi';
-  // $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
+  $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
+  $types = 'sssssssssi';
+  $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
 
-  // $result = Database::iud($query, $types, ...$params);
-
-  $result = true;
+  $result = Database::iud($query, $types, ...$params);
 
   if ($result) {
-    if ($payNow == "true") {
-      echo "Paying Now";
-    } else if($payNow == "false") {
-      echo "Not paying now";
-    }else{
-      echo "Failed to open payment page. You will be able complete your payment on the date of appointment";
-    }
-
+    $_SESSION["appt_id"] = $result;
+    $treatment_rs = Database::search(
+      "SELECT * FROM `treatment` WHERE `id`=?",
+      "i",
+      (int)$treatment
+    );
+    $selected_tr = $treatment_rs->fetch_assoc();
+    $checkoutData = [
+      "appt_id" => $result,
+      "name" => $fname . " " . $lname,
+      "email" => $email,
+      "line1" => $line1,
+      "line2" => $line2,
+      "city" => $city,
+      "pcode" => $pcode,
+      "date" => $formatted_date,
+      "treatment" => $selected_tr["treatment"],
+      "price" => $selected_tr["price"]
+    ];
+    checkout($checkoutData);
   } else {
     echo "Failed to book appointment.";
   }
-
 } else if (!isset($_SESSION["admin"]["username"])) {
-
   echo "You do not have permission to perform this action. Please log in as an admin";
-  
 } else {
 
   $switch = $_POST["act"];
@@ -1196,4 +1202,35 @@ function email($data)
   // } 
 }
 
-function checkout() {}
+function checkout($data)
+{
+
+  $stripe_secret_key = $_ENV["STRIPE_KEY"];
+
+  \Stripe\Stripe::setApiKey($stripe_secret_key);
+
+  $checkout_session = \Stripe\Checkout\Session::create(
+    [
+      "mode" => "payment",
+      "success_url" => "http://localhost/physio_uk/invoice/index.php?session_id={CHECKOUT_SESSION_ID}",
+      "line_items" => [
+        [
+          "quantity" => 1,
+          "price_data" => [
+            "currency" => "gbp",
+            "unit_amount" => $data["price"],
+            "product_data" => [
+              "name" => $data["treatment"]
+            ]
+          ]
+        ]
+      ]
+    ]
+  );
+
+  http_response_code(303);
+  echo json_encode([
+    "msg" => "success",
+    "url" => $checkout_session->url
+  ]);
+}

@@ -211,7 +211,7 @@
                             </span>
                             <textarea class="booking--texarea" id="apptMsg"></textarea>
                         </div>
-                        <div class="booking--payment">
+                        <!-- <div class="booking--payment">
                             <div class="booking--payOptRow">
                                 <input type="radio" class="booking--payMethod" name="bookingPay" id="bookingPay1"/>
                                 <label class="booking--payMethodLabel" for="bookingPay1">Pay now</label>
@@ -220,7 +220,7 @@
                                 <input type="radio" class="booking--payMethod" name="bookingPay" id="bookingPay2"/>
                                 <label class="booking--payMethodLabel" for="bookingPay2">Pay on visit</label>
                             </div>
-                        </div>
+                        </div> -->
                         <input type="button" value="Request Appintment" class="booking--send" onclick="bookAppt();">
                         <input type="button" value="Cancel" class="booking--cancel" onclick="clearForm()">
                         <div class="booking--sec1--div15">

@@ -9,24 +9,6 @@ function bookAppt() {
   var pcode = document.getElementById("pcode").value;
   var msg = document.getElementById("apptMsg").value;
   var treatment = document.getElementById("apptTrtmnt").value;
-  var payCheck1 = document.getElementById("bookingPay1").checked;
-  var payCheck2 = document.getElementById("bookingPay2").checked;
-
-  var payment = null;
-
-  if (!(payCheck1 || payCheck2)) {
-    Swal.fire({
-      title: "Payment Selection",
-      text: "Please select a payment option.",
-      icon: "warning",
-    });
-  } else {
-
-    if(payCheck1){
-      payment = true;
-    }else if(payCheck2){
-      payment = false;
-    }
 
     var f = new FormData();
 
@@ -40,19 +22,39 @@ function bookAppt() {
     f.append("pcode", pcode);
     f.append("msg", msg);
     f.append("tr", treatment);
-    f.append("payNow", payment);
     f.append("act", "addAppt");
 
     var r = new XMLHttpRequest();
 
     r.onreadystatechange = function () {
       if (r.readyState == 4) {
-        if (r.responseText == "success") {
-          Swal.fire({
-            title: "Success",
-            text: "You will recieve a confirmation email when your request is approved",
-            icon: "success",
-          });
+        console.log("Req Returned");
+        if (isValidJSON(r.responseText)) {
+          var json = JSON.parse(r.responseText);
+          if(json.msg == "success"){
+            Swal.fire({
+              title: "Successfully Requested",
+              text: "You can pay your appointment fee either now or on your visit.",
+              icon: "success",
+              showCancelButton: true,
+              confirmButtonColor: "#3085d6",
+              cancelButtonColor: "#3c3d3c",
+              confirmButtonText: "Pay Now",
+              cancelButtonText: "I'll pay on visit",
+            }).then((result) => {
+              if (!result.isConfirmed) {
+                Swal.fire({
+                  title: "Success",
+                  text: "You will recieve a confirmation email after your request is approved.",
+                  icon: "success",
+                });
+              }else{
+                window.location.href = json.url;
+              }
+            });
+          }else{
+
+          }
         } else {
           Swal.fire({
             title: "Error",
@@ -65,6 +67,14 @@ function bookAppt() {
 
     r.open("POST", "../Backend/backend.php", true);
     r.send(f);
+  }
+
+function isValidJSON(jsonString) {
+  try {
+    JSON.parse(jsonString);
+    return true;
+  } catch (e) {
+    return false;
   }
 }
 
