@@ -42,7 +42,7 @@ if (!isset($_POST["act"])) {
   }
 } else if ($_POST["act"] == "addAppt") {
 
-  require_once("./Backend/vendor/autoload.php");
+  require_once '../vendor/autoload.php';
 
   $date = $_POST['date'] ?? '';
   $fname = $_POST['fname'] ?? '';
@@ -57,8 +57,6 @@ if (!isset($_POST["act"])) {
   $payNow = $_POST["payNow"] ?? '';
 
   $errors = [];
-
-  echo $treatment;
 
   // Validate appointment date
   if (empty($date)) {
@@ -102,20 +100,31 @@ if (!isset($_POST["act"])) {
     exit();
   }
 
-  // Insert data into the database
   // $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
   // $types = 'sssssssssi';
   // $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
 
   // $result = Database::iud($query, $types, ...$params);
 
-  // if ($result) {
-  //   echo "success";
-  // } else {
-  //   echo "Failed to book appointment.";
-  // }
+  $result = true;
+
+  if ($result) {
+    if ($payNow == "true") {
+      echo "Paying Now";
+    } else if($payNow == "false") {
+      echo "Not paying now";
+    }else{
+      echo "Failed to open payment page. You will be able complete your payment on the date of appointment";
+    }
+
+  } else {
+    echo "Failed to book appointment.";
+  }
+
 } else if (!isset($_SESSION["admin"]["username"])) {
+
   echo "You do not have permission to perform this action. Please log in as an admin";
+  
 } else {
 
   $switch = $_POST["act"];
@@ -374,14 +383,15 @@ if (!isset($_POST["act"])) {
       }
 
       if (strlen($npw) < 8 || strlen($npw) > 20) {
-        echo "Password must be between 8 and 20 characters long.".$npw;
+        echo "Password must be between 8 and 20 characters long." . $npw;
         break;
       }
 
       $op_rs = Database::search(
         "SELECT * FROM `admin` WHERE `username` = ? AND `password` = ?",
         "ss",
-        $un,$opw
+        $un,
+        $opw
       );
       if ($op_rs->num_rows == 1) {
         $update = Database::iud(
@@ -1185,3 +1195,5 @@ function email($data)
   // }
   // } 
 }
+
+function checkout() {}

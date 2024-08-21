@@ -27,7 +27,7 @@
                         <div class="side--menu">
                         <a href="../Home/index.php" class="sm--a">HOME</a>
                         <a href="../Services/services.php" class="sm--a">SERVICES</a>
-                        <a href="../About/about.php#about" class="sm--a">ABOUT US</a>
+                        <a href="../About/about.php" class="sm--a">ABOUT US</a>
                         <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                     <div class="header--sec2--div5">
                         <a href="../Home/index.php" class="header--nav">HOME</a>
                         <a href="../Services/services.php" class="header--nav">SERVICES</a>
-                        <a href="../About/about.php#about" class="header--nav">ABOUT US</a>
+                        <a href="../About/about.php" class="header--nav">ABOUT US</a>
                         <a href="../About/about.php#contact" class="header--nav">CONTACT US</a>
                     </div>
                     <div class="header--sec2--div6" onclick="window.location='../Booking/booking.php'">

@@ -16,14 +16,14 @@ function closeNav() {
 
 
 
-const navLinkEls = document.querySelectorAll(".header--nav");
-const windowPathname = window.location.pathname;
+// const navLinkEls = document.querySelectorAll(".header--nav");
+// const windowPathname = window.location.pathname;
 
-navLinkEls.forEach((navLinkEL) => {
-  if (navLinkEL.href.includes(windowPathname)) {
-    navLinkEL.classList.add("active");
-  }
-});
+// navLinkEls.forEach((navLinkEL) => {
+//   if (navLinkEL.href.includes(windowPathname)) {
+//     navLinkEL.classList.add("active");
+//   }
+// });
 
 // navLinkEls.forEach(navLinkEL=>{
 // const navLinkPathname=new URL(navLinkEL.href).pathname;
