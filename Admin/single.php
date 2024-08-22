@@ -1,6 +1,5 @@
 <?php
 session_start();
-require "../Backend/connection.php";
 if (!isset($_SESSION["admin"]["username"])) {
     echo "You do not have permission to access this page";
 } else {
