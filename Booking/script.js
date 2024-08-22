@@ -29,6 +29,7 @@ function bookAppt() {
     r.onreadystatechange = function () {
       if (r.readyState == 4) {
         console.log("Req Returned");
+        console.log(r.responseText);
         if (isValidJSON(r.responseText)) {
           var json = JSON.parse(r.responseText);
           if(json.msg == "success"){
