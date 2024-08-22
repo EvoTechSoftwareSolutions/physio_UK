@@ -1212,7 +1212,7 @@ function checkout($data)
   $checkout_session = \Stripe\Checkout\Session::create(
     [
       "mode" => "payment",
-      "success_url" => "http://localhost/physio_uk/invoice/index.php?session_id={CHECKOUT_SESSION_ID}",
+      "success_url" => "http://maverick.evotechsoftwaresolutions.com/invoice/index.php?session_id={CHECKOUT_SESSION_ID}",
       "line_items" => [
         [
           "quantity" => 1,
