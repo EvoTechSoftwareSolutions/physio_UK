@@ -487,8 +487,8 @@ function email($data)
   $mail->Password = 'glalywegifqhgjhf';
   $mail->SMTPSecure = 'ssl';
   $mail->Port = 465;
-  $mail->setFrom('et.website.message@gmail.com', 'Client Message');
-  $mail->addReplyTo('et.website.message@gmail.com', 'Client Message');
+  $mail->setFrom('et.website.message@gmail.com', 'Appointment Confirmation');
+  $mail->addReplyTo('et.website.message@gmail.com', 'Appointment Confirmation');
   $mail->addAddress($data["email"]);
   $mail->isHTML(true);
   $mail->Subject = 'Appointment Confirmation';
