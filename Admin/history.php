@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    require "../Backend/connection.php";
+    if (!isset($_SESSION["admin"]["username"])) {
+        echo "You do not have permission to access this page";
+    } else {
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,13 +41,6 @@
 </head>
 
 <body>
-    <?php
-    session_start();
-    require "../Backend/connection.php";
-    if (!isset($_SESSION["admin"]["username"])) {
-        echo "You do not have permission to access this page";
-    } else {
-    ?>
         <div class="container-fluid position-relative d-flex p-0">
             <!-- Spinner Start -->
             <!-- <div id="spinner"
