@@ -781,32 +781,32 @@ function email($data)
                                     style="font-size: 16px; line-height: 22.4px;">Your appointment has been
                                     confirmed!</span></p>
                                 <p style="font-size: 14px; line-height: 140%;">
-                                  <br /><strong>Date: ' . $data["appt_date"] . '</strong> <br /><strong>Time: ' . $data["time"] . '</strong> </p>
+                                  <br /><strong>Date: ' . $data["appt_date"] . '</strong><br /><strong>Time: ' . $data["time"] . '</strong></p>
                                 <p style="font-size: 14px; line-height: 140%;"><br />Thank you for scheduling your
                                   appointment with <strong>PHYSiO Unleashed</strong>. If you have any questions, please
                                   contact our office at <span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
                                       style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span>. Please take a moment to view the following links
-                                  for important information and fill out the necessary forms before your visit. </p>
-                                <p style="font-size: 14px; line-height: 140%;"> </p>
+                                  for important information and fill out the necessary forms before your visit.</p>
+                                <p style="font-size: 14px; line-height: 140%;"></p>
                                 <p style="font-size: 14px; line-height: 140%;"><strong>Patient Registration Form:</strong> <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"><br /><strong>Patients consent to Treatments:</strong> <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
                                 </p>
-                                <p style="font-size: 14px; line-height: 140%;"> </p>
+                                <p style="font-size: 14px; line-height: 140%;"></p>
                                 <p style="font-size: 14px; line-height: 140%;">Have questions or feedback? You can
                                   contact us anytime at<span style="color: #ff0000; line-height: 19.6px;"> </span><span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
                                       style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span></p>
                                 <p style="font-size: 14px; line-height: 140%;">, or <span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
-                                      style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">info@physiounleashed.co.uk </span></span>
+                                      style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">info@physiounleashed.co.uk</span></span>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"><br /><span
                                     style="font-size: 16px; line-height: 22.4px;">
-                                     </span><br /><strong>PHYSIO UNLEASHED</strong>                </p>
+                                    Thank You!</span><br /><strong>PHYSIO UNLEASHED</strong></p>
                               </div>
 
                             </td>
@@ -829,7 +829,7 @@ function email($data)
                                   style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #fe6902; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
                                   <span style="display:block;padding:12px 40px;line-height:120%;"><strong><span
                                         style="font-size: 14px; line-height: 16.8px; font-family: Lato, sans-serif;">Give
-                                        us a Call </span></strong></span>
+                                        us a Call</span></strong></span>
                                 </a>
                                 <!--[if mso]></center></v:roundrect><![endif]-->
                               </div>
@@ -987,7 +987,7 @@ function email($data)
                                   now <span style="text-decoration: underline; line-height: 19.6px;"><span
                                       style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span> or <span
                                     style="color: #ff3000; line-height: 19.6px;"><span
-                                      style="text-decoration: underline; line-height: 19.6px;">info@physiounleashed.co.uk</span> </span>
+                                      style="text-decoration: underline; line-height: 19.6px;">info@physiounleashed.co.uk</span></span>
                                 </p>
                               </div>
 
@@ -1085,7 +1085,7 @@ function email($data)
                                       <tr style="vertical-align: top">
                                         <td align="center" valign="middle"
                                           style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                          <a href="wa.me/+447950600297" title="WhatsApp" target="_blank">
+                                          <a href="https://api.whatsapp.com/send/?phone=%2B447950600297&text&type=phone_number&app_absent=0" title="WhatsApp" target="_blank">
                                             <img src="https://evotechsoftwaresolutions.com/resources/email_images/image-3.png" alt="WhatsApp" title="WhatsApp" width="32"
                                               style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                           </a>
@@ -1136,7 +1136,7 @@ function email($data)
 
                               <div
                                 style="font-size: 14px; color: #888888; line-height: 140%; text-align: center; word-wrap: break-word;">
-                                <p style="font-size: 14px; line-height: 140%;">Thank You for choosing us  !</p>
+                                <p style="font-size: 14px; line-height: 140%;">Thank You for choosing us !</p>
                               </div>
 
                             </td>
@@ -1154,7 +1154,7 @@ function email($data)
 
                               <div
                                 style="font-size: 14px; color: #888888; line-height: 180%; text-align: center; word-wrap: break-word;">
-                                <p style="font-size: 14px; line-height: 180%;">© 2024 All Rights Reserved  PHYSiO
+                                <p style="font-size: 14px; line-height: 180%;">© 2024 All Rights Reserved PHYSiO
                                   UNSHEALED .</p>
                               </div>
 
