@@ -239,7 +239,7 @@ if (!isset($_SESSION["admin"]["username"])) {
                             <td
                               class="d-flex align-items-center justify-content-evenly">
                               <a class="btn btn-sm btn-success col-5" href="../Admin/single.php?id=<?php echo $row["id"]; ?>"><i class="fa fa-check"></i>&nbsp;Accept</a>
-                              <a class="btn btn-sm btn-danger col-5" href="#" onclick="decline(<?php echo $row['id']; ?>)"><i class="fa fa-trash"></i>&nbsp;Decline</a>
+                              <a class="btn btn-sm btn-danger col-5" href="#" onclick="declineQuick(<?php echo $row['id']; ?>)"><i class="fa fa-trash"></i>&nbsp;Decline</a>
                             </td>
                           </tr>
                         <?php

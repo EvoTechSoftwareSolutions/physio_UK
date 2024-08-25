@@ -105,3 +105,37 @@ function decline(id){
   r.open("POST", "../Backend/backend.php", true);
   r.send(f);
 }
+
+function declineQuick(id){
+  event.preventDefault();
+  // alert("Request " + id + " accepted");
+  var f = new FormData();
+  f.append("id", id);
+  f.append("act","declineAppt");
+
+  var r = new XMLHttpRequest();
+
+  r.onreadystatechange = function () {
+    if (r.readyState == 4) {
+      setTimeout(() => {
+        window.location.reload();
+      }, 5000);
+      if (r.responseText == "Success") {
+        Swal.fire({
+          title: "Declined",
+          text: "Appointment declined successfully",
+          icon: "success",
+        });
+      } else {
+        Swal.fire({
+          title: "Error",
+          text: r.responseText,
+          icon: "error",
+        });
+      }
+    }
+  };
+
+  r.open("POST", "../Backend/backend.php", true);
+  r.send(f);
+}
