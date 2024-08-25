@@ -806,7 +806,7 @@ function email($data)
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"><br /><span
                                     style="font-size: 16px; line-height: 22.4px;">
-                                    tharaka</span><br /><strong>PHYSIO UNLEASHED</strong>                </p>
+                                     </span><br /><strong>PHYSIO UNLEASHED</strong>                </p>
                               </div>
 
                             </td>
