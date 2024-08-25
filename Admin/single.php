@@ -226,11 +226,16 @@ if (!isset($_SESSION["admin"]["username"])) {
                                                             <dd class="col-sm-8"><?php echo $row['email']; ?></dd>
                                                         </div>
 
+                                                        <div class="row">
                                                         <dt class="col-sm-4 text-white">Address</dt>
-                                                        <dd class="col-sm-8 ms-4"><?php echo $row['line1']; ?></dd>
-                                                        <dd class="col-sm-8 ms-4"><?php echo $row['line2']; ?></dd>
-                                                        <dd class="col-sm-8 ms-4"><?php echo $row['city']; ?></dd>
-                                                        <dd class="col-sm-8 ms-4"><?php echo $row['pcode']; ?></dd>
+                                                        <dd class="col-sm-8"><?php echo $row['line1']; ?></dd>
+                                                        <dt class="col-sm-4 text-white"></dt>
+                                                        <dd class="col-sm-8"><?php echo $row['line2']; ?></dd>
+                                                        <dt class="col-sm-4 text-white"></dt>
+                                                        <dd class="col-sm-8"><?php echo $row['city']; ?></dd>
+                                                        <dt class="col-sm-4 text-white"></dt>
+                                                        <dd class="col-sm-8"><?php echo $row['pcode']; ?></dd>
+                                                        </div>
 
                                                     </div>
 
