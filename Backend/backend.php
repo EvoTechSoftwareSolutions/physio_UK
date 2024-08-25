@@ -783,7 +783,7 @@ function email($data)
                                 <p style="font-size: 14px; line-height: 140%;">
                                   <br /><strong>Date: ' . $data["appt_date"] . '</strong><br /><strong>Time: ' . $data["time"] . '</strong></p>
                                 <p style="font-size: 14px; line-height: 140%;"><br />Thank you for scheduling your
-                                  appointment with <strong>PHYSiO Unleashed</strong>. If you have any questions, please
+                                  appointment with <strong>PHYSiO UNLEASHED</strong>. If you have any questions, please
                                   contact our office at <span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
                                       style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span>. Please take a moment to view the following links
