@@ -15,6 +15,8 @@ if (!isset($_SESSION["admin"]["username"])) {
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
+    <link rel="icon" href="../resources/img/title_logo.png" />
+
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
