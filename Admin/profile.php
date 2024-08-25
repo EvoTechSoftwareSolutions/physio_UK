@@ -181,7 +181,7 @@ if (!isset($_SESSION["admin"]["username"])) {
 
                 <!-- Blank Start -->
                 <div class="container-fluid pt-4 px-4">
-                    <div class="row vh-100 bg-secondary rounded align-items-center justify-content-center mx-0">
+                    <div class="row vh-140 bg-secondary rounded align-items-center justify-content-center mx-0">
 
                         <!-- Sign In Start -->
                         <div class="container-fluid">

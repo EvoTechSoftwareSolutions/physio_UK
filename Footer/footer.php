@@ -145,8 +145,10 @@
 
         <div class="footer--sec1--div11">
             <div class="footer--copywrite">
-                <span class="#">Copyright © 2024 All Rights Reserved <a href="#" class="footer--name"> &nbsp;PHYSiO
-                        UNSHEALED</a></span>
+                <span class="#">Copyright © 2024 All Rights Reserved 
+                    <a href="#" class="footer--name"> &nbsp;PHYSiO UNSHEALED</a>
+                    <a href="../Admin/index.php" class="footer--name"> &nbsp;&#9679;</a>
+                </span>
             </div>
             <div class="footer--evotech">
                 <span class="#">Design and Developed by <a href="https://evotechsoftwaresolutions.com/"
@@ -300,8 +302,10 @@
 
         <div class="footer--sec2--div17">
             <div class="footer--copywrite--md">
-                <span class="#">Copyright © 2024 All Rights Reserved <a href="#" class="footer--name--md"> &nbsp;PHYSiO
-                        UNSHEALED</a></span>
+                <span class="#">Copyright © 2024 All Rights Reserved 
+                    <a href="#" class="footer--name--md"> &nbsp;PHYSiO UNSHEALED</a>
+                    <a href="../Admin/index.php" class="footer--name--md"> &nbsp;&#9679;</a>
+                </span>
             </div>
             <div class="footer--evotech--md">
                 <span class="#">Design and Developed by <a href="https://evotechsoftwaresolutions.com/"
@@ -451,8 +455,10 @@
 
         <div class="footer--sec3--div13">
             <div class="footer--copywrite--lg">
-                <span class="#">Copyright © 2024 All Rights Reserved <a href="#" class="footer--name--lg"> &nbsp;PHYSiO
-                        UNSHEALED</a></span>
+                <span class="#">Copyright © 2024 All Rights Reserved 
+                    <a href="#" class="footer--name--lg"> &nbsp;PHYSiO UNSHEALED</a>
+                    <a href="../Admin/index.php" class="footer--name--lg"> &nbsp;&#9679;</a>
+                </span>
             </div>
             <div class="footer--evotech--lg">
                 <span class="#">Design and Developed by <a href="https://evotechsoftwaresolutions.com/"
