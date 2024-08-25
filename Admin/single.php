@@ -48,8 +48,9 @@ if (!isset($_SESSION["admin"]["username"])) {
         } else {
             $id = $_GET["id"];
             $rs = Database::search(
-                "SELECT `appointment`.*, `treatment`  FROM `appointment`
+                "SELECT `appointment`.*, `treatment`, `payment_reciepts`.`id` AS 'payment'  FROM `appointment`
             INNER JOIN `treatment` ON `appointment`.`treatment_id` = `treatment`.`id`
+            LEFT JOIN `payment_reciepts` ON `payment_reciepts`.`appointment_id` = `appointment`.`id`
             WHERE `appointment`.`id` = ?",
                 "s",
                 $id
@@ -237,6 +238,11 @@ if (!isset($_SESSION["admin"]["username"])) {
                                                         <div class="row">
                                                             <dt class="col-sm-4 text-white">Treatment</dt>
                                                             <dd class="col-sm-8"><?php echo $row['treatment']; ?></dd>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <dt class="col-sm-4 text-white">Payment</dt>
+                                                            <dd class="col-sm-8"><?php echo($row['payment'] ? "Paid" : "Unpaid"); ?></dd>
                                                         </div>
 
                                                         <div class="row">
