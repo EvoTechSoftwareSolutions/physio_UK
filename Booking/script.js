@@ -33,6 +33,7 @@ function bookAppt() {
         if (isValidJSON(r.responseText)) {
           var json = JSON.parse(r.responseText);
           if(json.msg == "success"){
+            clearForm();
             Swal.fire({
               title: "Successfully Requested",
               text: "You can pay your appointment fee either now or on your visit.",
