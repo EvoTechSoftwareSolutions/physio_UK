@@ -786,8 +786,7 @@ function email($data)
                                   appointment with <strong>PHYSiO Unleashed</strong>. If you have any questions, please
                                   contact our office at <span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
-                                      style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">+ (44)
-                                      795 - 060 - 0297</span></span>. Please take a moment to view the following links
+                                      style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span>. Please take a moment to view the following links
                                   for important information and fill out the necessary forms before your visit. </p>
                                 <p style="font-size: 14px; line-height: 140%;"> </p>
                                 <p style="font-size: 14px; line-height: 140%;"><strong>Patient Registration Form:</strong> <a
@@ -800,8 +799,7 @@ function email($data)
                                 <p style="font-size: 14px; line-height: 140%;">Have questions or feedback? You can
                                   contact us anytime at<span style="color: #ff0000; line-height: 19.6px;"> </span><span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
-                                      style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">+ (44)
-                                      795 - 060 - 0297</span></span></p>
+                                      style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span></p>
                                 <p style="font-size: 14px; line-height: 140%;">, or <span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
                                       style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">info@physiounleashed.co.uk </span></span>
@@ -826,8 +824,8 @@ function email($data)
 
                               <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
                               <div align="center">
-                                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="tel:+447880286900" style="height:42px; v-text-anchor:middle; width:165px;" arcsize="9.5%"  stroke="f" fillcolor="#fe6902"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-                                <a href="tel:+447880286900" target="_blank" class="v-button"
+                                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="tel:(+44) 07880286900" style="height:42px; v-text-anchor:middle; width:165px;" arcsize="9.5%"  stroke="f" fillcolor="#fe6902"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
+                                <a href="tel:(+44) 07880286900" target="_blank" class="v-button"
                                   style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #fe6902; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
                                   <span style="display:block;padding:12px 40px;line-height:120%;"><strong><span
                                         style="font-size: 14px; line-height: 16.8px; font-family: Lato, sans-serif;">Give
@@ -987,8 +985,7 @@ function email($data)
                               <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
                                 <p style="font-size: 14px; line-height: 140%;"><strong>Questions? </strong>Contact us
                                   now <span style="text-decoration: underline; line-height: 19.6px;"><span
-                                      style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">+ (44)
-                                      795 - 060 - 0297</span></span> or <span
+                                      style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span> or <span
                                     style="color: #ff3000; line-height: 19.6px;"><span
                                       style="text-decoration: underline; line-height: 19.6px;">info@physiounleashed.co.uk</span> </span>
                                 </p>

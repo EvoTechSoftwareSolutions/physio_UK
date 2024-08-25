@@ -156,11 +156,17 @@ if (!isset($_SESSION["admin"]["username"])) {
                         </div>
                     </div> -->
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                                <img class="rounded-circle me-lg-2" src="img/user.jpg" alt=""
-                                    style="width: 40px; height: 40px;">
-                                <span class="d-none d-lg-inline-flex">Hasitha Tharaka</span>
-                            </a>
+                        <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown">
+                <img
+                  class="rounded-circle me-lg-2"
+                  src="../resources/img/Physio_logo.png"
+                  alt=""
+                  style="width: 40px; height: 40px" />
+                <span class="d-none d-lg-inline-flex">PHYSiO UNLEASHED</span>
+              </a>
                             <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                                 <a href="profile.php" class="dropdown-item">My Profile</a>
                                 <a href="#" class="dropdown-item" onclick="signOut();">Log Out</a>
@@ -181,9 +187,9 @@ if (!isset($_SESSION["admin"]["username"])) {
                                 <div class="col-12 col-lg-6">
                                     <div class="rounded p-4 p-sm-5 mx-3">
                                         <div class="d-flex flex-column align-items-center">
-                                            <img class="rounded-circle me-lg-2" src="img/user.jpg" alt=""
+                                            <img class="rounded-circle me-lg-2" src="../resources/img/Physio_logo.png" alt=""
                                                 style="width: 150px; height: 150px;">
-                                            <span class="d-none d-lg-inline-flex  mt-2">Hasitha Tharakaa</span>
+                                            <span class="d-none d-lg-inline-flex  mt-2">PHYSiO UNLEASHED</span>
 
                                         </div>
 
