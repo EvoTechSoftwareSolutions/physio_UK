@@ -9,31 +9,45 @@ function bookAppt() {
   var pcode = document.getElementById("pcode").value;
   var msg = document.getElementById("apptMsg").value;
   var treatment = document.getElementById("apptTrtmnt").value;
+  var method1 = document.getElementById("bookingPay1").checked;
+  var method2 = document.getElementById("bookingPay2").checked;
 
-    var f = new FormData();
+  var visit = '';
 
-    f.append("date", date);
-    f.append("fname", fname);
-    f.append("lname", lname);
-    f.append("email", email);
-    f.append("line1", line1);
-    f.append("line2", line2);
-    f.append("city", city);
-    f.append("pcode", pcode);
-    f.append("msg", msg);
-    f.append("tr", treatment);
-    f.append("act", "addAppt");
+  if (method1) {
+    visit = 1;
+  } else if (method2) {
+    visit = 0;
+  }
 
-    var r = new XMLHttpRequest();
+  var f = new FormData();
 
-    r.onreadystatechange = function () {
-      if (r.readyState == 4) {
-        console.log("Req Returned");
-        console.log(r.responseText);
-        if (isValidJSON(r.responseText)) {
-          var json = JSON.parse(r.responseText);
-          if(json.msg == "success"){
-            clearForm();
+  f.append("date", date);
+  f.append("fname", fname);
+  f.append("lname", lname);
+  f.append("email", email);
+  f.append("line1", line1);
+  f.append("line2", line2);
+  f.append("city", city);
+  f.append("pcode", pcode);
+  f.append("msg", msg);
+  f.append("method", visit);
+  f.append("tr", treatment);
+  f.append("act", "addAppt");
+
+  var r = new XMLHttpRequest();
+
+  r.onreadystatechange = function () {
+    if (r.readyState == 4) {
+      console.log("Req Returned");
+      console.log(r.responseText);
+      if (isValidJSON(r.responseText)) {
+        var json = JSON.parse(r.responseText);
+        if (json.msg == "success") {
+          clearForm();
+          if (visit == 1) {
+            window.location.href = json.url;
+          } else {
             Swal.fire({
               title: "Successfully Requested",
               text: "You can pay your appointment fee either now or on your visit.",
@@ -50,26 +64,27 @@ function bookAppt() {
                   text: "You will recieve a confirmation email after your request is approved.",
                   icon: "success",
                 });
-              }else{
+              } else {
                 window.location.href = json.url;
               }
             });
-          }else{
-
           }
         } else {
-          Swal.fire({
-            title: "Error",
-            text: r.responseText,
-            icon: "warning",
-          });
+          console.log("JSON Response error");
         }
+      } else {
+        Swal.fire({
+          title: "Error",
+          text: r.responseText,
+          icon: "warning",
+        });
       }
-    };
+    }
+  };
 
-    r.open("POST", "../Backend/backend.php", true);
-    r.send(f);
-  }
+  r.open("POST", "../Backend/backend.php", true);
+  r.send(f);
+}
 
 function isValidJSON(jsonString) {
   try {
