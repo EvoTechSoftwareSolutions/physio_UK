@@ -58,7 +58,6 @@ if (!isset($_POST["act"])) {
   $pcode = $_POST['pcode'] ?? '';
   $msg = $_POST['msg'] ?? '';
   $treatment = $_POST['tr'] ?? '';
-  $method = $_POST["method"] ?? '';
 
   $errors = [];
 
@@ -94,12 +93,6 @@ if (!isset($_POST["act"])) {
     $errors[] = "A valid treatment must be selected.";
   }
 
-  if (empty($method)) {
-    $errors[] = "Please select a treatment method";
-  }else if(!($method == '0' || $method == '1')){
-    $errors[] = "Invalid treatment method. Please refresh the page and try again";
-  }
-
   // If there are validation errors, return the first error
   if (!empty($errors)) {
     echo $errors[0];
@@ -108,7 +101,7 @@ if (!isset($_POST["act"])) {
 
   $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`,`online`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1',?)";
   $types = 'sssssssssi';
-  $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment,(int)$method];
+  $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
 
   $result = Database::iud($query, $types, ...$params);
 
