@@ -9,16 +9,6 @@ function bookAppt() {
   var pcode = document.getElementById("pcode").value;
   var msg = document.getElementById("apptMsg").value;
   var treatment = document.getElementById("apptTrtmnt").value;
-  var method1 = document.getElementById("bookingPay1").checked;
-  var method2 = document.getElementById("bookingPay2").checked;
-
-  var visit = '';
-
-  if (method1) {
-    visit = 1;
-  } else if (method2) {
-    visit = 0;
-  }
 
   var f = new FormData();
 
