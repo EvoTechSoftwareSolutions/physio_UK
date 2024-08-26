@@ -95,8 +95,8 @@ if (!empty($_SESSION["appt_id"]) && !empty($_GET["session_id"])) {
                                             <div class="col-xs-8 col-sm-8 col-md-8 text-left">
                                                 <div class="receipt-right">
                                                     <h5><?php echo $data["fname"] . " " . $data["lname"]; ?></h5>
-                                                    <p><b>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b>
-                                                        <a class="__cf_email__"><?php echo $data["email"]; ?><br /></a>
+                                                    <p><b>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b><br />
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;<a class="__cf_email__"><?php echo $data["email"]; ?><br /></a>
                                                     </p>
                                                     <p><b>Address&nbsp;&nbsp;&nbsp;:</b><br />
                                                         &nbsp;&nbsp;&nbsp;&nbsp;<?php echo $data["line1"]; ?><br />
@@ -163,7 +163,9 @@ if (!empty($_SESSION["appt_id"]) && !empty($_GET["session_id"])) {
                                             <div class="col-xs-8 col-sm-8 col-md-8 text-left">
                                                 <div class="receipt-right">
                                                     <p><b>Date :</b> <?php echo $formatted_date; ?></p>
-                                                    <h5 style="color: rgb(140, 140, 140);">Thank you! You will recieve a confirmation email after your request is approved</h5>
+                                                    <h5 style="color: rgb(140, 140, 140);">Thank you! 
+                                                        <br/>
+                                                        You will recieve a confirmation email after your request is approved</h5>
                                                 </div>
                                             </div>
                                         </div>
