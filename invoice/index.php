@@ -168,6 +168,8 @@ if (!empty($_SESSION["appt_id"]) && !empty($_GET["session_id"])) {
                                                         You will recieve a confirmation email after your request is approved</h5>
                                                 </div>
                                             </div>
+                                            <br/>
+                                            <button style="padding: 1rem;background-color: black;color: white;border-radius: 1rem;float:right" onclick="window.location='../Booking/booking.php'"> &#11164;Back </button>
                                         </div>
                                     </div>
                                 </div>
