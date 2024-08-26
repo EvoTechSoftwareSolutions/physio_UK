@@ -94,12 +94,12 @@ if (!isset($_POST["act"])) {
   }
 
   // If there are validation errors, return the first error
-  if (!empty($errors)) {
-    echo $errors[0];
-    exit();
-  }
+//   if (!empty($errors)) {
+//     echo $errors[0];
+//     exit();
+//   }
 
-  $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`,`online`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1',?)";
+  $query = "INSERT INTO `appointment` (`appt_date`, `fname`, `lname`, `email`, `line1`, `line2`, `city`, `pcode`, `msg`, `treatment_id`,`status_id`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,'1')";
   $types = 'sssssssssi';
   $params = [$date, $fname, $lname, $email, $line1, $line2, $city, $pcode, $msg, (int)$treatment];
 
@@ -1209,7 +1209,7 @@ function checkout($data)
   $checkout_session = \Stripe\Checkout\Session::create(
     [
       "mode" => "payment",
-      "success_url" => "http://sample.evotechsoftwaresolutions.com/invoice/index.php?session_id={CHECKOUT_SESSION_ID}",
+      "success_url" => "http://physiounleashed.co.uk/invoice/index.php?session_id={CHECKOUT_SESSION_ID}",
       "line_items" => [
         [
           "quantity" => 1,
