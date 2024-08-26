@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mail->Port = 465;
     $mail->setFrom('et.website.message@gmail.com', 'Client Message');
     $mail->addReplyTo('et.website.message@gmail.com', 'Client Message');
-    $mail->addAddress('evotech.softwaresolutions@gmail.com');
+    $mail->addAddress('info@physiounleashed.co.uk');
     $mail->isHTML(true);
     $mail->Subject = 'Client message';
     $bodyContent = '<h1>Customer Message</h1>
