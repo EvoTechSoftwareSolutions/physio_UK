@@ -6,8 +6,8 @@ class Database {
 
     public static function setUpConnection() {
         if (!isset(Database::$connection)) {
-            //Database::$connection = new mysqli("localhost", "root", "Slk2005RC", "physio_uk", 3306);
-            Database::$connection = new mysqli("physio.evotechsoftwaresolutions.com", "physio_db_un", "physio595#$@", "physio_uk", 3306);
+            //Database::$connection = new mysqli("localhost", "root", "Slk2005RC", "", 3306);
+            Database::$connection = new mysqli("", "", "", "", 3306);
 
             if (Database::$connection->connect_error) {
                 die("Connection failed: " . Database::$connection->connect_error);
