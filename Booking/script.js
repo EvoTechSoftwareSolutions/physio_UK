@@ -74,6 +74,9 @@ function bookAppt() {
 
   r.open("POST", "../Backend/backend.php", true);
   r.send(f);
+  document.getElementById("btn").disabled = true;
+  document.getElementById("btn").classList.add("disable");
+
 }
 
 function isValidJSON(jsonString) {
