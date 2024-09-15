@@ -196,7 +196,7 @@
 
     .header--sec2--div1 {
         width: 100%;
-        height: 15vh;
+        height: 8rem;
         border-top: 0.5vh solid var(--colorAsh);
         border-bottom: 0.5vh solid var(--colorAsh);
         padding-top: 0.5%;
@@ -213,7 +213,7 @@
     }
 
     .header--img1--lg {
-        height: 15vh;
+        height: 8rem;
     }
 
     .header--sec2--div4 {
@@ -302,7 +302,7 @@
     }
     
     .header--icon{
-        height: 6.5vh;
+        height: 3rem;
     }
     
     .header--icon--heading{

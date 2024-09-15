@@ -51,6 +51,8 @@ img {
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
+  /* background-color: red; */
+  margin-top: 3rem;
 }
 
 /* .card__container {

@@ -75,6 +75,14 @@
     cursor: pointer;
 }
 
+.empty0000{
+    display: none;
+}
+
+.empty0001{
+    display: none;
+}
+
 
 @media screen and (min-width:545px) {
 
@@ -102,6 +110,14 @@
         padding: 4% 5%;
     }
 
+    .empty0000{
+        display: none;
+    }
+
+    .empty0001{
+        display: none;
+    }
+
 }
 
 
@@ -123,6 +139,18 @@
 
     .home--sec1--button1 {
         font-size: 0.9rem;
+    }
+
+    .empty0000{
+        display: flex;
+        height: 6rem;
+        /* background-color: blue; */
+    }
+
+    .empty0001{
+        display: flex;
+        height: 5rem;
+        /* background-color: blue; */
     }
 
 }
@@ -189,7 +217,9 @@
 }
 
 .about--sec3--div28 {
-    width: 100%;
+    width: max-content;
+    display: flex;
+    justify-content: center;
 }
 
 .about--name {
@@ -355,6 +385,7 @@
     .about--sec3--div28 {
         display: flex;
         flex-direction: row;
+    justify-content: center;
     }
 
     .about--sec3--para3 {
@@ -456,6 +487,10 @@
     .about--cancel {
         font-size: 0.7rem;
     }
+    .about--sec3--div28 {
+        display: flex;
+    justify-content: center;
+    }
 
 }
 
@@ -544,7 +579,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../resources/img/home/break_sm.png);
-    height: 30vh;
+    height: 23rem;
 }
 
 .home--break--img {
@@ -559,7 +594,7 @@
     text-align: center;
     /* background-color: red; */
     flex-direction: column;
-    height: 30vh;
+    height: 23rem;
 }
 
 .home--sec4--span {
@@ -596,7 +631,7 @@
     background-image: url(../resources/img/Physio_map.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 23rem;
 }
 
 .home--map--img {
@@ -760,7 +795,7 @@
         background-image: url(../resources/img/home/break.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 60vh;
+        height: 23rem;
     }
 
     .home--sec5--div1 {
@@ -769,7 +804,7 @@
         background-image: url(../resources/img/Physio_map_home.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 60vh;
+        height: 27rem;
     }
 
     .home--sec4--div1 {
@@ -780,7 +815,7 @@
         text-align: center;
         /* background-color: red; */
         flex-direction: column;
-        height: 60vh;
+        height: 23rem;
     }
 
     .home--sec4--span {

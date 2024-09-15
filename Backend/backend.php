@@ -440,10 +440,10 @@ if (!isset($_POST["act"])) {
                                         style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span>. You will receive an another email once your request has been confirmed.</p>
                                   <p style="font-size: 14px; line-height: 140%;"></p>
                                   <!-- <p style="font-size: 14px; line-height: 140%;"><strong>Form 1:</strong> <a
-                                      href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
+                                      href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">Patient Registration Form</a>
                                   </p> -->
                                   <!-- <p style="font-size: 14px; line-height: 140%;"><br /><strong>Form 2:</strong> <a
-                                      href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
+                                      href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">Patient consent to Treatments</a>
                                   </p> -->
                                   <p style="font-size: 14px; line-height: 140%;"></p>
                                   <p style="font-size: 14px; line-height: 140%;">Have questions or feedback? Feel free to

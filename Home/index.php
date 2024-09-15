@@ -27,9 +27,18 @@
     <?php include "../Header/header.php"; ?>
     <!-- Header -->
 
+    <div class="empty0000">
+
+    </div>
+
     <!-- Slider -->
     <?php include "../Slider/slider.php"; ?>
     <!-- Slider -->
+
+    <!-- <div class="empty0001">
+
+    </div> -->
+
 
     <section class="home--sec1">
         <div class="home--sec1--div1">
@@ -285,8 +294,7 @@
                 </div>
                 <div class="home--sec6--div4">
                     <!-- <div class="home--sec6--div5"> -->
-                    <button class="prev--feedback" onclick="plusSlides(-1)">
-                        <</button>
+                    <button class="prev--feedback" onclick="plusSlides(-1)"><</button>
                             <!-- </div>
                     <div class="home--sec6--div6"> -->
                             <button class="next--feedback" onclick="plusSlides(1)">></button>

@@ -363,7 +363,7 @@
     .footer--social--icon--lg {
         padding-right: 5%;
         gap: 10%;
-        height: 6vh;
+        height: 3rem;
     }
 
     .footer--sec3--div4 {
@@ -377,7 +377,7 @@
     }
 
     .footer--icon--lg {
-        height: 6vh;
+        height: 3rem;
         align-self: center;
     }
 

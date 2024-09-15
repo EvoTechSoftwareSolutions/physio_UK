@@ -5,6 +5,7 @@
 
 .carousel{
     display: none;
+    /* background-color: red; */
 }
 
 .arrows{
@@ -40,27 +41,27 @@
     /* carousel */
     .carousel{
         display: flex;
-        height: 100vh;
+        height: 40rem;
         font-size: 12px;
         overflow: hidden;
         position: relative;
         margin-top: -7%;
         z-index: 0;
     }
-    .carousel .list .item{
+    .list .item{
         width: 100%;
-        height: 100%;
+        height: auto;
         position: absolute;
         inset: 0 0 0 0;
     }
-    .carousel .list .item img{
+     .list .item img{
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-    .carousel .list .item .content{
+     .list .item .content{
         position: absolute;
-        top: 25%;
+        /* top: 25%; */
         width: 1140px;
         max-width: 80%;
         left: 45%;
@@ -71,37 +72,41 @@
         text-shadow: 0 5px 10px #0004;
         font-family: "poppins";
     }
-    .carousel .list .item .author{
+    .content{
+        position: absolute;
+        top: 25%;
+    }
+     .list .item .author{
         font-weight: bold;
         letter-spacing: 10px;
         color: #ffff;
     }
-    .carousel .list .item .title{
+    .list .item .title{
         font-size: 2em;
         font-weight: bold;
         line-height: 1.3em;
         color: #ffff;
     }
-    .carousel .list .item .topic{
+    .list .item .topic{
         font-size: 3em;
         font-weight: bold;
         line-height: 1.3em;
         color: #fe6902;
     }
-    .carousel .list .item .buttons{
+     .list .item .buttons{
         display: grid;
         grid-template-columns: repeat(2, 130px);
         grid-template-rows: 40px;
         gap: 5px;
         margin-top: 20px;
     }
-    .carousel .list .item .buttons .buttons--in{
+     .list .item .buttons .buttons--in{
         letter-spacing: 1px;
         font-family: "poppins";
         font-weight: 700;
         border-radius: 1.5rem;
     }
-    .carousel .list .item .buttons .buttons--in:nth-child(2){
+    .list .item .buttons .buttons--in:nth-child(2){
         background-color: transparent;
         border: 1px solid #fff;
         color: #eee;
@@ -160,7 +165,7 @@
     /* arrows */
     .arrows{
         position: absolute;
-        top: 88%;
+        top: 42rem;
         right: 42%;
         z-index: 0;
         width: 300px;
@@ -225,7 +230,7 @@
         animation-delay: 1.8s!important;
     }
     /* create animation when next click */
-    .carousel.next .list .item:nth-child(1) img{
+    .next .list .item:nth-child(1) img{
         width: 150px;
         height: 220px;
         position: absolute;
@@ -280,7 +285,7 @@
     }
 
     .time{
-        margin-top: 7.6%;
+        margin-top: 1.6%;
     }
     
     .carousel.next .time,
@@ -349,5 +354,35 @@
         }
     } */
     
+}
+
+
+@media screen and (min-width:1931px) and (max-width:2283px) {
+
+    .carousel{
+        height: 50rem;
+        font-size: 1rem;
+        margin-top: -7%;
+    }
+    .arrows{
+        top: 52rem;
+    }
+    .list .item .content{
+        position: absolute;
+        width: 1540px;
+        max-width: 80%;
+        left: 45%;
+    }
+
+}
+
+@media screen and (min-width:2284px) {
+
+    .carousel{
+        height: 70rem;
+        font-size: 1rem;
+        margin-top: -7%;
+    }
+
 }
 
