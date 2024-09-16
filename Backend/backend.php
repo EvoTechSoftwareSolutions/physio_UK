@@ -141,11 +141,11 @@ if (!isset($_POST["act"])) {
     $mail->Password = 'glalywegifqhgjhf';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
-    $mail->setFrom('et.website.message@gmail.com', 'Appointment Confirmation');
-    $mail->addReplyTo('et.website.message@gmail.com', 'Appointment Confirmation');
+    $mail->setFrom('et.website.message@gmail.com', 'Appointment Request Sent');
+    $mail->addReplyTo('et.website.message@gmail.com', 'Appointment Request Sent');
     $mail->addAddress($email);
     $mail->isHTML(true);
-    $mail->Subject = 'Appointment  Request Sent';
+    $mail->Subject = 'Appointment Request Sent';
     $bodyContent = '<!DOCTYPE HTML
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
@@ -297,7 +297,7 @@ if (!isset($_POST["act"])) {
                                   <tr>
                                     <td style="padding-right: 0px;padding-left: 0px;" align="center">
   
-                                      <img align="center" border="0" src="../resources/email_logo" alt="Logo" title="Logo"
+                                      <img align="center" border="0" src="https://evotechsoftwaresolutions.com/resources/email_images/image-5.png" alt="Logo" title="Logo"
                                         style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 530px;"
                                         width="530" />
   
@@ -556,7 +556,7 @@ if (!isset($_POST["act"])) {
                                   <tr>
                                     <td style="padding-right: 0px;padding-left: 0px;" align="center">
   
-                                      <img align="center" border="0" src="../resources/email_img" alt="" title=""
+                                      <img align="center" border="0" src="https://evotechsoftwaresolutions.com/resources/email_images/image-4.png" alt="" title=""
                                         style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 500px;"
                                         width="500" />
   
@@ -699,7 +699,7 @@ if (!isset($_POST["act"])) {
                                             style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
                                             <a href="https://www.facebook.com/physio.unleashed" title="Facebook"
                                               target="_blank">
-                                              <img src="../resources/email_fb" alt="Facebook" title="Facebook" width="32"
+                                              <img src="https://evotechsoftwaresolutions.com/resources/email_images/image-2.png" alt="Facebook" title="Facebook" width="32"
                                                 style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                             </a>
                                           </td>
@@ -718,7 +718,7 @@ if (!isset($_POST["act"])) {
                                             style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
                                             <a href="https://www.instagram.com/physio.unleashed?utm_source=qr&igsh=eHIyMzY5dzJ4cGpv"
                                               title="Instagram" target="_blank">
-                                              <img src="../resources/email_insta" alt="Instagram" title="Instagram" width="32"
+                                              <img src="https://evotechsoftwaresolutions.com/resources/email_images/image-1.png" alt="Instagram" title="Instagram" width="32"
                                                 style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                             </a>
                                           </td>
@@ -735,8 +735,8 @@ if (!isset($_POST["act"])) {
                                         <tr style="vertical-align: top">
                                           <td align="center" valign="middle"
                                             style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                            <a href="wa.me/+447950600297" title="WhatsApp" target="_blank">
-                                              <img src="../resources/email_whatsapp" alt="WhatsApp" title="WhatsApp" width="32"
+                                            <a href="https://api.whatsapp.com/send/?phone=%2B447950600297&text&type=phone_number&app_absent=0" title="WhatsApp" target="_blank">
+                                              <img src="https://evotechsoftwaresolutions.com/resources/email_images/image-3.png" alt="WhatsApp" title="WhatsApp" width="32"
                                                 style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
                                             </a>
                                           </td>
@@ -1509,10 +1509,10 @@ function email($data)
                                   for important information and fill out the necessary forms before your visit.</p>
                                 <p style="font-size: 14px; line-height: 140%;"></p>
                                 <p style="font-size: 14px; line-height: 140%;"><strong>Patient Registration Form:</strong> <a
-                                    href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLScKiOb8bp0NZLSeLSoyC8gneRPLuBTtt6og74v0nOCgy-RGOA/viewform?vc=0&c=0&w=1&flr=0">https://forms.gle/C2ffTVjx9n8suVBh6</a>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"><br /><strong>Patients consent to Treatments:</strong> <a
-                                    href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0</a>
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSd5gNTfrm50oQzdf1ZMcMSHXCtuFFa2tq5IUpnIjKy7f718Qw/viewform?vc=0&amp;c=0&amp;w=1&amp;flr=0">https://forms.gle/6S3SFa7NHEihKu9C9</a>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"></p>
                                 <p style="font-size: 14px; line-height: 140%;">Have questions or feedback? You can
