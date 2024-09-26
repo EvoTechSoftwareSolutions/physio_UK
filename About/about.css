@@ -571,6 +571,17 @@
     margin-top: 3%;
 }
 
+.about--name--sub {
+    width: 95%;
+    border: none;
+    background-color: var(--colorForm);
+    font-family: "poppins";
+    color: var(--colorBorder);
+    font-size: 0.7rem;
+    padding: 5% 2%;
+    margin-top: 3%;
+}
+
 .about--texarea {
     border: none;
     background-color: var(--colorForm);
@@ -815,6 +826,18 @@
         font-size: 0.7rem;
         padding: 5%;
         margin-top: 3%;
+        width: 80%;
+    }
+
+    .about--name--sub {
+        border: none;
+        background-color: var(--colorForm);
+        font-family: "poppins";
+        color: var(--colorBorder);
+        font-size: 0.7rem;
+        padding: 5%;
+        margin-top: 3%;
+        width: 90%;
     }
 
     .about--texarea {
@@ -825,6 +848,7 @@
         font-size: 0.7rem;
         padding: 5%;
         margin-top: 3%;
+        width: 89.5%;
     }
 
     .about--sec3--div22 {
@@ -893,7 +917,9 @@
     }
 
     .about--sec3--div28 {
-        gap: 10%;
+        display: flex;
+        justify-content: center;
+        gap: 8%;
     }
 
     .about--send {
@@ -906,10 +932,17 @@
 
     .about--name {
         font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .about--name--sub {
+        font-size: 0.9rem;
+        width: 90%;
     }
 
     .about--texarea {
         font-size: 0.9rem;
+        width: 90%;
     }
 
     .about--sec3--para2 {
@@ -947,6 +980,21 @@
 
     .about--sec3--div10 {
         height: 55vh;
+    }
+
+    .about--name {
+        font-size: 0.9rem;
+        width: 95%;
+    }
+
+    .about--name--sub {
+        font-size: 0.9rem;
+        width: 95%;
+    }
+
+    .about--texarea {
+        font-size: 0.9rem;
+        width: 95%;
     }
 
 }

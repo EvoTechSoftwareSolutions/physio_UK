@@ -220,6 +220,8 @@
     width: max-content;
     display: flex;
     justify-content: center;
+    width: 100%;
+    flex-direction: column;
 }
 
 .about--name {
@@ -255,6 +257,10 @@
 }
 
 .about--sec3--div23 {
+    margin-top: 8%;
+}
+
+.about--sec3--div25 {
     margin-top: 8%;
 }
 
@@ -429,6 +435,10 @@
         margin-top: 8%;
     }
 
+    .about--sec3--div25 {
+        margin-top: 0%;
+    }
+
     .about--sec3--div26 {
         margin-top: 8%;
     }
@@ -438,6 +448,7 @@
         flex-direction: row;
         justify-content: right;
         gap: 2%;
+        width: 90%;
     }
 
     .about--send {

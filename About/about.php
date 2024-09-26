@@ -428,7 +428,7 @@
                                         <span class="about--sec3--para3">
                                             The Subject
                                         </span>
-                                        <input type="text" class="about--name" placeholder="Subject" id="subject" />
+                                        <input type="text" class="about--name--sub" placeholder="Subject" id="subject" />
                                     </div>
                                     <div class="about--sec3--div26">
                                         <span class="about--sec3--para3">
