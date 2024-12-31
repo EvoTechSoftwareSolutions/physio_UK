@@ -124,7 +124,7 @@
 @media screen and (min-width:950px) {
 
     .home--sec1--div1 {
-        padding: 0% 5%;
+        padding: 3% 5% 0% 5%;
         display: flex;
         flex-direction: row;
     }
@@ -639,10 +639,11 @@
 .home--sec5--div1 {
     margin-top: 3%;
     width: 100%;
-    background-image: url(../resources/img/Physio_map.png);
+    /* background-image: url(../resources/img/Physio_map.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height: 23rem;
+    /* background-color: red; */
 }
 
 .home--map--img {
@@ -812,9 +813,9 @@
     .home--sec5--div1 {
         margin-top: 3%;
         width: 100%;
-        background-image: url(../resources/img/Physio_map_home.png);
+        /* background-image: url(../resources/img/Physio_map_home.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
         height: 27rem;
     }
 
@@ -840,5 +841,70 @@
     .home--sec4--btn{
         padding: 1% 2%;
         font-size: 1.2rem;
+    }
+}
+
+
+.home--sec7 {
+    width: 100%;
+    padding: 3% 0;
+}
+
+.home--sec7--div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: nowrap; /* Prevent wrapping into multiple rows */
+    overflow-x: auto; /* Allow horizontal scrolling on very small screens */
+    /* padding: 0 9%; */
+}
+
+.home--sec7--div2,
+.home--sec7--div3 {
+    width: auto; /* Automatically adjust width based on content */
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically */
+}
+
+.home--sec7--div2{
+    /* background-color: red; */
+    width: 20rem;
+}
+
+.home--sec7--div3{
+    /* background-color: rgb(0, 38, 255); */
+    width: 20rem;
+}
+
+.partner1--logo,
+.partner2--logo {
+    width: 100%; /* Scale to fit the container */
+    max-width: 25rem; /* Set maximum size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1024px) {
+    .partner1--logo,
+    .partner2--logo {
+        max-width: 20rem; /* Reduce logo size on smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .partner1--logo,
+    .partner2--logo {
+        max-width: 18rem; /* Further reduce logo size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .partner1--logo,
+    .partner2--logo {
+        max-width: 15rem; /* Smaller size for mobile screens */
     }
 }

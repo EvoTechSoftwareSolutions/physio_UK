@@ -1,6 +1,6 @@
 let slideIndex = 0;
 let slides = document.getElementsByClassName("slide--feedback");
-let displaySlides = window.innerWidth <= 545 ? 1 : 2;
+let displaySlides = window.innerWidth <= 750 ? 1 : 2;
 
 function plusSlides(n) {
     slideIndex += n;
@@ -28,7 +28,7 @@ function showSlides() {
 }
 
 window.addEventListener('resize', function() {
-    displaySlides = window.innerWidth <= 545 ? 1 : 2;
+    displaySlides = window.innerWidth <= 750 ? 1 : 2;
     showSlides();
 });
 

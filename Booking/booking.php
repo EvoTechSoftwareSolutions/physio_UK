@@ -35,7 +35,7 @@
             </div>
             <div class="booking--sec1--div5">
                 <span class="booking--sec1--para1">
-                    We unleashed our maximum potential to improve your wellbeing and speedy recovery in your homely environment with high standard of skills, morals and professionalism. We provide not just physiotherapy but a deal with your inner soul with extreme humanism and empathy. Our net profit is your blessings and your happiness.
+                    We unleashed our maximum potential to improve your wellbeing and speedy recovery with high standard of skills, morals and professionalism. We provide not just physiotherapy but a deal with your inner soul with extreme humanism and empathy. Our net profit is your blessings and your happiness.
                 </span>
             </div>
         </div>
@@ -61,7 +61,7 @@
                             <tr>
                                 <td>Monday</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>Clinic Closed</td>
                             </tr>
                             <tr>
                                 <td>
@@ -75,7 +75,7 @@
                             <tr>
                                 <td>Tuesday</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>9:00 - 19:00</td>
                             </tr>
                             <tr>
                                 <td>
@@ -89,7 +89,7 @@
                             <tr>
                                 <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>9:00 - 19:00</td>
                             </tr>
                             <tr>
                                 <td>
@@ -103,7 +103,7 @@
                             <tr>
                                 <td>Thursday</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>9:00 - 19:00</td>
                             </tr>
                             <tr>
                                 <td>
@@ -117,7 +117,7 @@
                             <tr>
                                 <td>Friday</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>9:00 - 19:00</td>
                             </tr>
                             <tr>
                                 <td>
@@ -131,7 +131,7 @@
                             <tr>
                                 <td>Saturday</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>Clinic Closed</td>
                             </tr>
                             <tr>
                                 <td>
@@ -145,7 +145,7 @@
                             <tr>
                                 <td>Sunday</td>
                                 <td></td>
-                                <td>8:00 - 20:00</td>
+                                <td>Clinic Closed</td>
                             </tr>
                         </table>
                     </div>

@@ -119,7 +119,7 @@
                         <span class="about--sec1--header3lg">Us</span>
                     </div>
                     <div class="about--sec1--div7lg">
-                        <span class="about--sec1--para1lg">Physio unleashed Ltd is a home visiting physiotherapy private limited company based in Wirral, Merseyside, UK. We do our operations across the Wirral and Liverpool area currently. All our Physiotherapists are registered with the HCPC and the CSP. They follow on-going professional development, and pride themselves in their quality of treatment, and knowledge base. Our patients are treated holistically, bringing them back from injury, but also aiming to help prevent further injury. We use specific techniques to bring their quality of exercise to a level above where they were pre-injury. Enhancing patient’s quality of life at leisure, in the office/manual workplace or on the sports field.
+                        <span class="about--sec1--para1lg">Physio unleashed Ltd is a physiotherapy clinic based in bromborough Wirral, Merseyside, UK. All our Physiotherapists are registered with the HCPC and the CSP. They follow on-going professional development, and pride themselves in their quality of treatment, and knowledge base. Our patients are treated holistically, bringing them back from injury, but also aiming to help prevent further injury. We use specific techniques to bring their quality of exercise to a level above where they were pre-injury. Enhancing patient’s quality of life at leisure, in the office/manual workplace or on the sports field.
                             <br>
                             We are a cost effective physiotherapy service which provide the service with most reasonable prices and proven highest standard of treatments.
                         </span>
@@ -133,18 +133,18 @@
                     </div>
                     <div class="about--sec1--div10lg">
                         <span class="about--sec1--para2lg">
-                            We unleashed our maximum potential to improve your wellbeing and speedy recovery in your homely environment with high standard of skills, morals and professionalism. We provide not just physiotherapy but a deal with your inner soul with extreme humanism and empathy. Our net profit is your blessings and happiness.
+                            We unleashed our maximum potential to improve your wellbeing and speedy recovery with high standard of skills, morals and professionalism. We provide not just physiotherapy but a deal with your inner soul with extreme humanism and empathy. Our net profit is your blessings and happiness.
                         </span>
                     </div>
                 </div>
                 <div class="about--sec1--div12lg">
                     <span class="about--sec1--header6lg">Our</span>
                     &nbsp;
-                    <span class="about--sec1--header7lg">Vison</span>
+                    <span class="about--sec1--header7lg">Vision</span>
                 </div>
                 <div class="about--sec1--div13lg">
                     <span class="about--sec1--para3lg">
-                        To be the leader in sports and musculoskeletal Physiotherapy home service provider, while striving to be the first choice among clients with 100% satisfaction and appreciation.
+                        To be the leader in sports and musculoskeletal Physiotherapy service providers in Mersyside, while striving to be the first choice among clients with 100% satisfaction and appreciation.
                     </span>
                 </div>
                 <div class="about--sec1--div19md">
@@ -168,7 +168,7 @@
                             <br>
                             <span><b>• Find out what’s wrong – </b>We will do an extensive review and evaluation, giving a clear explanation and of what is wrong which will give you peace of mind and ensure that your problem is solved and quickly refer you to another specialist when it’s out of scope of our practice and we will provide you with some home exercises that will speed up your recovery. </span>
                             <br>
-                            <span><b>• Get more enjoyment out of life and improve the quality of life – </b>Booking an appointment with us is quarter to enjoying quality time with family and friends that aches and pains can steal from you, and finally get a good night sleep without tossing and turning trying to find that one position that feels right. </span>
+                            <span><b>• Get more enjoyment out of life and improve the quality of life – </b>Booking an appointment with us is quicker to enjoying quality time with family and friends that aches and pains can steal from you, and finally get a good night sleep without tossing and turning trying to find that one position that feels right. </span>
                         </span>
                     </div>
 
@@ -199,35 +199,80 @@
 
             <button class="accordion">What conditions do you cover?</button>
             <div class="panel">
-                <p>We cover the following disciplines of physiotherapy
-                    <br>
-                    Muscles and joint injuries, Elderly care and rehabilitation physiotherapy, Neurological physiotherapy, Musculoskeletal physiotherapy, Sports injury management and rehabilitation, Sports massage and soft tissue mobilization, Kinesio and sports tapping, Sports cupping therapy, Pilates, Post surgery rehabilitation.
+                <p>
+                    We cover the following disciplines of physiotherapy
+                    Muscles and joint injuries, Elderly care and rehabilitation
+                    physiotherapy, Neurological physiotherapy, Musculoskeletal
+                    physiotherapy, Sports injury management and rehabilitation, Sports
+                    massage and soft tissue mobilization, Kinesio and sports tapping at
+                    the moment.
                 </p>
             </div>
 
             <button class="accordion">Can you come to my house to treat me?</button>
             <div class="panel">
-                <p>We are a mobile Physiotherapy company and treat patients within their own home environment. All our Physiotherapists are DBS checked and regulated by the Health and Care Professions Council (HCPC) so you can be sure we meet with the expected standards of care and competence to treat you effectively in your own home.</p>
+                <p>
+                    We are a mobile Physiotherapy company and treat patients within their own home environment. All our Physiotherapists are DBS checked and regulated by the Health and Care Professions Council (HCPC) so you can be sure we meet with the expected standards of care and competence to treat you effectively in your own home.
+                </p>
             </div>
 
             <button class="accordion">I live in a care home, can you visit me?</button>
             <div class="panel">
-                <p>We can visit nursing and residential homes. Our physiotherapists are normally allowed into local Nursing and Residential Care Homes to help patients with all aspects of pain and reduced mobility. It is worth checking with the Care Home first to make sure they are happy for us to come into the Care Home to treat you or your relatives.</p>
+                <p>
+                    We can visit your nursing ,residential homes or even your own home.
+                    Our physiotherapists are normally allowed into local Nursing and
+                    Residential Care Homes to help patients with all aspects of pain and
+                    reduced mobility. It is worth checking with the Care Home first to
+                    make sure they are happy for us to come into the Care Home to treat
+                    you or your relatives. The visiting time can be arranged after
+                    discussing with physiotherapists.
+                </p>
             </div>
 
             <button class="accordion">What do you bring in a home visit?</button>
             <div class="panel">
-                <p>Depending on your problem, we will bring a range of different equipment and items on the first and subsequent visits. We’ll also bring basic treatment equipment to your first session including massage oil and taping supplies. On follow-up visits, we may bring any specialist treatment equipment like: electrotherapy machines, resistance bands, Physio balls, dumbbells, balance board etc. We bring a treatment couch with us which is maintained with highest hygienical standards.</p>
+                <p>
+                    Depending on your problem, we will bring a range of different equipment and items on the first and subsequent visits. We’ll also bring basic treatment equipment to your first session including massage oil and taping supplies. On follow-up visits, we may bring any specialist treatment equipment like: electrotherapy machines, resistance bands, Physio balls, dumbbells, balance board etc. We bring a treatment couch with us which is maintained with highest hygienical standards.
+                </p>
             </div>
 
             <button class="accordion">Are your Physiotherapists experienced?</button>
             <div class="panel">
-                <p>All our Physiotherapists have years of clinical experience with NHS and private sector. All Physiotherapists are HCPC and CSP registered and complete mandatory trainings including infection control, manual handling, fire safety etc.</p>
+                <p>
+                    All our Physiotherapists have years of clinical experience with NHS and
+                    private sector. All Physiotherapists are HCPC and CSP registered and
+                    complete mandatory trainings including infection control, manual
+                    handling, fire safety etc.
+                </p>
+            </div>
+
+            <button class="accordion">What does treatment involve?</button>
+            <div class="panel">
+                <p>
+                    Our Physiotherapists use different treatment methods in order to deal with a wide
+                    range of injuries. Depending on the nature and severity of your injury, you may
+                    require:Manipulation or mobilisation of joints, Electrotherapy, Dry needling, Exercise therapy,
+                    Stretching and strengthening, Core stability training, Soft tissue massage, Patient
+                    education, home exercises, Biomechanical analysis etc.
+                </p>
+            </div>
+
+            <button class="accordion">Do you treat patients covered by medical insurances?</button>
+            <div class="panel">
+                <p>
+                    Yes, Physio Unleashed is a registered provider for most medical insurance
+                    companies. Please check with your insurance provider before the initial assessment
+                    with us.
+                </p>
             </div>
 
             <button class="accordion">Not sure whether physiotherapy treatment is relevant for my condition?</button>
             <div class="panel">
-                <p>We can offer an <b>initial FREE 15 minute Triage video/audio Call </b> discuss your needs and assess whether we can help you through Consultation. Following the call if you wish to go ahead we can book you in for a time to suit you. We can arrange a convenience to for both parties to discuss.</p>
+                <p>We can offer an <b>initial FREE 10 minute Triage video/audio Call </b> discuss your
+                    needs and assess whether we can help you through Consultation. Following the call
+                    if you wish to go ahead we can book you in for a time to suit you. We can arrange a
+                    convenience to for both parties to discuss. Or you can visit our clinic and discuss
+                    with the physiotherapist.</p>
             </div>
 
         </div>
@@ -251,21 +296,21 @@
                         <div class="about--sec3--div7">
                             <span class="about--sec3--header2">Physio Physical Therapy</span>
                             <br>
-                            <span class="about--sec3--para1">53, cable road, Wirral. CH47 2AZ</span>
+                            <span class="about--sec3--para1">1 , The Rake Bromborough Wirral. CH62 7AE</span>
                         </div>
                         <br>
                         <hr class="about--sec3--hr">
                         <div class="about--sec3--div8">
                             <span class="about--sec3--header2">Phone Number</span>
                             <br>
-                            <span class="about--sec3--para1">(+44) 07880286900</span>
+                            <span class="about--sec3--para1">01513456823</span>
                         </div>
                         <br>
                         <hr class="about--sec3--hr">
                         <div class="about--sec3--div8">
                             <span class="about--sec3--header2">Email Address</span>
                             <br>
-                            <span class="about--sec3--para1">info@physiounleashed.co.uk</span>
+                            <span class="about--sec3--para1">contact@physiounleashed.co.uk</span>
                         </div>
                         <br>
                         <hr class="about--sec3--hr">
@@ -273,14 +318,15 @@
                             <span class="about--sec3--header2">Social Media</span>
                             <br>
                             <span class="about--sec3--para1">
-                                <a href="https://www.facebook.com/physio.unleashed" class="about--sec3--icon"><img src="../resources/img/icons/facebook.png" class="about--sec3--icon"></a>
-                                <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="about--sec3--icon"><img src="../resources/img/icons/instagram.png" class="about--sec3--icon"></a>
+                                <a href="https://www.facebook.com/profile.php?id=61570392772060" class="about--sec3--icon"><img src="../resources/img/icons/facebook.png" class="about--sec3--icon"></a>
+                                <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="about--sec3--icon"><img src="../resources/img/icons/instagram.png" class="about--sec3--icon"></a>
                                 <a href="https://wa.me/message/5YOC64WHBBJTH1" class="about--sec3--icon"><img src="../resources/img/icons/whatsapp.png" class="about--sec3--icon"></a>
                             </span>
                         </div>
                     </div>
                     <div class="about--sec3--div9">
                         <div class="about--sec3--div10">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.3294642283274!2d-2.9813285112270442!3d53.331459944846905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487adf362eadf0c7%3A0x9d08a11a7230abfb!2sThe%20Rake%2C%20Bromborough%2C%20Wirral%20CH62%207AE%2C%20UK!5e0!3m2!1sen!2slk!4v1735569851158!5m2!1sen!2slk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <!-- <img src="../resources/img/Physio_map.png" class="about--mapimg"> -->
                         </div>
                         <div class="about--sec3--div11">
@@ -291,7 +337,7 @@
                             </div>
                             <div class="about--sec3--div13">
                                 <span class="about--sec3--para2">
-                                    We have no waiting list and provide same day service too. Our aim is to give you quality treatment at the right time to prevent any further complications. You save not only money on travelling but also the valuable time.
+                                    We have no waiting list and provide same day service too. Our aim is to give you quality treatment at the right time to prevent any further complications. We ensure to give the best effective treatment and save your money by avoiding unnecessary extra appointments.
                                 </span>
                             </div>
                         </div>
@@ -309,7 +355,7 @@
                                 <tr>
                                     <td>Monday</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>Clinic Closed</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -323,7 +369,7 @@
                                 <tr>
                                     <td>Tuesday</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>9:00 - 19:00</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -337,7 +383,7 @@
                                 <tr>
                                     <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>9:00 - 19:00</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -351,7 +397,7 @@
                                 <tr>
                                     <td>Thursday</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>9:00 - 19:00</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -365,7 +411,7 @@
                                 <tr>
                                     <td>Friday</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>9:00 - 19:00</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -379,7 +425,7 @@
                                 <tr>
                                     <td>Saturday</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>Clinic Closed</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -393,7 +439,7 @@
                                 <tr>
                                     <td>Sunday</td>
                                     <td></td>
-                                    <td>8:00 - 20:00</td>
+                                    <td>Clinic Closed</td>
                                 </tr>
                             </table>
                         </div>
@@ -414,11 +460,11 @@
                                             Email *
                                         </span>
                                         <br>
-                                        <input type="text" class="about--name" placeholder="Email Address" id="email"/>
+                                        <input type="text" class="about--name" placeholder="Email Address" id="email" />
                                     </div>
                                     <div class="about--sec3--div23">
                                         <span class="about--sec3--para3">
-                                            Phone Number 
+                                            Phone Number
                                         </span>
                                         <input type="text" class="about--name" placeholder="Phone Number" id="phone" />
                                     </div>
@@ -437,12 +483,12 @@
                                         <textarea class="about--texarea" placeholder="Type your message.." id="message"></textarea>
                                     </div>
                                     <div class="about--sec3--div27">
-                                <input type="button" value="Send Message" class="about--send" id="btn" onclick="sendmassage();">
-                                <input type="button" value="Clear Form" class="about--cancel" onclick="clearForm()">
-                            </div>
+                                        <input type="button" value="Send Message" class="about--send" id="btn" onclick="sendmassage();">
+                                        <input type="button" value="Clear Form" class="about--cancel" onclick="clearForm()">
+                                    </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>

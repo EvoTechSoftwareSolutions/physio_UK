@@ -15,9 +15,9 @@
         <div class="footer--sec1--div1">
             <div class="footer--sec1--div2">
                 <div class="footer--sec1--div3">
-                    <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon"></a>
-                    <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon"></a>
                     <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon"></a>
@@ -30,7 +30,7 @@
                         </div>
                         <div class="footer--sec1--div7">
                             <span class="footer--icon--heading">Give us a Call</span>
-                            <span class="footer--icon--para">(+44) 07880286900</span>
+                            <span class="footer--icon--para">01513456823</span>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="footer--sec1--div7">
                             <span class="footer--icon--heading">Send us a Message</span>
-                            <span class="footer--icon--para">info@physiounleashed.co.uk</span>
+                            <span class="footer--icon--para">contact@physiounleashed.co.uk</span>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                             <img src="../resources/img/icons/location.png" class="footer--icon">
                         </div>
                         <div class="footer--sec1--div7">
-                            <span class="footer--icon--heading">Visit your Location</span>
-                            <span class="footer--icon--para">We visit your location</span>
+                            <span class="footer--icon--heading">Visit our Location</span>
+                            <span class="footer--icon--para">1 , The Rake Bromborough Wirral. CH62 7AE</span>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                 <span class="footer-heading2">Extra Navigations</span>
                 <div class="footer--sec1--div10">
                     <span class="footer-para2">
-                    <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
+                        <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
                         <a href="../Services/services.php" class="footer-a">>&nbsp; Services</a>
                         <a href="../About/about.php" class="footer-a">>&nbsp; About Us</a>
                         <a href="../About/about.php#contact" class="footer-a">>&nbsp; Contact Us</a>
@@ -85,15 +85,15 @@
                 <span class="footer-heading2">Our Services</span>
                 <div class="footer--sec1--div10">
                     <span class="footer-para2">
-                    <a href="../Services/services.php#service01" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
+                        <a href="../Services/services.php#service01" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
                         <a href="../Services/services.php#service02" class="footer-a">>&nbsp; Elderly Care And Rehabilitation Physiotherapy</a>
                         <a href="../Services/services.php#service03" class="footer-a">>&nbsp; Neurological Physiotherapy</a>
                         <a href="../Services/services.php#service04" class="footer-a">>&nbsp; Musculoskeletal Physiotherapy</a>
                         <a href="../Services/services.php#service05" class="footer-a">>&nbsp; Sports Injury Management And Rehabilitation</a>
                         <a href="../Services/services.php#service06" class="footer-a">>&nbsp; Sports Massage And Therapeutic Massage</a>
                         <a href="../Services/services.php#service07" class="footer-a">>&nbsp; Kinesio And Sports Taping</a>
-                        <a href="../Services/services.php#service08" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a>
-                        <a href="../Services/services.php#service09" class="footer-a">>&nbsp; Special Clinical Pilates</a>
+                        <!-- <a href="../Services/services.php#service08" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a> -->
+                        <!-- <a href="../Services/services.php#service09" class="footer-a">>&nbsp; Special Clinical Pilates</a> -->
                         <a href="../Services/services.php#service10" class="footer-a">>&nbsp; Post-Surgery Rehabilitation</a>
                     </span>
                 </div>
@@ -106,37 +106,37 @@
                         <tr>
                             <td>Monday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                     </table>
                 </div>
@@ -145,7 +145,7 @@
 
         <div class="footer--sec1--div11">
             <div class="footer--copywrite">
-                <span class="#">Copyright © 2024 All Rights Reserved 
+                <span class="#">Copyright © 2024 All Rights Reserved
                     <a href="#" class="footer--name"> &nbsp;PHYSiO UNSHEALED</a>
                     <a href="../Admin/index.php" class="footer--name"> &nbsp;&#9679;</a>
                 </span>
@@ -162,9 +162,9 @@
         <div class="footer--sec2--div1">
             <div class="footer--sec2--div2">
                 <div class="footer--sec2--div3">
-                    <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon--md"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon--md"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--md"></a>
-                    <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--md"></a>
                     <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--md"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--md"></a>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="footer--sec1--div7">
                         <span class="footer--icon--heading">Give us a Call</span>
-                        <span class="footer--icon--para">(+44) 07880286900</span>
+                        <span class="footer--icon--para">01513456823</span>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@
                     </div>
                     <div class="footer--sec1--div7">
                         <span class="footer--icon--heading">Send us a Message</span>
-                        <span class="footer--icon--para">info@physiounleashed.co.uk</span>
+                        <span class="footer--icon--para">contact@physiounleashed.co.uk</span>
                     </div>
                 </div>
             </div>
@@ -201,8 +201,8 @@
                         <img src="../resources/img/icons/location.png" class="footer--icon">
                     </div>
                     <div class="footer--sec1--div7">
-                        <span class="footer--icon--heading">Visit your Location</span>
-                        <span class="footer--icon--para">We visit your location</span>
+                        <span class="footer--icon--heading">Visit our Location</span>
+                        <span class="footer--icon--para">1 , The Rake Bromborough Wirral. CH62 7AE</span>
                     </div>
                 </div>
             </div>
@@ -227,37 +227,37 @@
                         <tr>
                             <td>Monday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                     </table>
                 </div>
@@ -285,15 +285,15 @@
                 <span class="footer-heading2--md">Our Services</span>
                 <div class="footer--sec2--div15">
                     <span class="footer-para2--md">
-                    <a href="../Services/services.php#service01" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
+                        <a href="../Services/services.php#service01" class="footer-a">>&nbsp; Muscles And Joints Injuries</a>
                         <a href="../Services/services.php#service02" class="footer-a">>&nbsp; Elderly Care And Rehabilitation Physiotherapy</a>
                         <a href="../Services/services.php#service03" class="footer-a">>&nbsp; Neurological Physiotherapy</a>
                         <a href="../Services/services.php#service04" class="footer-a">>&nbsp; Musculoskeletal Physiotherapy</a>
                         <a href="../Services/services.php#service05" class="footer-a">>&nbsp; Sports Injury Management And Rehabilitation</a>
                         <a href="../Services/services.php#service06" class="footer-a">>&nbsp; Sports Massage And Therapeutic Massage</a>
                         <a href="../Services/services.php#service07" class="footer-a">>&nbsp; Kinesio And Sports Taping</a>
-                        <a href="../Services/services.php#service08" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a>
-                        <a href="../Services/services.php#service09" class="footer-a">>&nbsp; Special Clinical Pilates</a>
+                        <!-- <a href="../Services/services.php#service08" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a> -->
+                        <!-- <a href="../Services/services.php#service09" class="footer-a">>&nbsp; Special Clinical Pilates</a> -->
                         <a href="../Services/services.php#service10" class="footer-a">>&nbsp; Post-Surgery Rehabilitation</a>
                     </span>
                 </div>
@@ -302,7 +302,7 @@
 
         <div class="footer--sec2--div17">
             <div class="footer--copywrite--md">
-                <span class="#">Copyright © 2024 All Rights Reserved 
+                <span class="#">Copyright © 2024 All Rights Reserved
                     <a href="#" class="footer--name--md"> &nbsp;PHYSiO UNSHEALED</a>
                     <a href="../Admin/index.php" class="footer--name--md"> &nbsp;&#9679;</a>
                 </span>
@@ -319,9 +319,9 @@
         <div class="footer--sec3--div1">
             <div class="footer--sec3--div2">
                 <div class="footer--sec3--div3">
-                    <a href="https://www.facebook.com/physio.unleashed" class="footer--social--icon--lg"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon--lg"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--lg"></a>
-                    <a href="https://www.instagram.com/invites/contact/?igsh=1hbijgejl8nea&utm_content=t4967di" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--lg"></a>
                     <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--lg"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--lg"></a>
@@ -335,7 +335,7 @@
                         </div>
                         <div class="footer--sec3--div8">
                             <span class="footer--icon--heading--lg">Give us a Call</span>
-                            <span class="footer--icon--para--lg">(+44) 07880286900</span>
+                            <span class="footer--icon--para--lg">01513456823</span>
                         </div>
                     </div>
                 </div>
@@ -346,7 +346,7 @@
                         </div>
                         <div class="footer--sec3--div8">
                             <span class="footer--icon--heading--lg">Send us a Message</span>
-                            <span class="footer--icon--para--lg">info@physiounleashed.co.uk</span>
+                            <span class="footer--icon--para--lg">contact@physiounleashed.co.uk</span>
                         </div>
                     </div>
                 </div>
@@ -356,8 +356,8 @@
                             <img src="../resources/img/icons/location.png" class="footer--icon--lg">
                         </div>
                         <div class="footer--sec3--div8">
-                            <span class="footer--icon--heading--lg">Visit your Location</span>
-                            <span class="footer--icon--para--lg">We visit your location</span>
+                            <span class="footer--icon--heading--lg">Visit our Location</span>
+                            <span class="footer--icon--para--lg">1 , The Rake Bromborough Wirral. CH62 7AE</span>
                         </div>
                     </div>
                 </div>
@@ -379,7 +379,7 @@
                 <span class="footer-heading2--lg">Extra Navigations</span>
                 <div class="footer--sec3--div12">
                     <span class="footer-para2--lg">
-                    <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
+                        <a href="../Home/index.php" class="footer-a">>&nbsp; Home</a>
                         <a href="../Services/services.php" class="footer-a">>&nbsp; Services</a>
                         <a href="../About/about.php" class="footer-a">>&nbsp; About Us</a>
                         <a href="../About/about.php#contact" class="footer-a">>&nbsp; Contact Us</a>
@@ -399,8 +399,8 @@
                         <a href="../Services/services.php#service15" class="footer-a">>&nbsp; Sports Injury Management And Rehabilitation</a>
                         <a href="../Services/services.php#service16" class="footer-a">>&nbsp; Sports Massage And Therapeutic Massage</a>
                         <a href="../Services/services.php#service17" class="footer-a">>&nbsp; Kinesio And Sports Taping</a>
-                        <a href="../Services/services.php#service18" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a>
-                        <a href="../Services/services.php#service19" class="footer-a">>&nbsp; Special Clinical Pilates</a>
+                        <!-- <a href="../Services/services.php#service18" class="footer-a">>&nbsp; Sports/ Therapeutic Cupping Therapy</a> -->
+                        <!-- <a href="../Services/services.php#service19" class="footer-a">>&nbsp; Special Clinical Pilates</a> -->
                         <a href="../Services/services.php#service110" class="footer-a">>&nbsp; Post-Surgery Rehabilitation</a>
                     </span>
                 </div>
@@ -413,49 +413,49 @@
                         <tr>
                             <td>Monday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Wednesday&nbsp;&nbsp;&nbsp;</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>9:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
                             <td></td>
-                            <td>8:00 - 20:00</td>
+                            <td>Clinic Closed</td>
                         </tr>
                     </table>
-                    <span class="footer-para2--lg">
+                    <!-- <span class="footer-para2--lg">
                         (subject to availability)
-                    </span>
+                    </span> -->
                 </div>
             </div>
         </div>
 
         <div class="footer--sec3--div13">
             <div class="footer--copywrite--lg">
-                <span class="#">Copyright © 2024 All Rights Reserved 
+                <span class="#">Copyright © 2024 All Rights Reserved
                     <a href="#" class="footer--name--lg"> &nbsp;PHYSiO UNSHEALED</a>
                     <a href="../Admin/index.php" class="footer--name--lg"> &nbsp;&#9679;</a>
                 </span>

@@ -452,7 +452,7 @@ if (!isset($_POST["act"])) {
                                         style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span></p>
                                   <p style="font-size: 14px; line-height: 140%;">, or <span
                                       style="text-decoration: underline; line-height: 19.6px;"><span
-                                        style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">info@physiounleashed.co.uk</span></span>
+                                        style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">contact@physiounleashed.co.uk</span></span>
                                   </p>
                                   <p style="font-size: 14px; line-height: 140%;"><br />
                                     <span style="font-size: 16px; line-height: 22.4px;"> </span><br />Thank You,</p>
@@ -637,7 +637,7 @@ if (!isset($_POST["act"])) {
                                     now <span style="text-decoration: underline; line-height: 19.6px;"><span
                                         style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span> or <span
                                       style="color: #ff3000; line-height: 19.6px;"><span
-                                        style="text-decoration: underline; line-height: 19.6px;">info@physiounleashed.co.uk</span></span>
+                                        style="text-decoration: underline; line-height: 19.6px;">contact@physiounleashed.co.uk</span></span>
                                   </p>
                                 </div>
   
@@ -1521,7 +1521,7 @@ function email($data)
                                       style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span></p>
                                 <p style="font-size: 14px; line-height: 140%;">, or <span
                                     style="text-decoration: underline; line-height: 19.6px;"><span
-                                      style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">info@physiounleashed.co.uk</span></span>
+                                      style="color: #ff0000; font-size: 14px; line-height: 19.6px; text-decoration: underline;">contact@physiounleashed.co.uk</span></span>
                                 </p>
                                 <p style="font-size: 14px; line-height: 140%;"><br /><span
                                     style="font-size: 16px; line-height: 22.4px;">
@@ -1706,7 +1706,7 @@ function email($data)
                                   now <span style="text-decoration: underline; line-height: 19.6px;"><span
                                       style="color: #ff3000; line-height: 19.6px; text-decoration: underline;">(+44) 07880286900</span></span> or <span
                                     style="color: #ff3000; line-height: 19.6px;"><span
-                                      style="text-decoration: underline; line-height: 19.6px;">info@physiounleashed.co.uk</span></span>
+                                      style="text-decoration: underline; line-height: 19.6px;">contact@physiounleashed.co.uk</span></span>
                                 </p>
                               </div>
 

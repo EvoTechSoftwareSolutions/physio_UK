@@ -16,6 +16,24 @@ function closeNav() {
 
 
 
+function toggle1() {
+  document.getElementById("dropdown1").classList.toggle("show");
+  document.getElementById("drpItem10").classList.toggle("hide");
+  document.getElementById("drpItem11").classList.toggle("hide");
+  document.getElementById("drpItem12").classList.toggle("hide");
+}
+
+function openNav1() {
+  document.getElementById("mySidepanel1").style.width = "60%";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav1() {
+  document.getElementById("mySidepanel1").style.width = "0";
+}
+
+
+
 // const navLinkEls = document.querySelectorAll(".header--nav");
 // const windowPathname = window.location.pathname;
 

@@ -161,7 +161,7 @@
             </div>
         </div>
 
-        <div class="services--sec3--div1" id="service08">
+        <!-- <div class="services--sec3--div1" id="service08">
             <div class="services--sec3--div2">
                 <span class="services--sec3--header1">Sports/ Therapeutic Cupping Therapy</span>
             </div>
@@ -187,7 +187,7 @@
                     The key components of Pilates are quite subtle and it is very easy to use the wrong muscles and not do it properly. Joining a group in a class setting can be confusing if you have never tried Pilates before and can even aggravate your symptoms or condition. If you have a specific injury or condition some Pilates exercises may not be suitable for you. A one-to-one session is tailored for you and your specific level and requirements. Many of our clients go on to join group classes or work on their own home-programme once they are familiar with the Pilates concept and have achieved a safe level of competency.
                 </span>
             </div>
-        </div>
+        </div> -->
 
         <div class="services--sec3--div1" id="service10">
             <div class="services--sec3--div2">
@@ -438,7 +438,7 @@
                     </div>
                 </div>
 
-                <div class="services--sec4--div18" id="service18">
+                <!-- <div class="services--sec4--div18" id="service18">
                     <div class="services--sec4--div5">
                         <span class="services--sec4--header1">Sports/ Therapeutic Cupping Therapy</span>
                     </div>
@@ -464,7 +464,7 @@
                             The key components of Pilates are quite subtle and it is very easy to use the wrong muscles and not do it properly. Joining a group in a class setting can be confusing if you have never tried Pilates before and can even aggravate your symptoms or condition. If you have a specific injury or condition some Pilates exercises may not be suitable for you. A one-to-one session is tailored for you and your specific level and requirements. Many of our clients go on to join group classes or work on their own home-programme once they are familiar with the Pilates concept and have achieved a safe level of competency.
                         </span>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="services--sec4--div18" id="service110">
                     <div class="services--sec4--div5">

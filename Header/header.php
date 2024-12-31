@@ -41,6 +41,36 @@
     </section>
 
 
+    <section class="header--sec4">
+        <div class="header--sec4--div1">
+            <div class="header--sec4--div2" onclick="window.location='../Booking/booking.php'">
+                <span class="header--span1">Book Appointment</span>
+            </div>
+            <div class="header--sec4--div3">
+                <div class="header--sec4--div4">
+                    <div class="header--sec4--div5" onclick="window.location='../Home/index.php'" style="cursor: pointer;">
+                        <img src="../resources/img/Physio_logo.png" class="header--img1">
+                    </div>
+
+                    <div id="mySidepanel1" class="sidepanel1">
+                        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+                        <div class="side--menu1">
+                        <a href="../Home/index.php" class="sm--a">HOME</a>
+                        <a href="../Services/services.php" class="sm--a">SERVICES</a>
+                        <a href="../About/about.php" class="sm--a">ABOUT US</a>
+                        <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
+                        </div>
+                    </div>
+
+                    <div class="header--sec4--div6">
+                        <img src="../resources/img/icons/toggle.png" onclick="openNav1();" class="header--img2 openbtn1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="header--sec2">
         <div class="header--sec2--div1">
             <div class="header--sec2--div2">
@@ -70,7 +100,7 @@
                 </div>
                 <div class="header--sec3--div4">
                     <span class="header--icon--heading">Visit our Location</span>
-                    <span class="header--icon--para">53, cable road, Wirral. CH47 2AZ</span>
+                    <span class="header--icon--para">1 , The Rake Bromborough Wirral. CH62 7AE</span>
                 </div>
             </div>
             <div class="header--sec3--div2">
@@ -79,7 +109,7 @@
                 </div>
                 <div class="header--sec3--div4">
                     <span class="header--icon--heading">Give us a Call</span>
-                    <span class="header--icon--para">(+44) 07880286900</span>
+                    <span class="header--icon--para">01513456823</span>
                 </div>
             </div>
             <div class="header--sec3--div2">
@@ -88,7 +118,7 @@
                 </div>
                 <div class="header--sec3--div4">
                     <span class="header--icon--heading">Send us a Message</span>
-                    <span class="header--icon--para">info@physiounleashed.co.uk</span>
+                    <span class="header--icon--para">contact@physiounleashed.co.uk</span>
                 </div>
             </div>
             <div class="header--sec3--div2">
@@ -97,7 +127,7 @@
                 </div>
                 <div class="header--sec3--div4">
                     <span class="header--icon--heading">Operating Hours</span>
-                    <span class="header--icon--para">Monday-Sunday:8am-8pm</span>
+                    <span class="header--icon--para">Tuesday-Friday:9am-7pm</span>
                 </div>
             </div>
         </div>

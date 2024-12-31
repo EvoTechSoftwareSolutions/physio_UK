@@ -27,9 +27,9 @@
     <?php include "../Header/header.php"; ?>
     <!-- Header -->
 
-    <div class="empty0000">
+    <!-- <div class="empty0000">
 
-    </div>
+    </div> -->
 
     <!-- Slider -->
     <?php include "../Slider/slider.php"; ?>
@@ -182,11 +182,11 @@
                                     <span>Management Of Time</span>
                                 </div>
                                 <div class="card--txt--para">
-                                    <span>We fit into your most available time. We are operating all the seven days from 8am-8pm.</span>
+                                    <span>We fit into your most available time. Our clinic is open from Tuesday to Friday on 9am to 7pm.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <!-- <div class="card">
                             <div class="card--img">
                                 <img src="../resources/img/icons/ic4.png" class="container--icon1">
                             </div>
@@ -198,17 +198,17 @@
                                     <span>Open and accessible during weekends and bank holidays for your convenience.</span>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card">
                             <div class="card--img">
                                 <img src="../resources/img/icons/ic5.png" class="container--icon1">
                             </div>
                             <div class="card--txt">
                                 <div class="card--txt--heading">
-                                    <span>Homely Comfort</span>
+                                    <span>Home Visits Availability</span>
                                 </div>
                                 <div class="card--txt--para">
-                                    <span>We visit your home or convenient place as it is the most relaxing and comfort place for you.</span>
+                                    <span>We visit your home or convenient place as it is the most relaxing and comfort place for you (Need to arrange time slots with Physiotherapits).</span>
                                 </div>
                             </div>
                         </div>
@@ -282,6 +282,7 @@
 
     <section class="home--sec5">
         <div class="home--sec5--div1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.3294642283274!2d-2.9813285112270442!3d53.331459944846905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487adf362eadf0c7%3A0x9d08a11a7230abfb!2sThe%20Rake%2C%20Bromborough%2C%20Wirral%20CH62%207AE%2C%20UK!5e0!3m2!1sen!2slk!4v1735569851158!5m2!1sen!2slk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <!-- <img src="../resources/img/Physio_map_home.png" class="home--map--img"> -->
         </div>
     </section>
@@ -294,7 +295,9 @@
                 </div>
                 <div class="home--sec6--div4">
                     <!-- <div class="home--sec6--div5"> -->
-                    <button class="prev--feedback" onclick="plusSlides(-1)"><</button>
+                    <button class="prev--feedback" onclick="plusSlides(-1)">
+                        <
+                            </button>
                             <!-- </div>
                     <div class="home--sec6--div6"> -->
                             <button class="next--feedback" onclick="plusSlides(1)">></button>
@@ -390,6 +393,17 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home--sec7">
+        <div class="home--sec7--div1">
+            <div class="home--sec7--div2">
+                <img src="../resources/img/home/partner1.png" class="partner1--logo">
+            </div>
+            <div class="home--sec7--div3">
+                <img src="../resources/img/home/partner2.png" class="partner2--logo">
             </div>
         </div>
     </section>
