@@ -17,7 +17,7 @@
                 <div class="footer--sec1--div3">
                     <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon"></a>
-                    <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon"></a>
                     <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon"></a>
@@ -25,10 +25,10 @@
                 <hr class="footer--sec1--hr">
                 <div class="footer--sec1--div4">
                     <div class="footer--sec1--div5">
-                        <div class="footer--sec1--div6">
+                        <div class="footer--sec1--div6" onclick="window.location='tel:+44 01513456823';" style="cursor: pointer;">
                             <img src="../resources/img/icons/phone.png" class="footer--icon">
                         </div>
-                        <div class="footer--sec1--div7">
+                        <div class="footer--sec1--div7" onclick="window.location='tel:+44 01513456823';" style="cursor: pointer;">
                             <span class="footer--icon--heading">Give us a Call</span>
                             <span class="footer--icon--para">01513456823</span>
                         </div>
@@ -164,7 +164,7 @@
                 <div class="footer--sec2--div3">
                     <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon--md"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--md"></a>
-                    <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon--md"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--md"></a>
                     <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--md"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--md"></a>
@@ -173,10 +173,10 @@
             <hr class="footer--sec2--hr">
             <div class="footer--sec1--div4">
                 <div class="footer--sec1--div5">
-                    <div class="footer--sec1--div6">
+                    <div class="footer--sec1--div6" onclick="window.location='tel:+44 01513456823';" style="cursor: pointer;">
                         <img src="../resources/img/icons/phone.png" class="footer--icon">
                     </div>
-                    <div class="footer--sec1--div7">
+                    <div class="footer--sec1--div7" onclick="window.location='tel:+44 01513456823';" style="cursor: pointer;">
                         <span class="footer--icon--heading">Give us a Call</span>
                         <span class="footer--icon--para">01513456823</span>
                     </div>
@@ -321,7 +321,7 @@
                 <div class="footer--sec3--div3">
                     <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon--lg"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon--lg"></a>
-                    <a href="https://www.instagram.com/physio.unleashed.uk/profilecard/?igsh=djJoZDluZmlraHp0" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon--lg"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon--lg"></a>
                     <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--lg"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon--lg"></a>
@@ -330,10 +330,10 @@
             <div class="footer--sec3--div4">
                 <div class="footer--sec3--div5">
                     <div class="footer--sec3--div6">
-                        <div class="footer--sec3--div7">
+                        <div class="footer--sec3--div7" onclick="window.location='tel:+44 01513456823';" style="cursor: pointer;">
                             <img src="../resources/img/icons/phone.png" class="footer--icon--lg">
                         </div>
-                        <div class="footer--sec3--div8">
+                        <div class="footer--sec3--div8" onclick="window.location='tel:+44 01513456823';" style="cursor: pointer;">
                             <span class="footer--icon--heading--lg">Give us a Call</span>
                             <span class="footer--icon--para--lg">01513456823</span>
                         </div>

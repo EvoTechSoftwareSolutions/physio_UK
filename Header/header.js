@@ -6,7 +6,7 @@ function toggle() {
 }
 
 function openNav() {
-  document.getElementById("mySidepanel").style.width = "60%";
+  document.getElementById("mySidepanel").style.width = "100%";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
@@ -24,7 +24,7 @@ function toggle1() {
 }
 
 function openNav1() {
-  document.getElementById("mySidepanel1").style.width = "60%";
+  document.getElementById("mySidepanel1").style.width = "100%";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */

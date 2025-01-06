@@ -23,12 +23,23 @@
                     </div>
 
                     <div id="mySidepanel" class="sidepanel">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="slide--img">
+                            <img src="../resources/img/Physio_logo_banner.png" class="slider--banner">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10801;</a>
                         <div class="side--menu">
-                        <a href="../Home/index.php" class="sm--a">HOME</a>
-                        <a href="../Services/services.php" class="sm--a">SERVICES</a>
-                        <a href="../About/about.php" class="sm--a">ABOUT US</a>
-                        <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
+                            <a href="../Home/index.php" class="sm--a">HOME</a>
+                            <a href="../Services/services.php" class="sm--a">SERVICES</a>
+                            <a href="../About/about.php" class="sm--a">ABOUT US</a>
+                            <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
+                        </div>
+                        <div class="footer--sec1--div3">
+                            <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
+                                    class="footer--social--icon"></a>
+                            <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                                    class="footer--social--icon"></a>
+                            <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
+                                    class="footer--social--icon"></a>
                         </div>
                     </div>
 
@@ -53,12 +64,25 @@
                     </div>
 
                     <div id="mySidepanel1" class="sidepanel1">
-                        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+                        <div class="slide--img1">
+                            <img src="../resources/img/Physio_logo.png" class="slider--banner1">
+                            <br/>
+                            <span class="head--span11">PHYSIO <span class="head--span12">UNLEASHED</span></span>
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&#10801;</a>
                         <div class="side--menu1">
-                        <a href="../Home/index.php" class="sm--a">HOME</a>
-                        <a href="../Services/services.php" class="sm--a">SERVICES</a>
-                        <a href="../About/about.php" class="sm--a">ABOUT US</a>
-                        <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
+                            <a href="../Home/index.php" class="sm--a">HOME</a>
+                            <a href="../Services/services.php" class="sm--a">SERVICES</a>
+                            <a href="../About/about.php" class="sm--a">ABOUT US</a>
+                            <a href="../About/about.php#contact" class="sm--a">CONTACT US</a>
+                        </div>
+                        <div class="footer--sec1--div3">
+                            <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
+                                    class="footer--social--icon"></a>
+                            <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                                    class="footer--social--icon"></a>
+                            <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
+                                    class="footer--social--icon"></a>
                         </div>
                     </div>
 
