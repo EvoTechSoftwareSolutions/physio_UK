@@ -32,17 +32,23 @@
 
 .footer--sec1--div1 {
     padding: 2% 2%;
+    /* background-color: red; */
 }
 
 .footer--social--icon {
     padding: 2%;
     height: 4vh;
+    /* background-color: blue; */
 }
 
 .footer--sec1--div3 {
     width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: max-content;
+    gap: 1rem;
+    margin-top: -15%;
 }
 
 .footer--sec1--hr {
@@ -58,6 +64,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer--sec1--div5 {
@@ -197,6 +204,10 @@
     .footer--social--icon--md {
         padding: 0.5%;
         height: 4vh;
+    }
+
+    .footer--sec2--div2 {
+        margin-bottom: 1%;
     }
 
     .footer--sec2--div3 {

@@ -15,11 +15,11 @@
         <div class="footer--sec1--div1">
             <div class="footer--sec1--div2">
                 <div class="footer--sec1--div3">
-                    <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon"><img src="../resources/img/icons/facebook.png"
+                    <a href="https://www.facebook.com/profile.php?id=61570392772060" class="footer--social--icon--a"><img src="../resources/img/icons/facebook.png"
                             class="footer--social--icon"></a>
-                    <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon"><img src="../resources/img/icons/instagram.png"
+                    <a href="https://www.instagram.com/physio.unleashed.uk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer--social--icon--a"><img src="../resources/img/icons/instagram.png"
                             class="footer--social--icon"></a>
-                    <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon"><img src="../resources/img/icons/whatsapp.png"
+                    <a href="https://wa.me/message/5YOC64WHBBJTH1" class="footer--social--icon--a"><img src="../resources/img/icons/whatsapp.png"
                             class="footer--social--icon"></a>
                 </div>
                 <hr class="footer--sec1--hr">
